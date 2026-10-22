@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light">
+<title>Boring Business Lab — service businesses worth building</title>
+<style>
+:root{
+  --ink:#141715; --ink-2:#2c332e; --muted:#6a756d; --paper:#f3f0e7; --card:#fffdf7;
+  --line:#d9d7c9; --acid:#c9f06b; --clay:#b8562f; --moss:#1d4a3f; --sand:#e9e5d6;
+  --shadow:0 18px 44px rgba(20,35,28,.07);
+  --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--moss);text-underline-offset:3px;text-decoration-thickness:1px}
+h1,h2,h3,h4{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.02em;margin:0}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:1180px;margin:0 auto;padding:0 26px}
+
+/* top bar */
+.bar{position:sticky;top:0;z-index:40;background:rgba(243,240,231,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;gap:16px;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.01em;font-size:.94rem}
+.brand .dot{width:10px;height:10px;border-radius:50%;background:var(--clay);box-shadow:0 0 0 4px rgba(184,86,47,.14)}
+.brand span.sub{font-weight:400;color:var(--muted);font-size:.8rem;margin-left:2px}
+.spacer{flex:1}
+.btn{border:1px solid var(--ink);background:var(--ink);color:#f7f5ec;border-radius:8px;padding:8px 14px;font-size:.84rem;font-weight:650;letter-spacing:.01em;transition:.15s}
+.btn:hover{transform:translateY(-1px);background:#26302a}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.ghost:hover{background:#fff;border-color:var(--ink)}
+.btn.tiny{padding:5px 10px;font-size:.76rem;border-radius:6px}
+
+/* hero */
+.hero{padding:66px 0 30px;position:relative;overflow:hidden}
+.hero .kicker{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--clay);font-weight:600}
+.hero h1{font-size:clamp(2.6rem,6.2vw,4.6rem);line-height:.98;margin:16px 0 20px;max-width:15ch}
+.hero h1 em{font-style:normal;color:var(--moss);border-bottom:6px solid var(--acid)}
+.hero p.lede{max-width:62ch;font-size:1.1rem;color:var(--ink-2)}
+.hero .stats{display:flex;gap:34px;flex-wrap:wrap;margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+.hero .stat b{display:block;font-family:Georgia,serif;font-size:1.9rem;line-height:1}
+.hero .stat span{font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.hero .corner{position:absolute;right:-60px;top:30px;width:320px;height:320px;border:1px solid var(--line);border-radius:50%;box-shadow:0 0 0 34px rgba(29,74,63,.035),0 0 0 70px rgba(29,74,63,.03);pointer-events:none}
+
+/* section headers */
+section{padding:34px 0}
+.sechead{display:flex;align-items:baseline;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:22px;flex-wrap:wrap}
+.sechead h2{font-size:clamp(1.5rem,2.6vw,2rem)}
+.sechead .note{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+
+/* score model */
+.model{display:grid;grid-template-columns:1.1fr 1fr;gap:16px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;box-shadow:var(--shadow)}
+.panel h3{font-size:1.12rem;margin-bottom:8px}
+.panel p{margin:.5em 0;color:var(--ink-2);font-size:.94rem}
+.weights{list-style:none;margin:14px 0 0;padding:0}
+.weights li{display:grid;grid-template-columns:150px 1fr 40px;gap:10px;align-items:center;font-size:.85rem;padding:5px 0}
+.weights .bar{height:7px;background:var(--sand);border-radius:99px;overflow:hidden}
+.weights .bar i{display:block;height:100%;background:var(--moss)}
+.weights b{font-family:var(--mono);font-size:.78rem;text-align:right;color:var(--muted)}
+.formula{font-family:var(--mono);font-size:.8rem;background:#e8ecd9;border-left:3px solid var(--moss);padding:12px 14px;border-radius:6px;margin-top:16px;color:#26302a}
+
+/* controls */
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:transparent;color:var(--ink-2);border-radius:99px;padding:6px 13px;font-size:.8rem;font-weight:600}
+.chip[aria-pressed="true"]{background:var(--ink);color:#f7f5ec;border-color:var(--ink)}
+.search{flex:1;min-width:180px;position:relative}
+.search input{width:100%;border:1px solid var(--line);background:var(--card);border-radius:9px;padding:9px 12px 9px 34px;font:inherit;font-size:.88rem;color:var(--ink)}
+.search input:focus{outline:2px solid var(--moss);outline-offset:1px}
+.search svg{position:absolute;left:11px;top:11px;opacity:.45}
+select.sort{border:1px solid var(--line);background:var(--card);border-radius:9px;padding:9px 11px;font:inherit;font-size:.84rem;color:var(--ink)}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.idea{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 21px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px;position:relative;transition:.16s}
+.idea:hover{transform:translateY(-2px);border-color:#c3c7b6}
+.idea .top{display:flex;gap:14px;align-items:flex-start}
+.ring{--v:0;width:54px;height:54px;flex:0 0 54px;border-radius:50%;background:conic-gradient(var(--moss) calc(var(--v)*1%), var(--sand) 0);display:grid;place-items:center;position:relative}
+.ring:after{content:"";position:absolute;inset:5px;background:var(--card);border-radius:50%}
+.ring b{position:relative;z-index:1;font-family:Georgia,serif;font-size:.95rem}
+.idea h3{font-size:1.08rem;line-height:1.25}
+.idea .cat{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:4px}
+.idea .thesis{font-size:.9rem;color:var(--ink-2);margin:0}
+.status{font-size:.66rem;font-family:var(--mono);text-transform:uppercase;letter-spacing:.09em;padding:3px 8px;border-radius:4px;border:1px solid;white-space:nowrap}
+.st-seed{color:#6a5320;border-color:#d8c384;background:#f7efd8}
+.st-researching{color:#1d4a3f;border-color:#a9c3b6;background:#e6efe6}
+.st-validating{color:#8c3b1c;border-color:#dfb3a1;background:#fbeae0}
+.st-dropped{color:#6a756d;border-color:#cdd2c9;background:#eef0ea}
+.meta{display:grid;grid-template-columns:auto 1fr;gap:5px 10px;font-size:.8rem;border-top:1px dashed var(--line);padding-top:11px}
+.meta dt{color:var(--muted);font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;padding-top:2px}
+.meta dd{margin:0;color:var(--ink-2)}
+.idea .actions{display:flex;gap:6px;margin-top:auto;padding-top:4px}
+.detail{display:none;border-top:1px dashed var(--line);padding-top:11px;font-size:.85rem;color:var(--ink-2)}
+.idea.open .detail{display:block}
+.detail h4{font-size:.7rem;font-family:var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:10px 0 2px}
+.detail p{margin:0}
+.scores6{display:grid;grid-template-columns:1fr 1fr;gap:3px 14px;margin:10px 0 0;font-size:.76rem}
+.scores6 span{display:flex;justify-content:space-between;gap:8px;color:var(--muted)}
+.scores6 span b{color:var(--ink);font-family:var(--mono);font-size:.74rem}
+.empty{border:1px dashed var(--line);border-radius:14px;padding:38px;text-align:center;color:var(--muted);background:rgba(255,255,255,.4)}
+
+/* playbooks */
+.plays{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.play{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--clay);border-radius:12px;padding:18px 20px}
+.play h3{font-size:1rem;margin-bottom:6px}
+.play p{font-size:.87rem;color:var(--ink-2);margin:.35em 0}
+.play .tag{font-family:var(--mono);font-size:.65rem;letter-spacing:.09em;text-transform:uppercase;color:var(--clay)}
+
+/* modal */
+dialog{border:0;padding:0;background:transparent;max-width:min(680px,94vw);width:100%}
+dialog::backdrop{background:rgba(20,26,22,.5);backdrop-filter:blur(3px)}
+.sheet{background:var(--paper);border-radius:16px;border:1px solid var(--line);box-shadow:0 30px 80px rgba(0,0,0,.3);max-height:88vh;overflow:auto}
+.sheet header{display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:2}
+.sheet header h3{font-size:1.15rem}
+.sheet .body{padding:20px 22px 24px;display:grid;gap:13px}
+.field{display:grid;gap:5px}
+.field label{font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.field input,.field textarea,.field select{width:100%;border:1px solid var(--line);border-radius:8px;padding:9px 11px;font:inherit;font-size:.9rem;background:#fff;color:var(--ink)}
+.field textarea{min-height:62px;resize:vertical}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sliders{display:grid;gap:9px;border:1px dashed var(--line);border-radius:10px;padding:14px}
+.slider{display:grid;grid-template-columns:118px 1fr 26px;gap:10px;align-items:center;font-size:.8rem}
+.slider input[type=range]{width:100%;accent-color:var(--moss)}
+.slider b{font-family:var(--mono);text-align:right;font-size:.78rem}
+.sheet footer{display:flex;gap:8px;justify-content:flex-end;padding:0 22px 22px;flex-wrap:wrap}
+.live{display:flex;align-items:center;gap:12px;margin-left:auto;font-size:.8rem;color:var(--muted)}
+
+/* library + footer */
+.lib{display:grid;grid-template-columns:1.2fr .8fr;gap:16px}
+.lib ul{margin:0;padding-left:18px;font-size:.9rem;color:var(--ink-2)}
+.lib li{margin:.45em 0}
+.roadmap{counter-reset:r;list-style:none;padding:0;margin:0;font-size:.9rem;color:var(--ink-2)}
+.roadmap li{counter-increment:r;position:relative;padding:0 0 12px 30px}
+.roadmap li:before{content:counter(r,decimal-leading-zero);position:absolute;left:0;top:1px;font-family:var(--mono);font-size:.72rem;color:var(--clay)}
+footer.site{border-top:1px solid var(--line);margin-top:26px;padding:26px 0 60px;color:var(--muted);font-size:.8rem}
+.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,120%);background:var(--ink);color:#f7f5ec;padding:11px 18px;border-radius:9px;font-size:.84rem;z-index:90;transition:.25s;box-shadow:0 12px 30px rgba(0,0,0,.28)}
+.toast.show{transform:translate(-50%,0)}
+@media(max-width:820px){.model,.lib{grid-template-columns:1fr}.two{grid-template-columns:1fr}section{padding:26px 0}.hero{padding:42px 0 20px}}
+@media print{.bar,.controls,.idea .actions,.toast{display:none}.idea{break-inside:avoid;box-shadow:none}.detail{display:block!important}}
+</style>
+</head>
+<body>
+
+<div class="bar"><div class="wrap">
+  <div class="brand"><span class="dot"></span>Boring Business Lab <span class="sub">/ personal idea pipeline</span></div>
+  <div class="spacer"></div>
+  <button class="btn ghost tiny" id="exportBtn">Export JSON</button>
+  <button class="btn tiny" id="addBtn">+ Add idea</button>
+</div></div>
+
+<main>
+<div class="wrap">
+  <div class="hero">
+    <div class="corner"></div>
+    <div class="kicker">Service businesses · capital-light · deliberately unsexy</div>
+    <h1>Boring businesses, <em>scored.</em></h1>
+    <p class="lede">A working pipeline, not a inspiration board. Every idea gets the same six questions, a number, and a next action. The rule: a business is only worth building when a real buyer with money meets a supplier with capacity — everything else is a domain name.</p>
+    <div class="stats">
+      <div class="stat"><b id="statCount">8</b><span>ideas tracked</span></div>
+      <div class="stat"><b id="statActive">6</b><span>live / in research</span></div>
+      <div class="stat"><b id="statTop">—</b><span>top score</span></div>
+      <div class="stat"><b>$0</b><span>spent so far</span></div>
+    </div>
+  </div>
+
+  <section id="model">
+    <div class="sechead"><h2>How an idea earns a score</h2><span class="note">6 factors · weighted 0–100</span></div>
+    <div class="model">
+      <div class="panel">
+        <h3>One scorecard, applied honestly to everything</h3>
+        <p>The point of a fixed rubric is to stop the sexy-new-thing slide. Heavy AI, clever branding, or a viral thread cannot lift an idea whose buyers refuse to pay or whose suppliers are already full.</p>
+        <ul class="weights">
+          <li>Demand proven <span class="bar"><i style="width:100%"></i></span><b>25%</b></li>
+          <li>Willingness to pay <span class="bar"><i style="width:80%"></i></span><b>20%</b></li>
+          <li>Supply/capacity gap <span class="bar"><i style="width:60%"></i></span><b>15%</b></li>
+          <li>Competitive openness <span class="bar"><i style="width:60%"></i></span><b>15%</b></li>
+          <li>Capital lightness <span class="bar"><i style="width:40%"></i></span><b>10%</b></li>
+          <li>My unfair advantage <span class="bar"><i style="width:60%"></i></span><b>15%</b></li>
+        </ul>
+        <div class="formula">score = Σ(factor/5 × weight) × 100 → 0–100</div>
+      </div>
+      <div class="panel">
+        <h3>Reading the number</h3>
+        <p><b>70+</b> — worth spending money or a week of calls on. Not proof; permission to test.</p>
+        <p><b>50–69</b> — worth a cheap probe only: a few calls, one data pull, no build.</p>
+        <p><b>Under 50</b> — park it. Most ideas live here and that is fine.</p>
+        <p style="margin-top:14px"><b>Hard disqualifiers</b>, regardless of score:</p>
+        <ul style="margin:6px 0 0;padding-left:18px;font-size:.9rem;color:var(--ink-2)">
+          <li>Every plausible supplier is booked out with no way to add capacity</li>
+          <li>Revenue requires reselling platform leads you do not own</li>
+          <li>The only evidence is a thread, not a buyer or a supplier</li>
+          <li>It needs inventory, staff, or a lease before the first dollar</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="ideas">
+    <div class="sechead"><h2>Pipeline</h2><span class="note" id="countNote">8 ideas</span></div>
+    <div class="controls">
+      <div class="chips" id="statusChips">
+        <button class="chip" data-status="all" aria-pressed="true">All</button>
+        <button class="chip" data-status="seed" aria-pressed="false">Seed</button>
+        <button class="chip" data-status="researching" aria-pressed="false">Researching</button>
+        <button class="chip" data-status="validating" aria-pressed="false">Validating</button>
+        <button class="chip" data-status="dropped" aria-pressed="false">Dropped</button>
+      </div>
+      <div class="search">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Search ideas, customers, mechanics…" aria-label="Search ideas">
+      </div>
+      <select class="sort" id="sort">
+        <option value="score">Sort: score</option>
+        <option value="capital">Sort: lowest capital need</option>
+        <option value="recent">Sort: recently updated</option>
+        <option value="name">Sort: A–Z</option>
+      </select>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" hidden>Nothing matches. Loosen the filter, or add the idea you are actually thinking about.</div>
+  </section>
+
+  <section id="playbooks">
+    <div class="sechead"><h2>Playbooks worth stealing</h2><span class="note">mechanics, stripped of hype</span></div>
+    <div class="plays">
+      <div class="play"><div class="tag">Arbitrage · lead flow</div><h3>Sell the match, not the website</h3><p>A city+service gap is only real when a buyer wants something a local supplier cannot deliver in time. Own the routing relationship, not a thin city page. Charge per qualified request or on close.</p><p><b>Fails when:</b> the supplier is full, or ranking never comes.</p></div>
+      <div class="play"><div class="tag">Done-for-you · AI ops</div><h3>Install an existing product, charge setup + monthly</h3><p>The software is commoditised; distribution and trust are not. Sell an outcome (“70% of tickets answered”), install a configured agent, keep it tuned. Setup fee plus a monthly retainer is the cleanest cash-flow shape for a solo operator.</p><p><b>Fails when:</b> you sell a tool instead of a result, or skip the maintain-and-report part.</p></div>
+      <div class="play"><div class="tag">Brokerage · rental</div><h3>Broker capacity you do not own</h3><p>Equipment, trucks, trailers, specialty crews. You are the availability layer: who has it, where, when, at what rate. Margin comes from coordination and trust, not from owning iron.</p><p><b>Fails when:</b> you take a fee without verifying availability.</p></div>
+      <div class="play"><div class="tag">Media · niche</div><h3>Narrow recurring information</h3><p>One city, one obsession, one recurring trigger (deals, permits, prices, availability). Cheap to run, but the asset is the list and the habit, and both take months.</p><p><b>Fails when:</b> the content is generic and the audience is “everyone”.</p></div>
+    </div>
+  </section>
+
+  <section id="library">
+    <div class="sechead"><h2>Library &amp; where the ideas came from</h2><span class="note">sources are seeds, never proof</span></div>
+    <div class="lib">
+      <div class="panel">
+        <h3>Reading list</h3>
+        <ul>
+          <li><a href="https://x.com/mhp_guy/status/2107940073153151314" target="_blank" rel="noopener">Chris Koerner — $1M/yr AI agents for small businesses, $2k setup + $500/mo</a></li>
+          <li><a href="https://x.com/Marko_Poly/status/2113174642160537901" target="_blank" rel="noopener">Marko — crane rental lead site in Laredo, ~$35k in requested jobs</a></li>
+          <li><a href="https://podcasts.apple.com/us/podcast/6-ways-to-make-money-with-ai-agents-starting-from-zero-ep-343/id1705154662?i=1000796116829" target="_blank" rel="noopener">Koerner Office #343 — six AI-agent business models</a></li>
+          <li><a href="https://newsletter.chrisjkoerner.com/p/the-80k-monthly-ai-business-that-s-right-under-your-nose-59d9" target="_blank" rel="noopener">Koerner newsletter — city flight-deal newsletters, $11 domains</a></li>
+          <li><a href="https://idealab.ai" target="_blank" rel="noopener">Idealab.ai — 1.2M generated ideas with evidence briefs (Bill Gross)</a></li>
+          <li><a href="https://www.chrisjkoerner.com/" target="_blank" rel="noopener">Chris Koerner — operator background, holds RV/MHP businesses</a></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>What this site is for</h3>
+        <p>Three jobs, in order:</p>
+        <ol class="roadmap">
+          <li>Capture every idea in one place with the same fields, so they can be compared instead of admired.</li>
+          <li>Kill the weak ones cheaply — data pull, five calls, one price conversation.</li>
+          <li>Push the survivor to a real test: one buyer, one supplier, one paid match.</li>
+        </ol>
+        <p style="margin-top:12px;font-size:.86rem;color:var(--muted)">Ideas added in the browser save locally. Use <b>Export JSON</b> and hand the file back to Hermes to research a specific one and write it up properly.</p>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer class="site"><div class="wrap">Boring Business Lab · personal research pipeline · ideas are hypotheses until a buyer pays. <span id="built"></span></div></footer>
+
+<dialog id="dlg"><form class="sheet" id="form" method="dialog">
+  <header><h3 id="dlgTitle">Add an idea</h3><button type="button" class="btn ghost tiny" id="closeDlg">Close</button></header>
+  <div class="body">
+    <div class="field"><label for="f_title">Idea</label><input id="f_title" required placeholder="e.g. Portable-toilet capacity brokering in South Texas"></div>
+    <div class="two">
+      <div class="field"><label for="f_cat">Category</label><input id="f_cat" placeholder="Rental / AI ops / Media"></div>
+      <div class="field"><label for="f_status">Status</label><select id="f_status"><option value="seed">Seed</option><option value="researching">Researching</option><option value="validating">Validating</option><option value="dropped">Dropped</option></select></div>
+    </div>
+    <div class="field"><label for="f_thesis">One-line thesis</label><input id="f_thesis" placeholder="Who pays, for what, and why now"></div>
+    <div class="two">
+      <div class="field"><label for="f_rev">Revenue model</label><input id="f_rev" placeholder="$2k setup + $500/mo"></div>
+      <div class="field"><label for="f_cap">Capital to first dollar</label><input id="f_cap" placeholder="&lt;$500"></div>
+    </div>
+    <div class="field"><label for="f_next">Next action</label><input id="f_next" placeholder="Call 5 suppliers, ask about June availability"></div>
+    <div class="field"><label for="f_pain">Buyer pain / why now</label><textarea id="f_pain"></textarea></div>
+    <div class="two">
+      <div class="field"><label for="f_moat">Moat if it works</label><textarea id="f_moat"></textarea></div>
+      <div class="field"><label for="f_risk">Main risk</label><textarea id="f_risk"></textarea></div>
+    </div>
+    <div class="field"><label for="f_src">Source link</label><input id="f_src" placeholder="https://" type="url"></div>
+    <div class="sliders" id="sliders"></div>
+    <div class="live">Live score <b id="liveScore" style="font-family:Georgia,serif;font-size:1.3rem;color:var(--moss)">—</b></div>
+  </div>
+  <footer><button type="button" class="btn ghost" id="cancelBtn">Cancel</button><button type="button" class="btn" id="saveBtn">Save idea</button></footer>
+</form></dialog>
+
+<div class="toast" id="toast"></div>
+
+<script>
+"use strict";
+const WEIGHTS = {demand:.25, wtp:.20, gap:.15, competition:.15, capital:.10, fit:.15};
+const FACTORS = [
+  ["demand","Demand proven"],
+  ["wtp","Will they pay"],
+  ["gap","Capacity gap"],
+  ["competition","Open competition"],
+  ["capital","Capital-light"],
+  ["fit","My advantage"]
+];
+const KEY = "bbl.v1";
+
+const SEED = [
+  {
+    id:"crane-leads", title:"Specialty equipment lead arbitrage", cat:"Arbitrage · lead flow", status:"researching",
+    thesis:"Rank a thin-market industrial service page, route real requests to the one supplier with capacity, charge for the match.",
+    rev:"Per qualified request, or $500–800/mo exclusive", cap:"$50–300",
+    next:"Call 5 septic/forklift suppliers in Laredo + Lubbock; ask what is actually bookable next month.",
+    pain:"Out-of-state industrial buyers can't tell who is available; local operators have no web presence and no intake process.",
+    moat:"Routing relationships + response speed in 10–20 narrow markets. Not the domain.",
+    risk:"Suppliers already full; rankings slow; Google treats thin city pages as doorway spam.",
+    src:"https://x.com/Marko_Poly/status/2113174642160537901",
+    s:{demand:4, wtp:3, gap:4, competition:3, capital:5, fit:4}, updated:"2026-10-22"
+  },
+  {
+    id:"ai-support-install", title:"AI support agent install for service SMBs", cat:"AI ops · done-for-you", status:"validating",
+    thesis:"Sell a working outcome — tickets answered, calls triaged — using off-the-shelf agents; charge setup plus monthly tuning.",
+    rev:"$1.5–2k setup + $300–800/mo", cap:"<$200",
+    next:"Pick one vertical (dental, HVAC, equipment rental). Mystery-shop 10 of them; time their response.",
+    pain:"Small operators lose jobs to slow replies on phone, web chat, and after-hours enquiries.",
+    moat:"Vertical playbooks, integration glue, and the reporting habit — not the model.",
+    risk:"Commodity pressure on price; churn if the agent isn't tuned; buyers who think ChatGPT already does it.",
+    src:"https://x.com/mhp_guy/status/2107940073153151314",
+    s:{demand:4, wtp:4, gap:3, competition:2, capital:5, fit:5}, updated:"2026-10-22"
+  },
+  {
+    id:"equip-fleet-broker", title:"Truck & trailer capacity brokerage", cat:"Brokerage · rental", status:"seed",
+    thesis:"Be the availability layer for small fleets: know who has trucks, trailers, and drivers free this week and place them.",
+    rev:"15–25% of transaction, or flat placement fee", cap:"<$500",
+    next:"Interview 3 small fleet owners about idle weeks and how they currently fill them.",
+    pain:"Small fleets have lumpy utilization; shippers need verified availability fast and hate calling 15 brokers.",
+    moat:"A live availability book and a reputation for not wasting anyone's time.",
+    risk:"Relationship business, slow start; carriers can disintermediate you once matched.",
+    src:"https://podcasts.apple.com/us/podcast/the-koerner-office-business-ideas-and-deep-dives/id1705154662",
+    s:{demand:4, wtp:3, gap:3, competition:3, capital:5, fit:3}, updated:"2026-10-21"
+  },
+  {
+    id:"flight-newsletter", title:"City flight-deal newsletter", cat:"Media · niche", status:"seed",
+    thesis:"Own one city's flight-deal habit with automated fare alerts and local framing; monetise the list later.",
+    rev:"Sponsorships, affiliates, paid tier", cap:"$60",
+    next:"Check 3 candidate city domains; size the audience with a one-week free Reddit/FB test.",
+    pain:"People want cheap fares but hate searching; deal sites are national and generic.",
+    moat:"Local audience habit and inbox position. Weak moat overall.",
+    risk:"Thin margins, slow list growth, fare data terms, and a saturated national field.",
+    src:"https://newsletter.chrisjkoerner.com/p/the-80k-monthly-ai-business-that-s-right-under-your-nose-59d9",
+    s:{demand:3, wtp:2, gap:2, competition:2, capital:5, fit:2}, updated:"2026-10-20"
+  },
+  {
+    id:"septic-capacity", title:"Septic & portable-sanitation dispatch desk", cat:"Local ops · dispatch", status:"researching",
+    thesis:"Become the intake desk for a fragmented trade: one number, real availability, honest dispatch to whoever can serve today.",
+    rev:"Per dispatched job ($40–120) or monthly retainer", cap:"<$400",
+    next:"Verify the scan's Laredo signal by calling 6 operators: response time, coverage, capacity.",
+    pain:"Emergency buyers call five numbers and get voicemail; operators have no intake system.",
+    moat:"Speed and coverage knowledge in one metro; expand city by city.",
+    risk:"Operators may refuse to pay for jobs they'd have won anyway; scope creep into doing the work.",
+    src:"local scan · gap_report.csv",
+    s:{demand:4, wtp:3, gap:4, competition:3, capital:4, fit:3}, updated:"2026-10-22"
+  },
+  {
+    id:"industrial-parts", title:"Obsolete industrial parts sourcing", cat:"Sourcing · parts", status:"seed",
+    thesis:"Find discontinued valves, boards, and seals for plants that will pay a premium to avoid a shutdown.",
+    rev:"Markup on sourced part, or sourcing fee", cap:"<$1k (float)",
+    next:"Find 3 maintenance forums where buyers post “need this discontinued part” and read 30 threads.",
+    pain:"Downtime costs thousands per hour; OEMs discontinue parts and procurement teams hit dead ends.",
+    moat:"A private index of who actually holds what (surplus dealers, scrappers, repair shops).",
+    risk:"Inventory float, shipping risk, and quote churn. Needs real domain drip-feed.",
+    src:"https://idealab.ai",
+    s:{demand:4, wtp:5, gap:4, competition:3, capital:3, fit:3}, updated:"2026-10-19"
+  },
+  {
+    id:"compliance-calendar", title:"Compliance calendar for tiny fleets", cat:"Software-ish service", status:"seed",
+    thesis:"Track filings, inspections, and driver docs for 3–20 truck operations as a service, not a dashboard.",
+    rev:"$150–400/mo per fleet", cap:"<$300",
+    next:"Ask 5 owner-operators what they missed or paid a fine for last year.",
+    pain:"Small fleets get fined for lapses because compliance lives in a shoebox and a calendar reminder.",
+    moat:"Switching cost once you hold the paperwork trail. Weak until trust exists.",
+    risk:"Liability if something lapses; software incumbents at the low end.",
+    src:"https://idealab.ai",
+    s:{demand:3, wtp:3, gap:3, competition:2, capital:5, fit:4}, updated:"2026-10-18"
+  },
+  {
+    id:"kitchen-equip-service", title:"Commercial kitchen equipment service broker", cat:"Local ops · brokerage", status:"seed",
+    thesis:"Restaurants need a fridge fixed tonight; independent techs have gaps in their route. Be the dispatcher.",
+    rev:"15–20% of service ticket", cap:"<$400",
+    next:"Call 5 independent refrigeration techs: do they want more calls, and what do they pay for them?",
+    pain:"Equipment failure is urgent and restaurants have no trusted after-hours number.",
+    moat:"Reliability and a bench of vetted techs. Geographic density matters.",
+    risk:"Quality control on other people's work; thin tickets; emergency expectations 24/7.",
+    src:"https://idealab.ai",
+    s:{demand:4, wtp:3, gap:3, competition:2, capital:4, fit:2}, updated:"2026-10-18"
+  }
+];
+
+const $ = s => document.querySelector(s);
+const scoreOf = s => Math.round(FACTORS.reduce((a,[k]) => a + (s[k]||0)/5*WEIGHTS[k], 0) * 100);
+const STATUS_LABEL = {seed:"Seed", researching:"Researching", validating:"Validating", dropped:"Dropped"};
+
+let state = load();
+let filter = "all", query = "", sort = "score", editingId = null;
+
+function load(){
+  try{
+    const raw = localStorage.getItem(KEY);
+    if(raw){ const parsed = JSON.parse(raw); if(Array.isArray(parsed.ideas)) return parsed.ideas; }
+  }catch(e){}
+  return structuredClone(SEED);
+}
+function save(){
+  try{ localStorage.setItem(KEY, JSON.stringify({v:1, savedAt:new Date().toISOString(), ideas:state})); }
+  catch(e){ toast("Could not save locally — export instead"); }
+}
+function toast(msg){
+  const t = $("#toast"); t.textContent = msg; t.classList.add("show");
+  clearTimeout(toast._t); toast._t = setTimeout(()=>t.classList.remove("show"), 2200);
+}
+function esc(s){ return String(s??"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+function visible(){
+  let list = state.filter(i => filter === "all" || i.status === filter);
+  if(query){
+    const q = query.toLowerCase();
+    list = list.filter(i => [i.title,i.cat,i.thesis,i.pain,i.moat,i.risk,i.next,i.rev].join(" ").toLowerCase().includes(q));
+  }
+  const by = {
+    score: (a,b) => scoreOf(b.s)-scoreOf(a.s),
+    recent: (a,b) => String(b.updated||"").localeCompare(String(a.updated||"")),
+    name: (a,b) => a.title.localeCompare(b.title),
+    capital: (a,b) => (parseFloat(String(a.cap).replace(/[^0-9.]/g,""))||1e9) - (parseFloat(String(b.cap).replace(/[^0-9.]/g,""))||1e9)
+  }[sort];
+  return list.sort(by);
+}
+
+function render(){
+  const list = visible();
+  $("#countNote").textContent = `${list.length} of ${state.length} shown`;
+  $("#statCount").textContent = state.length;
+  $("#statActive").textContent = state.filter(i=>i.status!=="dropped").length;
+  const top = state.filter(i=>i.status!=="dropped").reduce((m,i)=>Math.max(m,scoreOf(i.s)),0);
+  $("#statTop").textContent = top || "—";
+  $("#grid").innerHTML = list.map(card).join("");
+  $("#empty").hidden = list.length > 0;
+  document.querySelectorAll(".idea").forEach(el=>{
+    el.querySelector(".toggle").addEventListener("click", ()=>el.classList.toggle("open"));
+  });
+  document.querySelectorAll("[data-edit]").forEach(b=>b.addEventListener("click", ()=>openForm(b.dataset.edit)));
+  document.querySelectorAll("[data-drop]").forEach(b=>b.addEventListener("click", ()=>{
+    const i = state.find(x=>x.id===b.dataset.drop);
+    i.status = i.status === "dropped" ? "seed" : "dropped";
+    i.updated = new Date().toISOString().slice(0,10); save(); render();
+    toast(i.status === "dropped" ? "Parked" : "Back in play");
+  }));
+  document.querySelectorAll("[data-del]").forEach(b=>b.addEventListener("click", ()=>{
+    if(!confirm("Delete this idea permanently?")) return;
+    state = state.filter(x=>x.id!==b.dataset.del); save(); render(); toast("Deleted");
+  }));
+}
+
+function card(i){
+  const sc = scoreOf(i.s);
+  const six = FACTORS.map(([k,label]) => `<span>${label}<b>${i.s[k]||0}/5</b></span>`).join("");
+  return `<article class="idea" data-id="${esc(i.id)}">
+    <div class="top">
+      <div class="ring" style="--v:${sc}"><b>${sc}</b></div>
+      <div>
+        <h3>${esc(i.title)}</h3>
+        <div class="cat">${esc(i.cat)}</div>
+      </div>
+      <div style="margin-left:auto"><span class="status st-${esc(i.status)}">${STATUS_LABEL[i.status]||i.status}</span></div>
+    </div>
+    <p class="thesis">${esc(i.thesis)}</p>
+    <dl class="meta">
+      <dt>Model</dt><dd>${esc(i.rev)}</dd>
+      <dt>Capital</dt><dd>${esc(i.cap)}</dd>
+      <dt>Next</dt><dd>${esc(i.next)}</dd>
+    </dl>
+    <div class="detail">
+      <h4>Buyer pain</h4><p>${esc(i.pain)}</p>
+      <h4>Moat</h4><p>${esc(i.moat)}</p>
+      <h4>Main risk</h4><p>${esc(i.risk)}</p>
+      <h4>Scores</h4>
+      <div class="scores6">${six}</div>
+      ${i.src ? `<h4>Source</h4><p><a href="${esc(i.src)}" target="_blank" rel="noopener">${esc(i.src.replace(/^https?:\/\//,"").slice(0,58))}…</a></p>` : ""}
+      <h4>Updated</h4><p>${esc(i.updated||"—")}</p>
+    </div>
+    <div class="actions">
+      <button class="btn ghost tiny toggle">Details</button>
+      <button class="btn ghost tiny" data-edit="${esc(i.id)}">Edit</button>
+      <button class="btn ghost tiny" data-drop="${esc(i.id)}">${i.status==="dropped"?"Restore":"Park"}</button>
+      <button class="btn ghost tiny" data-del="${esc(i.id)}" title="Delete">✕</button>
+    </div>
+  </article>`;
+}
+
+/* form */
+const slidersEl = $("#sliders");
+slidersEl.innerHTML = FACTORS.map(([k,label]) =>
+  `<label class="slider">${label}<input type="range" min="0" max="5" step="1" data-k="${k}" value="3"><b>3</b></label>`
+).join("");
+
+function readSliders(){
+  const out = {};
+  slidersEl.querySelectorAll("input").forEach(inp => out[inp.dataset.k] = Number(inp.value));
+  return out;
+}
+function liveScore(){
+  const s = readSliders();
+  $("#liveScore").textContent = scoreOf(s);
+}
+slidersEl.addEventListener("input", e => {
+  if(e.target.matches("input[type=range]")){
+    e.target.nextElementSibling.textContent = e.target.value;
+    liveScore();
+  }
+});
+
+function openForm(id){
+  editingId = id || null;
+  const i = id ? state.find(x=>x.id===id) : null;
+  $("#dlgTitle").textContent = i ? "Edit idea" : "Add an idea";
+  $("#f_title").value = i?.title || "";
+  $("#f_cat").value = i?.cat || "";
+  $("#f_status").value = i?.status || "seed";
+  $("#f_thesis").value = i?.thesis || "";
+  $("#f_rev").value = i?.rev || "";
+  $("#f_cap").value = i?.cap || "";
+  $("#f_next").value = i?.next || "";
+  $("#f_pain").value = i?.pain || "";
+  $("#f_moat").value = i?.moat || "";
+  $("#f_risk").value = i?.risk || "";
+  $("#f_src").value = i?.src || "";
+  slidersEl.querySelectorAll("input").forEach(inp => {
+    const v = i?.s?.[inp.dataset.k] ?? 3;
+    inp.value = v; inp.nextElementSibling.textContent = v;
+  });
+  liveScore();
+  $("#dlg").showModal();
+  setTimeout(()=>$("#f_title").focus(), 60);
+}
+
+function saveIdea(){
+  const payload = {
+    title: $("#f_title").value.trim() || "Untitled idea",
+    cat: $("#f_cat").value.trim() || "Uncategorised",
+    status: $("#f_status").value,
+    thesis: $("#f_thesis").value.trim(),
+    rev: $("#f_rev").value.trim() || "—",
+    cap: $("#f_cap").value.trim() || "—",
+    next: $("#f_next").value.trim() || "Define the first call",
+    pain: $("#f_pain").value.trim(),
+    moat: $("#f_moat").value.trim(),
+    risk: $("#f_risk").value.trim(),
+    src: $("#f_src").value.trim(),
+    s: readSliders(),
+    updated: new Date().toISOString().slice(0,10)
+  };
+  if(editingId){
+    Object.assign(state.find(x=>x.id===editingId), payload);
+  } else {
+    payload.id = "i" + Date.now().toString(36);
+    state.unshift(payload);
+  }
+  save(); render(); $("#dlg").close(); toast(editingId ? "Updated" : "Idea added");
+  editingId = null;
+}
+
+$("#saveBtn").addEventListener("click", saveIdea);
+$("#form").addEventListener("submit", e => { e.preventDefault(); saveIdea(); });
+
+$("#addBtn").addEventListener("click", ()=>openForm(null));
+$("#closeDlg").addEventListener("click", ()=>$("#dlg").close());
+$("#cancelBtn").addEventListener("click", ()=>$("#dlg").close());
+
+/* controls */
+$("#statusChips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if(!b) return;
+  filter = b.dataset.status;
+  document.querySelectorAll("#statusChips .chip").forEach(c => c.setAttribute("aria-pressed", String(c===b)));
+  render();
+});
+$("#q").addEventListener("input", e => { query = e.target.value.trim(); render(); });
+$("#sort").addEventListener("change", e => { sort = e.target.value; render(); });
+
+/* export */
+$("#exportBtn").addEventListener("click", async ()=>{
+  const data = JSON.stringify({v:1, exportedAt:new Date().toISOString(), ideas:state}, null, 2);
+  try{
+    await navigator.clipboard.writeText(data);
+    toast("Copied to clipboard — paste it back to Hermes");
+  }catch(e){
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([data], {type:"application/json"}));
+    a.download = "boring-business-lab.json"; a.click();
+    toast("Downloaded boring-business-lab.json");
+  }
+});
+
+$("#built").textContent = "Built " + new Date().toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});
+liveScore(); render();
+</script>
+</body>
+</html>
