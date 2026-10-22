@@ -1,0 +1,408 @@
+{
+  "captured": "2026-10-22",
+  "source": "Google Maps local list view",
+  "markets": {
+    "crane rental": {
+      "Jacksonville, FL": [
+        {
+          "name": "Coker Crane & Rigging",
+          "phone": "(904) 849-7206",
+          "rating": "5.0",
+          "web": true,
+          "addr": "1205 Beach Blvd"
+        },
+        {
+          "name": "Sims Crane & Equipment Co.",
+          "phone": "(904) 448-9275",
+          "rating": "4.3",
+          "web": true,
+          "addr": "12849-1 Philips Hwy"
+        },
+        {
+          "name": "A Crane Rental, LLC",
+          "phone": "(904) 310-1860",
+          "rating": "5.0",
+          "web": true,
+          "addr": "10419 General Ave"
+        },
+        {
+          "name": "Grower Crane Service Inc.",
+          "phone": "(904) 636-5000",
+          "rating": "5.0",
+          "web": false,
+          "addr": "4600 Philips Hwy"
+        },
+        {
+          "name": "Allegiance Crane & Equipment",
+          "phone": "(904) 783-4111",
+          "rating": "4.7",
+          "web": true,
+          "addr": "537 Lane Ave N"
+        },
+        {
+          "name": "Cowboy Crane",
+          "phone": "(904) 699-9749",
+          "rating": "5.0",
+          "web": false,
+          "addr": "111 Phillips Industrial Ln"
+        },
+        {
+          "name": "Barcelona Equipment Crane Rental",
+          "phone": "(904) 559-2170",
+          "rating": "5.0",
+          "web": true,
+          "addr": "10342 New Kings Rd"
+        }
+      ],
+      "Jacksonville Beach, FL": [
+        {
+          "name": "Coker Crane & Rigging",
+          "phone": "(904) 849-7206",
+          "rating": "5.0",
+          "web": true,
+          "addr": "1205 Beach Blvd"
+        },
+        {
+          "name": "White's Crane Service",
+          "phone": "(904) 994-3255",
+          "rating": "5.0",
+          "web": false,
+          "addr": "379 Roscoe Blvd N"
+        },
+        {
+          "name": "Hoist & Crane Service Group",
+          "phone": "(904) 620-0017",
+          "rating": "4.2",
+          "web": true,
+          "addr": "11433 Saints Rd"
+        },
+        {
+          "name": "Sims Crane & Equipment Co.",
+          "phone": "(904) 448-9275",
+          "rating": "4.3",
+          "web": true,
+          "addr": "12849-1 Philips Hwy"
+        },
+        {
+          "name": "Southern Crane Service",
+          "phone": "(904) 517-2535",
+          "rating": "4.0",
+          "web": true,
+          "addr": "3636 Phoenix Ave"
+        },
+        {
+          "name": "Barcelona Equipment Crane Rental",
+          "phone": "(904) 559-2170",
+          "rating": "5.0",
+          "web": true,
+          "addr": "10342 New Kings Rd"
+        },
+        {
+          "name": "Grower Crane Service Inc.",
+          "phone": "(904) 636-5000",
+          "rating": "5.0",
+          "web": false,
+          "addr": "4600 Philips Hwy"
+        }
+      ]
+    },
+    "septic tank pumping": {
+      "Jacksonville, FL": [
+        {
+          "name": "Duck Duck Rooter Plumbing, Septic & AC",
+          "phone": "(904) 209-9050",
+          "rating": "4.8",
+          "web": true,
+          "addr": "4567 Blanding Blvd"
+        },
+        {
+          "name": "Flamingo Septic",
+          "phone": "(904) 222-7465",
+          "rating": "4.5",
+          "web": true,
+          "addr": "10212 New Kings Rd"
+        },
+        {
+          "name": "Jacksonville Septic Tank Pumping LLC",
+          "phone": "(904) 747-8871",
+          "rating": "4.3",
+          "web": true,
+          "addr": "open 24 hours"
+        },
+        {
+          "name": "Bullfrog Septic",
+          "phone": "(904) 680-5044",
+          "rating": "5.0",
+          "web": true,
+          "addr": "2916 University Blvd W"
+        },
+        {
+          "name": "Dr. Poo Sanitation Solutions",
+          "phone": "(904) 727-0000",
+          "rating": "4.9",
+          "web": true,
+          "addr": "2107 New Berlin Rd"
+        },
+        {
+          "name": "Presto Plumbing & Septic Tank Pumping",
+          "phone": "(904) 944-4644",
+          "rating": "4.8",
+          "web": true,
+          "addr": "6509 Trade Center Dr"
+        },
+        {
+          "name": "O'Connor's Plumbing and Septic",
+          "phone": "(904) 767-4059",
+          "rating": "4.5",
+          "web": true,
+          "addr": "530 Ellis Rd S"
+        }
+      ],
+      "Jacksonville Beach, FL": [
+        {
+          "name": "Bullfrog Septic",
+          "phone": "(904) 680-5044",
+          "rating": "5.0",
+          "web": true,
+          "addr": "2916 University Blvd W"
+        },
+        {
+          "name": "Flamingo Septic",
+          "phone": "(904) 222-7465",
+          "rating": "4.5",
+          "web": true,
+          "addr": "10212 New Kings Rd"
+        },
+        {
+          "name": "Jacksonville Septic Tank Pumping LLC",
+          "phone": "(904) 747-8871",
+          "rating": "4.3",
+          "web": true,
+          "addr": "open 24 hours"
+        },
+        {
+          "name": "Lickety Split AC, Plumbing & Electric",
+          "phone": "(904) 712-0764",
+          "rating": "4.8",
+          "web": true,
+          "addr": "14125 Beach Blvd"
+        },
+        {
+          "name": "Dr. Poo Sanitation Solutions",
+          "phone": "(904) 727-0000",
+          "rating": "4.9",
+          "web": true,
+          "addr": "2107 New Berlin Rd"
+        },
+        {
+          "name": "Duck Duck Rooter Plumbing, Septic & AC",
+          "phone": "(904) 209-9050",
+          "rating": "4.8",
+          "web": true,
+          "addr": "4567 Blanding Blvd"
+        },
+        {
+          "name": "Septic Specialists LLC",
+          "phone": "(904) 895-5785",
+          "rating": "4.5",
+          "web": true,
+          "addr": "2615 Dawin Rd"
+        }
+      ]
+    },
+    "seawall / marine construction": {
+      "Jacksonville, FL": [
+        {
+          "name": "B & W Marine Construction",
+          "phone": "(904) 639-5001",
+          "rating": "4.7",
+          "web": true,
+          "addr": "4611 Lakeside Dr"
+        },
+        {
+          "name": "Barefoot Marine Construction",
+          "phone": "(904) 327-3931",
+          "rating": "4.8",
+          "web": true,
+          "addr": "10945 Patton Rd"
+        },
+        {
+          "name": "Tidewater Marine Construction LLC",
+          "phone": "(904) 566-7093",
+          "rating": "5.0",
+          "web": false,
+          "addr": "5240 Thorden Rd"
+        },
+        {
+          "name": "OutBack Marine Construction",
+          "phone": "(904) 270-0067",
+          "rating": "3.7",
+          "web": true,
+          "addr": "106 B Canal Blvd"
+        },
+        {
+          "name": "Kenyon Marine Construction",
+          "phone": "(904) 777-0833",
+          "rating": "4.9",
+          "web": true,
+          "addr": "5772 Timuquana Rd"
+        },
+        {
+          "name": "Home Services By McCue",
+          "phone": "(904) 241-2151",
+          "rating": "4.6",
+          "web": true,
+          "addr": "216 20th St N"
+        }
+      ],
+      "Jacksonville Beach, FL": [
+        {
+          "name": "B & W Marine Construction",
+          "phone": "(904) 639-5001",
+          "rating": "4.7",
+          "web": true,
+          "addr": "4611 Lakeside Dr"
+        },
+        {
+          "name": "Barefoot Marine Construction",
+          "phone": "(904) 327-3931",
+          "rating": "4.8",
+          "web": true,
+          "addr": "10945 Patton Rd"
+        },
+        {
+          "name": "Stellar Marine Service",
+          "phone": "(904) 484-7249",
+          "rating": "4.9",
+          "web": true,
+          "addr": "14603 Beach Blvd"
+        },
+        {
+          "name": "Elite Marine Construction of NEFL",
+          "phone": "(904) 903-6809",
+          "rating": "3.7",
+          "web": true,
+          "addr": "1202 20th Ave N"
+        },
+        {
+          "name": "OutBack Marine Construction",
+          "phone": "(904) 270-0067",
+          "rating": "3.7",
+          "web": true,
+          "addr": "106 B Canal Blvd"
+        },
+        {
+          "name": "First Coast Enterprises",
+          "phone": "(904) 242-0100",
+          "rating": "5.0",
+          "web": false,
+          "addr": "920 8th Ave S"
+        }
+      ]
+    },
+    "land clearing": {
+      "Jacksonville, FL": [
+        {
+          "name": "Shaw's Land Clearing LLC",
+          "phone": "(904) 387-1804",
+          "rating": "4.1",
+          "web": true,
+          "addr": "2762 W Beaver St"
+        },
+        {
+          "name": "Southeast Forest and Land Mgmt",
+          "phone": "(904) 271-1135",
+          "rating": "4.9",
+          "web": true,
+          "addr": "13201-1 Caldwell Rd"
+        },
+        {
+          "name": "Advantage Outdoors Land Services",
+          "phone": "(904) 654-6408",
+          "rating": "5.0",
+          "web": true,
+          "addr": "1840 Mealy St"
+        },
+        {
+          "name": "Tomlinson Land Clearing & Site Work",
+          "phone": "(904) 813-8064",
+          "rating": "5.0",
+          "web": true,
+          "addr": "1890 Tomlinson Ln"
+        },
+        {
+          "name": "Set Apart Excavation & Land Clearing",
+          "phone": "(352) 535-4169",
+          "rating": "4.8",
+          "web": false,
+          "addr": "regional"
+        },
+        {
+          "name": "Varner Land Management",
+          "phone": "(904) 624-1188",
+          "rating": "5.0",
+          "web": true,
+          "addr": "11440 Sugar Maple Pl S"
+        },
+        {
+          "name": "Champs Outdoor Services",
+          "phone": "(904) 676-3549",
+          "rating": "5.0",
+          "web": true,
+          "addr": "11685 Rice Rd"
+        }
+      ],
+      "Jacksonville Beach, FL": [
+        {
+          "name": "Advantage Outdoors Land Services",
+          "phone": "(904) 654-6408",
+          "rating": "5.0",
+          "web": true,
+          "addr": "1840 Mealy St"
+        },
+        {
+          "name": "Southeast Forest and Land Mgmt",
+          "phone": "(904) 271-1135",
+          "rating": "4.9",
+          "web": true,
+          "addr": "13201-1 Caldwell Rd"
+        },
+        {
+          "name": "Shaw's Land Clearing LLC",
+          "phone": "(904) 387-1804",
+          "rating": "4.1",
+          "web": true,
+          "addr": "2762 W Beaver St"
+        },
+        {
+          "name": "Set Apart Excavation & Land Clearing",
+          "phone": "(352) 535-4169",
+          "rating": "4.8",
+          "web": false,
+          "addr": "regional"
+        },
+        {
+          "name": "Tomlinson Land Clearing & Site Work",
+          "phone": "(904) 813-8064",
+          "rating": "5.0",
+          "web": true,
+          "addr": "1890 Tomlinson Ln"
+        },
+        {
+          "name": "Varner Land Management",
+          "phone": "(904) 624-1188",
+          "rating": "5.0",
+          "web": true,
+          "addr": "11440 Sugar Maple Pl S"
+        },
+        {
+          "name": "Christopher Rice Inc",
+          "phone": "(904) 487-7680",
+          "rating": "4.4",
+          "web": true,
+          "addr": "Jacksonville"
+        }
+      ]
+    }
+  }
+}

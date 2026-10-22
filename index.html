@@ -148,7 +148,7 @@ footer.site{border-top:1px solid var(--line);margin-top:26px;padding:26px 0 60px
 <div class="bar"><div class="wrap">
   <div class="brand"><span class="dot"></span>Boring Business Lab <span class="sub">/ personal idea pipeline</span></div>
   <div class="spacer"></div>
-  <a class="btn ghost tiny" href="validation.html" style="text-decoration:none">Validation pack</a>
+  <a class="btn ghost tiny" href="validation-jax.html" style="text-decoration:none;background:#1d4a3f;color:#f7f5ec;border-color:#1d4a3f">Jax validation pack</a>
   <button class="btn ghost tiny" id="exportBtn">Export JSON</button>
   <button class="btn tiny" id="addBtn">+ Add idea</button>
 </div></div>
@@ -310,14 +310,25 @@ const KEY = "bbl.v1";
 const SEED = [
   {
     id:"crane-leads", title:"Specialty equipment lead arbitrage", cat:"Arbitrage · lead flow", status:"researching",
-    thesis:"Rank a thin-market industrial service page, route real requests to the one supplier with capacity, charge for the match.",
+    thesis:"Route real requests to whoever actually has capacity. Parked for North Florida: local operators already rank, so the gap is intake and dispatch, not visibility.",
     rev:"Per qualified request, or $500–800/mo exclusive", cap:"$50–300",
-    next:"Work the validation pack: 6 Laredo crane operators + 5 buyers, then 6 septic operators if crane fails.",
+    next:"Local scan says visibility is NOT the gap in Jax — pivot to after-hours intake + surge brokering. Call 8 operators in validation-jax.html.",
     pain:"Out-of-state industrial buyers can't tell who is available; local operators have no web presence and no intake process.",
     moat:"Routing relationships + response speed in 10–20 narrow markets. Not the domain.",
     risk:"Suppliers already full; rankings slow; Google treats thin city pages as doorway spam.",
     src:"https://x.com/Marko_Poly/status/2113174642160537901",
     s:{demand:3, wtp:3, gap:3, competition:2, capital:5, fit:4}, updated:"2026-10-22"
+  },
+  {
+    id:"jax-after-hours-intake", title:"After-hours intake desk for coastal trades", cat:"Local ops · dispatch", status:"researching",
+    thesis:"One local number that answers at 7pm on a Saturday, qualifies the job, quotes a range, and dispatches to whichever Jacksonville operator can actually serve today.",
+    rev:"Per dispatched job ($40–120) or monthly retainer per operator", cap:"<$300",
+    next:"Call Jacksonville Septic Tank Pumping (904) 747-8871 and Bullfrog (904) 680-5044; ask what happens to after-hours calls and whether they turn work away.",
+    pain:"Small First Coast shops run one truck and one phone. After hours and during surge weeks, calls go unanswered and bookable work is lost — to nobody, not to a competitor.",
+    moat:"Local trust, a live availability book, and answering speed. An out-of-state operator cannot replicate the relationships.",
+    risk:"Operators may expect free dispatch; per-job pricing needs proof; hurricane surge is seasonal and lumpy.",
+    src:"validation-jax.html",
+    s:{demand:4, wtp:3, gap:3, competition:3, capital:5, fit:5}, updated:"2026-10-22"
   },
   {
     id:"ai-support-install", title:"AI support agent install for service SMBs", cat:"AI ops · done-for-you", status:"validating",
