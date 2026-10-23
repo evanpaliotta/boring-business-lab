@@ -162,8 +162,8 @@ footer.site{border-top:1px solid var(--line);margin-top:26px;padding:26px 0 60px
     <h1>Boring businesses, <em>scored.</em></h1>
     <p class="lede">A working pipeline, not a inspiration board. Every idea gets the same six questions, a number, and a next action. The rule: a business is only worth building when a real buyer with money meets a supplier with capacity — everything else is a domain name.</p>
     <div class="stats">
-      <div class="stat"><b id="statCount">8</b><span>ideas tracked</span></div>
-      <div class="stat"><b id="statActive">6</b><span>live / in research</span></div>
+      <div class="stat"><b id="statCount">7</b><span>ideas tracked</span></div>
+      <div class="stat"><b id="statActive">5</b><span>live / in research</span></div>
       <div class="stat"><b id="statTop">—</b><span>top score</span></div>
       <div class="stat"><b>$0</b><span>spent so far</span></div>
     </div>
@@ -202,7 +202,7 @@ footer.site{border-top:1px solid var(--line);margin-top:26px;padding:26px 0 60px
   </section>
 
   <section id="ideas">
-    <div class="sechead"><h2>Pipeline</h2><span class="note" id="countNote">8 ideas</span></div>
+    <div class="sechead"><h2>Pipeline</h2><span class="note" id="countNote">7 ideas</span></div>
     <div class="controls">
       <div class="chips" id="statusChips">
         <button class="chip" data-status="all" aria-pressed="true">All</button>
@@ -310,14 +310,15 @@ const KEY = "bbl.v1";
 
 const SEED = [
   {
-    id:"crane-leads", title:"Specialty equipment lead arbitrage", cat:"Arbitrage · lead flow", status:"researching",
+    id:"crane-leads", title:"Specialty equipment lead arbitrage", cat:"Arbitrage · lead flow", status:"dropped",
     thesis:"Route real requests to whoever actually has capacity. Parked for North Florida: local operators already rank, so the gap is intake and dispatch, not visibility.",
     rev:"Per qualified request, or $500–800/mo exclusive", cap:"$50–300",
-    next:"Local scan says visibility is NOT the gap in Jax — pivot to after-hours intake + surge brokering. Call 8 operators in validation-jax.html.",
+    next:"Parked 2026-10-22: superseded by after-hours intake + dispatch (jax-after-hours-intake). Local scan says visibility is NOT the gap in Jax.",
     pain:"Out-of-state industrial buyers can't tell who is available; local operators have no web presence and no intake process.",
     moat:"Routing relationships + response speed in 10–20 narrow markets. Not the domain.",
     risk:"Suppliers already full; rankings slow; Google treats thin city pages as doorway spam.",
     src:"https://x.com/Marko_Poly/status/2113174642160537901",
+    origin:"Your link (Marko_Poly post) → researched and scoped by Hermes",
     s:{demand:3, wtp:3, gap:3, competition:2, capital:5, fit:4}, updated:"2026-10-22"
   },
   {
@@ -329,6 +330,7 @@ const SEED = [
     moat:"Local trust, a live availability book, and answering speed. An out-of-state operator cannot replicate the relationships.",
     risk:"Operators may expect free dispatch; per-job pricing needs proof; hurricane surge is seasonal and lumpy.",
     src:"validation-jax.html",
+    origin:"Hermes — NE Florida supply scan (36 operators, your backyard)",
     s:{demand:4, wtp:3, gap:3, competition:3, capital:5, fit:5}, updated:"2026-10-22"
   },
   {
@@ -340,6 +342,7 @@ const SEED = [
     moat:"Vertical playbooks, integration glue, and the reporting habit — not the model.",
     risk:"Commodity pressure on price; churn if the agent isn't tuned; buyers who think ChatGPT already does it.",
     src:"https://x.com/mhp_guy/status/2107940073153151314",
+    origin:"Hermes-sourced (Koerner / mhp_guy post)",
     s:{demand:4, wtp:4, gap:3, competition:2, capital:5, fit:5}, updated:"2026-10-22"
   },
   {
@@ -351,17 +354,19 @@ const SEED = [
     moat:"A live availability book and a reputation for not wasting anyone's time.",
     risk:"Relationship business, slow start; carriers can disintermediate you once matched.",
     src:"https://podcasts.apple.com/us/podcast/the-koerner-office-business-ideas-and-deep-dives/id1705154662",
+    origin:"Hermes-sourced (Koerner Office podcast)",
     s:{demand:4, wtp:3, gap:3, competition:3, capital:5, fit:3}, updated:"2026-10-21"
   },
   {
-    id:"flight-newsletter", title:"City flight-deal newsletter", cat:"Media · niche", status:"seed",
+    id:"flight-newsletter", title:"City flight-deal newsletter", cat:"Media · niche", status:"dropped",
     thesis:"Own one city's flight-deal habit with automated fare alerts and local framing; monetise the list later.",
     rev:"Sponsorships, affiliates, paid tier", cap:"$60",
-    next:"Check 3 candidate city domains; size the audience with a one-week free Reddit/FB test.",
+    next:"Parked 2026-10-22: weak moat, weak willingness to pay — kept only as a reference pattern.",
     pain:"People want cheap fares but hate searching; deal sites are national and generic.",
     moat:"Local audience habit and inbox position. Weak moat overall.",
     risk:"Thin margins, slow list growth, fare data terms, and a saturated national field.",
     src:"https://newsletter.chrisjkoerner.com/p/the-80k-monthly-ai-business-that-s-right-under-your-nose-59d9",
+    origin:"Hermes-sourced (Koerner newsletter)",
     s:{demand:3, wtp:2, gap:2, competition:2, capital:5, fit:2}, updated:"2026-10-20"
   },
   {
@@ -372,41 +377,9 @@ const SEED = [
     pain:"Emergency buyers call five numbers and get voicemail; operators have no intake system.",
     moat:"Speed and coverage knowledge in one metro; expand city by city.",
     risk:"Operators may refuse to pay for jobs they'd have won anyway; scope creep into doing the work.",
-    src:"local scan · gap_report.csv",
+    src:"data/nefl-supply-scan.csv · NE Florida supply scan",
+    origin:"Hermes — own data scan (Laredo/Lubbock gap scan → re-based on NE FL)",
     s:{demand:4, wtp:3, gap:4, competition:3, capital:4, fit:3}, updated:"2026-10-22"
-  },
-  {
-    id:"industrial-parts", title:"Obsolete industrial parts sourcing", cat:"Sourcing · parts", status:"seed",
-    thesis:"Find discontinued valves, boards, and seals for plants that will pay a premium to avoid a shutdown.",
-    rev:"Markup on sourced part, or sourcing fee", cap:"<$1k (float)",
-    next:"Find 3 maintenance forums where buyers post “need this discontinued part” and read 30 threads.",
-    pain:"Downtime costs thousands per hour; OEMs discontinue parts and procurement teams hit dead ends.",
-    moat:"A private index of who actually holds what (surplus dealers, scrappers, repair shops).",
-    risk:"Inventory float, shipping risk, and quote churn. Needs real domain drip-feed.",
-    src:"https://idealab.ai",
-    s:{demand:4, wtp:5, gap:4, competition:3, capital:3, fit:3}, updated:"2026-10-19"
-  },
-  {
-    id:"compliance-calendar", title:"Compliance calendar for tiny fleets", cat:"Software-ish service", status:"seed",
-    thesis:"Track filings, inspections, and driver docs for 3–20 truck operations as a service, not a dashboard.",
-    rev:"$150–400/mo per fleet", cap:"<$300",
-    next:"Ask 5 owner-operators what they missed or paid a fine for last year.",
-    pain:"Small fleets get fined for lapses because compliance lives in a shoebox and a calendar reminder.",
-    moat:"Switching cost once you hold the paperwork trail. Weak until trust exists.",
-    risk:"Liability if something lapses; software incumbents at the low end.",
-    src:"https://idealab.ai",
-    s:{demand:3, wtp:3, gap:3, competition:2, capital:5, fit:4}, updated:"2026-10-18"
-  },
-  {
-    id:"kitchen-equip-service", title:"Commercial kitchen equipment service broker", cat:"Local ops · brokerage", status:"seed",
-    thesis:"Restaurants need a fridge fixed tonight; independent techs have gaps in their route. Be the dispatcher.",
-    rev:"15–20% of service ticket", cap:"<$400",
-    next:"Call 5 independent refrigeration techs: do they want more calls, and what do they pay for them?",
-    pain:"Equipment failure is urgent and restaurants have no trusted after-hours number.",
-    moat:"Reliability and a bench of vetted techs. Geographic density matters.",
-    risk:"Quality control on other people's work; thin tickets; emergency expectations 24/7.",
-    src:"https://idealab.ai",
-    s:{demand:4, wtp:3, gap:3, competition:2, capital:4, fit:2}, updated:"2026-10-18"
   },
   {
     id:"local-ai-agency", title:"AI services agency for $2M–$20M local trades", cat:"Services · Dream 100", status:"seed",
@@ -418,6 +391,7 @@ const SEED = [
     moat:"Trade-specific playbooks plus measurable proof, trusted local relationships and a content/referral loop. Agent-driven delivery reduces research/reporting labor, but is not a moat by itself.",
     risk:"Articles are playbooks, not validation: self-reported revenue and vendor statistics need independent checks. Long Dream-100 sales cycle; 5x ROI can be hard to attribute; recurring ad work adds performance/liability risk. Avoid risky bulk-email shortcuts; honor consent, deliverability and applicable law. Keep platform access read-only first; require human approval for spend, sends, contracts and pricing.",
     src:"https://x.com/boringmarketer/status/2112205041117360242",
+    origin:"Your links (boringmarketer + Ronin + Yarchi follow-ups)",
     refs:[
       {label:"Boring Marketer — local trades / Dream 100 playbook",url:"https://x.com/boringmarketer/status/2112205041117360242"},
       {label:"Ronin — Start a 1-Person Business with Claude (FULL COURSE)",url:"https://x.com/DeRonin_/status/2076690611399176506"},
@@ -441,7 +415,19 @@ function load(){
     if(raw){
       const parsed = JSON.parse(raw);
       if(Array.isArray(parsed.ideas)){
-        const saved = parsed.ideas;
+        let saved = parsed.ideas;
+        /* v2 cleanup migration: remove idealab-sourced seeds, park weak ideas, fix broken src — runs once */
+        if(!parsed.migratedV2){
+          const kill = new Set(["industrial-parts","compliance-calendar","kitchen-equip-service"]);
+          saved = saved.filter(x=>!kill.has(x.id));
+          const park = {"crane-leads":"dropped","flight-newsletter":"dropped"};
+          for(const x of saved){
+            if(park[x.id] && x.status!=="dropped"){ x.status = park[x.id]; x.updated = "2026-10-22"; }
+            if(x.id==="septic-capacity" && /gap_report/.test(x.src||"")) x.src = "data/nefl-supply-scan.csv · NE Florida supply scan";
+          }
+          parsed.migratedV2 = true;
+          try{ localStorage.setItem(KEY, JSON.stringify(parsed)); }catch(e){}
+        }
         const seed = SEED.find(x=>x.id==="local-ai-agency");
         let idea = saved.find(x=>x.id==="local-ai-agency");
         if(!idea){ idea = structuredClone(seed); saved.push(idea); }
@@ -525,6 +511,7 @@ function card(i){
     </dl>
     <div class="detail">
       <h4>Buyer pain</h4><p>${esc(i.pain)}</p>
+      ${i.origin ? `<h4>Origin</h4><p>${esc(i.origin)}</p>` : ""}
       <h4>Moat</h4><p>${esc(i.moat)}</p>
       <h4>Main risk</h4><p>${esc(i.risk)}</p>
       <h4>Scores</h4>
@@ -602,6 +589,7 @@ function saveIdea(){
     moat: $("#f_moat").value.trim(),
     risk: $("#f_risk").value.trim(),
     src: $("#f_src").value.trim(),
+    origin: editingId ? (state.find(x=>x.id===editingId)?.origin||"") : "",
     refs: editingId ? (state.find(x=>x.id===editingId)?.refs||[]) : [],
     researchUpdate: editingId ? (state.find(x=>x.id===editingId)?.researchUpdate||"") : "",
     s: readSliders(),
