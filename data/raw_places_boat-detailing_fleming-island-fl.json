@@ -1,0 +1,26 @@
+{
+ "searchParameters": {
+  "q": "boat detailing in Fleming Island, FL",
+  "gl": "us",
+  "hl": "en",
+  "type": "places",
+  "num": 10,
+  "page": 1,
+  "engine": "google"
+ },
+ "places": [
+  {
+   "position": 1,
+   "title": "VH Auto and Marine Detailing",
+   "address": "6468 Oak Dr, Fleming Island, FL 32003",
+   "latitude": 30.076805,
+   "longitude": -81.69873,
+   "rating": 5,
+   "ratingCount": 3,
+   "category": "Car detailing service",
+   "phoneNumber": "(904) 465-4896",
+   "cid": "6625595156556969122"
+  }
+ ],
+ "credits": 1
+}

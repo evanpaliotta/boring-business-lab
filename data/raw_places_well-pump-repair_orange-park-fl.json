@@ -1,0 +1,131 @@
+{
+ "searchParameters": {
+  "q": "well pump repair in Orange Park, FL",
+  "gl": "us",
+  "hl": "en",
+  "type": "places",
+  "num": 10,
+  "page": 1,
+  "engine": "google"
+ },
+ "places": [
+  {
+   "position": 1,
+   "title": "Affordable Well Pump Services (formerly HALEFORCE)",
+   "address": "2233 Park Ave #104, Orange Park, FL 32073",
+   "latitude": 30.162516,
+   "longitude": -81.70037,
+   "rating": 4.8,
+   "ratingCount": 69,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(904) 365-7995",
+   "website": "https://a-plus-environmental.com/affordablewells",
+   "cid": "9552081718841339494"
+  },
+  {
+   "position": 2,
+   "title": "Florida Pump Service",
+   "address": "192 Industrial Loop S, Orange Park, FL 32073",
+   "latitude": 30.179117,
+   "longitude": -81.715675,
+   "rating": 4.6,
+   "ratingCount": 165,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(904) 269-0202",
+   "website": "http://www.floridapumpservice.com/",
+   "cid": "12569469923574354275"
+  },
+  {
+   "position": 3,
+   "title": "Pump Repair Services",
+   "rating": 5,
+   "ratingCount": 181,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(407) 809-8805",
+   "website": "https://www.pump-repair-services.com/",
+   "cid": "5993296627176186188"
+  },
+  {
+   "position": 4,
+   "title": "Smitty's Pump Services",
+   "address": "1198 Lenda Ln, Middleburg, FL 32068",
+   "latitude": 30.12134,
+   "longitude": -81.9388,
+   "rating": 5,
+   "ratingCount": 167,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(904) 282-7318",
+   "cid": "12609802616673959443"
+  },
+  {
+   "position": 5,
+   "title": "Partridge Well Drilling Company, Inc.",
+   "address": "4744 Collins Rd, Jacksonville, FL 32244",
+   "latitude": 30.19256,
+   "longitude": -81.7107,
+   "rating": 4.8,
+   "ratingCount": 255,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(904) 269-1333",
+   "website": "https://partridgewell.com/",
+   "cid": "14498252279081623742"
+  },
+  {
+   "position": 6,
+   "title": "Leonard's Pump Repair Services",
+   "rating": 4.8,
+   "ratingCount": 23,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(689) 316-2667",
+   "website": "https://lpr-services.com/",
+   "cid": "15451593468720504108"
+  },
+  {
+   "position": 7,
+   "title": "Pump Repair Services",
+   "rating": 4.8,
+   "ratingCount": 127,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(407) 809-8805",
+   "website": "https://pumprepairapopka.com/",
+   "cid": "7365878867784291919"
+  },
+  {
+   "position": 8,
+   "title": "Dampier Well and Pump Service",
+   "rating": 5,
+   "ratingCount": 116,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(352) 275-6553",
+   "website": "https://dampierwater.com/",
+   "cid": "418177201915282414"
+  },
+  {
+   "position": 9,
+   "title": "Perry's Pump Repair LLC",
+   "address": "21404 County Rd 241, Alachua, FL 32615",
+   "latitude": 29.851267,
+   "longitude": -82.49433,
+   "rating": 4.9,
+   "ratingCount": 928,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(352) 316-4088",
+   "website": "https://www.perryspumprepair.com/",
+   "cid": "3154078002764864381"
+  },
+  {
+   "position": 10,
+   "title": "Bucks Well Pump Repair LLC",
+   "address": "7161 Schering St, Brooksville, FL 34613",
+   "latitude": 28.530964,
+   "longitude": -82.58484,
+   "rating": 5,
+   "ratingCount": 418,
+   "category": "Well drilling contractor",
+   "phoneNumber": "(352) 606-9104",
+   "website": "http://www.buckswellpumprepair.com/",
+   "cid": "2014457486514167087"
+  }
+ ],
+ "credits": 1
+}

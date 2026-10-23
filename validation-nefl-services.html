@@ -89,7 +89,7 @@ footer{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;font
   <div class="grid3">
     <div class="verdict v-go"><div class="tag">Thin supply</div><h3>4 of 10 trades</h3><p>Well pump repair, boat detailing, hurricane shutters and marine salvage all show fewer operators than the surrounding metros support — and the ones present often have no website.</p><div class="stat">see the gap tables below</div></div>
     <div class="verdict v-kill"><div class="tag">Already served</div><h3>6 of 10 trades</h3><p>Septic, dock building, porta potty, generators, land clearing and mobile mechanics have 5–11 competitors per metro at 4.3–5.0. Any lead product there competes with people who already rank.</p><div class="stat">documented so you don't revisit</div></div>
-    <div class="verdict v-test"><div class="tag">Known blind spot</div><h3>No review counts</h3><p>Maps' list view does not expose review depth in this layout. So "thin" here means few operators, low ratings or no website — not "nobody has 200 reviews." That is the paid API's job.</p><div class="stat">method limit, stated not hidden</div></div>
+    <div class="verdict v-test"><div class="tag">Now measured</div><h3>Review depth, not review gaps</h3><p>The paid pull closed the blind spot: median <b>17</b> reviews for boat detailing operators, <b>132</b> for well pump. Thin review depth is a real signal in two trades, and an illusion in the other two.</p><div class="stat">also: 10–70 Jacksonville searches / month</div></div>
   </div>
 </section>
 
@@ -109,6 +109,35 @@ footer{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;font
   <p class="thin">"Gap" here is a supply statement, not a demand statement. It does not say anyone wants to pay for intake — that is the phone call, and it is still unmade.</p>
 </section>
 
+
+<hr class="rule">
+
+<section>
+  <div class="sechead"><h2>The paid data, and what it changed</h2><span class="note">pulled 23 Oct · review counts + keyword volume · $0.014 spent</span></div>
+  <div class="verdict v-kill" style="margin-bottom:14px">
+    <div class="tag">Correction to the free scan</div>
+    <h3>Review depth is not the gap — and local search demand is too thin to arbitrage.</h3>
+    <p>Two findings, both against the earlier read. <b>One:</b> Jacksonville's well-pump operators are established, not invisible — median <b>132</b> reviews. <b>Two:</b> every Jacksonville-specific search term in all four trades sits between <b>10 and 70 searches a month</b>. There is no volume here to sell as leads. What exists is a relationship-and-availability gap, which is a phone business, not a search-arbitrage business.</p>
+    <div class="stat">Spend: $0.0075 keyword pull + $0.0060 places pull = $0.0135</div>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Trade</th><th>Listings pulled</th><th>Median reviews</th><th>Range</th><th>No website</th></tr></thead>
+    <tbody>
+      <tr><td><b>Well pump repair</b></td><td>20</td><td><b>132</b></td><td>15–928</td><td>6</td></tr>      <tr><td><b>Boat detailing</b></td><td>11</td><td><b>17</b></td><td>3–428</td><td>2</td></tr>      <tr><td><b>Hurricane shutters</b></td><td>12</td><td><b>78</b></td><td>2–1000</td><td>2</td></tr>      <tr><td><b>Marine salvage</b></td><td>10</td><td><b>12</b></td><td>2–517</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  <p class="thin">Source: Google Places via serper ($0.001/call), 7 queries across Jacksonville and Orange Park. Median review count is the discriminator the free list view could not show: 17 (boat detailing) is thin, 132 (well pump) is an established trade.</p>
+
+  <div class="tablewrap"><table>
+    <thead><tr><th>Jacksonville search term</th><th>Volume / mo (US)</th><th>CPC</th><th>Local pack</th></tr></thead>
+    <tbody>
+      <tr><td>boat salvage jacksonville</td><td>1</td><td>$0.00</td><td>no</td></tr>      <tr><td>well pump service jacksonville fl</td><td>10</td><td>$0.00</td><td>no</td></tr>      <tr><td>marine salvage jacksonville fl</td><td>10</td><td>$0.97</td><td>no</td></tr>      <tr><td>storm shutters jacksonville fl</td><td>30</td><td>$5.33</td><td>yes</td></tr>      <tr><td>boat detailing jacksonville fl</td><td>40</td><td>$62.91 <span class="pill p-no">outlier</span></td><td>yes</td></tr>      <tr><td>boat detailing jacksonville</td><td>50</td><td>$2.23</td><td>yes</td></tr>      <tr><td>hurricane shutters jacksonville fl</td><td>50</td><td>$4.17</td><td>no</td></tr>      <tr><td>hurricane shutters jacksonville</td><td>50</td><td>$4.17</td><td>no</td></tr>      <tr><td>well pump repair jacksonville</td><td>70</td><td>$6.27</td><td>no</td></tr>      <tr><td>well pump repair jacksonville fl</td><td>70</td><td>$6.27</td><td>yes</td></tr>      <tr><td>well drilling jacksonville fl</td><td>90</td><td>$1.87</td><td>yes</td></tr>
+    </tbody>
+  </table></div>
+  <p class="thin">Source: Serpstat via treg, national monthly volume (no geo parameter exists — these are US-wide volumes for geo-tagged phrases, so treat them as an upper bound for the metro, not a local measurement). CPC is the commercial signal: $6.27 for "well pump repair jacksonville" and $4.17 for shutters says the clicks are worth buying; 70 searches a month says there are not many of them.</p>
+</section>
+
+
 <hr class="rule">
 
 <section>
@@ -117,6 +146,7 @@ footer{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;font
   <div class="panel" style="margin-bottom:14px">
     <p style="margin:0 0 10px">Orange Park returns 2 listings. Macclenny's local options rate 3.0–3.2. Across the core and fringe, a large share of the operators that do exist have no website at all — and several advertise 24-hour service, which in a two-truck shop means a phone nobody is watching.</p>
     <p style="margin:0;font-size:.88rem;color:var(--ink2)"><b>What is sellable here:</b> Answer + triage + dispatch. Emergency-shaped, low ticket, high repeat.</p>
+    <p class="thin" style="margin:10px 0 0"><b>Review depth (paid Places pull):</b> 20 listings, median <b>132</b> reviews, range 15–928. Established incumbents exist in the metro — 928 reviews at the top. The gap is geographic (Orange Park, Macclenny, Callahan), not metro-wide, and 6 of 20 listings have no website.</p>
   </div>
   <div class="tablewrap"><table>
     <thead><tr><th>Operator (deduped)</th><th>Phone</th><th>Rating</th><th>Web</th><th>Seen in</th></tr></thead>
@@ -166,6 +196,7 @@ footer{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;font
   <div class="panel" style="margin-bottom:14px">
     <p style="margin:0 0 10px">The beaches are saturated — every operator on the coast is 5.0-rated and competing on polish. The river metros and Amelia/Yulee are not: what shows up there is mostly car detailers with a boat line, plus a couple of genuinely boat-only mobile operators.</p>
     <p style="margin:0;font-size:.88rem;color:var(--ink2)"><b>What is sellable here:</b> Mobile, no shop, no inventory. Owner-operated, so a scheduling/intake layer is the constraint, not demand.</p>
+    <p class="thin" style="margin:10px 0 0"><b>Review depth (paid Places pull):</b> 11 listings, median <b>17</b> reviews, range 3–428. Thinnest bench of the four by a wide margin — median 17 reviews. Half the local-pack results are car detailers; the boat-only specialists are single-operator mobile businesses.</p>
   </div>
   <div class="tablewrap"><table>
     <thead><tr><th>Operator (deduped)</th><th>Phone</th><th>Rating</th><th>Web</th><th>Seen in</th></tr></thead>
@@ -219,6 +250,7 @@ footer{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;font
   <div class="panel" style="margin-bottom:14px">
     <p style="margin:0 0 10px">Exactly one true shutter specialist serves the whole core metro. Everything else in the local pack is a blinds store or a window installer. Orange Park returns two results total. This is a consultative, quote-then-schedule sale.</p>
     <p style="margin:0;font-size:.88rem;color:var(--ink2)"><b>What is sellable here:</b> Qualified appointment setting — book the measure/quote, not the callback.</p>
+    <p class="thin" style="margin:10px 0 0"><b>Review depth (paid Places pull):</b> 12 listings, median <b>78</b> reviews, range 2–1000. Bimodal: a 1,000-review incumbent next to entrants with 2–12 reviews. The spread is the opening, not the median.</p>
   </div>
   <div class="tablewrap"><table>
     <thead><tr><th>Operator (deduped)</th><th>Phone</th><th>Rating</th><th>Web</th><th>Seen in</th></tr></thead>
@@ -234,6 +266,7 @@ footer{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;font
   <div class="panel" style="margin-bottom:14px">
     <p style="margin:0 0 10px">No dedicated marine salvage operator appears in any metro scanned — only dive shops, tow services and boat yards. The availability gap is genuine. The catch is that it only matters during a named storm.</p>
     <p style="margin:0;font-size:.88rem;color:var(--ink2)"><b>What is sellable here:</b> Surge brokering: who can actually mobilise this week.</p>
+    
   </div>
   <div class="tablewrap"><table>
     <thead><tr><th>Operator (deduped)</th><th>Phone</th><th>Rating</th><th>Web</th><th>Seen in</th></tr></thead>
@@ -271,7 +304,7 @@ footer{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;font
   <div class="sechead"><h2>Method &amp; limits</h2><span class="note">what this is and is not</span></div>
   <div class="caveat">
     <p><b>Source:</b> Google Maps local list view via browser, 170 queries across 10 services and 30 metros, captured 22–23 Oct 2026. Names, phones, ratings and website presence as displayed. Zero data-provider spend.</p>
-    <p><b>No review counts.</b> Google Maps list view does not expose review counts in this layout. Supply strength is therefore expressed as operator count, median rating and website presence only. Review depth requires the paid Places API.</p>
+    <p><b>Review counts were added on 23 Oct.</b> The first pass used the free list view, which does not expose review depth; a paid Places pull (7 queries, $0.006) and a keyword pull (20 terms, $0.0075) now back the review and demand tables. Every raw response is saved as <code>data/raw_places_*.json</code> and <code>data/kw_raw.txt</code> so nothing has to be re-bought.</p>
     <p><b>Regions matter.</b> "Core" is Duval, Jacksonville Beach, St Johns, Clay and Nassau — your backyard. "Fringe" is the drivable NE Florida ring. "Out" cells (Gainesville, Ocala, Tallahassee, Brunswick, Waynesville/Waycross, the Carolinas) exist as comparison only and are <b>not</b> prospects.</p>
     <p><b>Duplicates.</b> The same operator appears across metros and occasionally under two phone numbers. Gap tables are deduped by name; market counts are not.</p>
     <p><b>Samples drift.</b> Repeated local-pack calls for the same query returned different counts and medians. Treat every number as a snapshot that orients a phone call, not a measurement.</p>

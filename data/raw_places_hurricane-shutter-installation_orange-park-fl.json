@@ -1,0 +1,39 @@
+{
+ "searchParameters": {
+  "q": "hurricane shutter installation in Orange Park, FL",
+  "gl": "us",
+  "hl": "en",
+  "type": "places",
+  "num": 10,
+  "page": 1,
+  "engine": "google"
+ },
+ "places": [
+  {
+   "position": 1,
+   "title": "First Coast Hurricane Shutters, LLC.",
+   "address": "3521 St Augustine Rd, Jacksonville, FL 32207",
+   "latitude": 30.288507,
+   "longitude": -81.643684,
+   "rating": 5,
+   "ratingCount": 78,
+   "category": "Construction company",
+   "phoneNumber": "(904) 467-7008",
+   "website": "http://www.fchurricaneshutters.com/?utm_campaign=gmb",
+   "cid": "13903317237625730291"
+  },
+  {
+   "position": 2,
+   "title": "Hurricane Protection by Design",
+   "address": "528 Clinton Dr, Orange Park, FL 32073",
+   "latitude": 30.163273,
+   "longitude": -81.7054,
+   "rating": 5,
+   "ratingCount": 2,
+   "category": "Window installation service",
+   "phoneNumber": "(904) 536-1430",
+   "cid": "14009663832673551905"
+  }
+ ],
+ "credits": 1
+}

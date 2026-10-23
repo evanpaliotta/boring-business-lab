@@ -1,0 +1,133 @@
+{
+ "searchParameters": {
+  "q": "marine salvage in Jacksonville, FL",
+  "gl": "us",
+  "hl": "en",
+  "type": "places",
+  "num": 10,
+  "page": 1,
+  "engine": "google"
+ },
+ "places": [
+  {
+   "position": 1,
+   "title": "AAA Boat Salvage",
+   "rating": 4.7,
+   "ratingCount": 50,
+   "category": "Boat repair shop",
+   "phoneNumber": "(888) 702-5785",
+   "website": "https://www.aaaboatsalvage.com/",
+   "cid": "3770956096629822476"
+  },
+  {
+   "position": 2,
+   "title": "Don's Marine Surplus & Salvage",
+   "address": "Clearwater, FL",
+   "latitude": 27.88713,
+   "longitude": -82.70871,
+   "rating": 4.3,
+   "ratingCount": 517,
+   "category": "Marine supply store",
+   "phoneNumber": "(727) 576-8577",
+   "website": "http://donsmarinesalvageyard.com/",
+   "cid": "13464319545855681629"
+  },
+  {
+   "position": 3,
+   "title": "Logan Diving & Salvage",
+   "latitude": 30.294676,
+   "longitude": -81.52518,
+   "rating": 4.2,
+   "ratingCount": 5,
+   "category": "Construction company",
+   "phoneNumber": "(904) 731-0000",
+   "website": "http://www.logandiving.com/",
+   "cid": "10391988301265086929"
+  },
+  {
+   "position": 4,
+   "title": "Boathouse Discount Marine LLC",
+   "address": "5615 Blanding Blvd",
+   "latitude": 30.246084,
+   "longitude": -81.74276,
+   "rating": 4.4,
+   "ratingCount": 398,
+   "category": "Marine supply store",
+   "phoneNumber": "(904) 778-7775",
+   "website": "http://www.boathousediscountmarine.com/",
+   "cid": "17145680208696458039"
+  },
+  {
+   "position": 5,
+   "title": "Lewis Diving & Salvage Inc",
+   "address": "1020 Girvin Rd",
+   "latitude": 30.340736,
+   "longitude": -81.461044,
+   "rating": 4.5,
+   "ratingCount": 2,
+   "category": "Association / Organization",
+   "phoneNumber": "(904) 221-0221",
+   "website": "http://www.lewisdiving.com/",
+   "cid": "16587309236166234653"
+  },
+  {
+   "position": 6,
+   "title": "Strike Marine Salvage Sales, Inc.",
+   "address": "Fort Lauderdale, FL",
+   "latitude": 26.075706,
+   "longitude": -80.18215,
+   "rating": 4.8,
+   "ratingCount": 46,
+   "category": "Salvage yard",
+   "phoneNumber": "(954) 584-6544",
+   "website": "http://www.marinesalvagesale.com/",
+   "cid": "12273241142386529058"
+  },
+  {
+   "position": 7,
+   "title": "Logan Diving & Salvage",
+   "rating": 3.4,
+   "ratingCount": 5,
+   "category": "Diving contractor",
+   "phoneNumber": "(904) 731-0000",
+   "cid": "5904411121582212646"
+  },
+  {
+   "position": 8,
+   "title": "Weeks Marine",
+   "address": "Opens 9\u202fAM Fri",
+   "latitude": 30.16872,
+   "longitude": -81.99835,
+   "rating": 4.6,
+   "ratingCount": 8,
+   "category": "Boat repair shop",
+   "phoneNumber": "(904) 705-3990",
+   "website": "http://www.weeksmarine.com/",
+   "cid": "11270347429510115690"
+  },
+  {
+   "position": 9,
+   "title": "Salvage Marine Network, LLC",
+   "address": "North Attleborough, MA",
+   "latitude": 41.974384,
+   "longitude": -71.31832,
+   "rating": 4.6,
+   "ratingCount": 9,
+   "category": "Marine supply store",
+   "phoneNumber": "(888) 542-6287",
+   "website": "http://salvagemarine.net/",
+   "cid": "13801320575328679943"
+  },
+  {
+   "position": 10,
+   "title": "Boat Removal Service",
+   "rating": 4.8,
+   "ratingCount": 16,
+   "category": "Debris removal service",
+   "phoneNumber": "(951) 336-1216",
+   "website": "http://www.boatremovers.com/",
+   "cid": "10651720890291308944"
+  }
+ ],
+ "credits": 1
+}

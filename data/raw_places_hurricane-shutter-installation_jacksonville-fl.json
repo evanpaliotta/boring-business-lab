@@ -1,0 +1,143 @@
+{
+ "searchParameters": {
+  "q": "hurricane shutter installation in Jacksonville, FL",
+  "gl": "us",
+  "hl": "en",
+  "type": "places",
+  "num": 10,
+  "page": 1,
+  "engine": "google"
+ },
+ "places": [
+  {
+   "position": 1,
+   "title": "First Coast Hurricane Shutters, LLC.",
+   "address": "3521 St Augustine Rd, Jacksonville, FL 32207",
+   "latitude": 30.288507,
+   "longitude": -81.643684,
+   "rating": 5,
+   "ratingCount": 78,
+   "category": "Window installation service",
+   "phoneNumber": "(904) 467-7008",
+   "website": "http://www.fchurricaneshutters.com/?utm_campaign=gmb",
+   "cid": "13903317237625730291"
+  },
+  {
+   "position": 2,
+   "title": "Better Exterior Solutions",
+   "address": "3521 St Augustine Rd, Jacksonville, FL 32207",
+   "latitude": 30.28851,
+   "longitude": -81.643684,
+   "rating": 4.8,
+   "ratingCount": 90,
+   "category": "Carport and pergola builder",
+   "phoneNumber": "(904) 561-2747",
+   "website": "http://www.betterexteriors.com/?utm_campaign=gmb",
+   "cid": "15949021583933377430"
+  },
+  {
+   "position": 3,
+   "title": "Custom Storm Shutters Direct",
+   "address": "826 Hull Rd, Ormond Beach, FL 32174",
+   "latitude": 29.31397,
+   "longitude": -81.11303,
+   "rating": 4.9,
+   "ratingCount": 79,
+   "category": "Window installation service",
+   "phoneNumber": "(386) 672-3737",
+   "website": "http://customstormshuttersdirect.com/",
+   "cid": "685856823293078473"
+  },
+  {
+   "position": 4,
+   "title": "ArmorGuard Exteriors providing Gutter Helmet & Sunesta Awnings",
+   "address": "2190 St Johns Bluff Rd S #3, Jacksonville, FL 32246",
+   "latitude": 30.31104,
+   "longitude": -81.526535,
+   "rating": 4.9,
+   "ratingCount": 1000,
+   "category": "Window installation service",
+   "phoneNumber": "(904) 844-0335",
+   "website": "https://www.gutterhelmetofnorthflorida.com/?utm_source=google&utm_medium=google-business-profile&utm_campaign=armorguard-exteriors-gbp",
+   "cid": "8473291538280608414"
+  },
+  {
+   "position": 5,
+   "title": "Sunburst Shutters, Shades, & Blinds Jacksonville",
+   "address": "4949 Sunbeam Rd Ste 1, Jacksonville, FL 32257",
+   "latitude": 30.206476,
+   "longitude": -81.5842,
+   "rating": 5,
+   "ratingCount": 379,
+   "category": "Window treatment store",
+   "phoneNumber": "(904) 289-1663",
+   "website": "https://www.sunburstshuttersjacksonville.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=website",
+   "cid": "17431336946261384075"
+  },
+  {
+   "position": 6,
+   "title": "ALL WEATHER HURRICANE SHUTTERS",
+   "address": "704 W Park Ave, Edgewater, FL 32132",
+   "latitude": 28.987545,
+   "longitude": -80.91723,
+   "rating": 4.5,
+   "ratingCount": 17,
+   "category": "Window installation service",
+   "phoneNumber": "(386) 423-1930",
+   "website": "http://allweatherhurricaneshutters.com/",
+   "cid": "4446876967686662107"
+  },
+  {
+   "position": 7,
+   "title": "APS Hurricane Protection",
+   "address": "600 Herbert St, Port Orange, FL 32129",
+   "latitude": 29.142855,
+   "longitude": -80.99384,
+   "rating": 4.8,
+   "ratingCount": 63,
+   "category": "Contractor",
+   "phoneNumber": "(386) 281-5151",
+   "website": "https://apshurricaneprotection.com/",
+   "cid": "13587048108313495442"
+  },
+  {
+   "position": 8,
+   "title": "JM Storm Shutter Services",
+   "address": "337 Shell Ln, Carrabelle, FL 32322",
+   "latitude": 29.836987,
+   "longitude": -84.6861,
+   "rating": 4.8,
+   "ratingCount": 16,
+   "category": "Window installation service",
+   "phoneNumber": "(850) 294-6608",
+   "website": "https://jmstormshutterservices.com/",
+   "cid": "12637392479911126533"
+  },
+  {
+   "position": 9,
+   "title": "Simply Shutters\u2122 North Florida",
+   "address": "4720 Salisbury Rd Ste 211, Jacksonville, FL 32256",
+   "latitude": 30.245314,
+   "longitude": -81.58907,
+   "rating": 5,
+   "ratingCount": 121,
+   "category": "Window treatment store",
+   "phoneNumber": "(904) 913-0009",
+   "website": "https://simplyshutters.com/",
+   "cid": "10621069645649118374"
+  },
+  {
+   "position": 10,
+   "title": "Hurricane Protection by Design",
+   "address": "528 Clinton Dr, Orange Park, FL 32073",
+   "latitude": 30.163273,
+   "longitude": -81.7054,
+   "rating": 5,
+   "ratingCount": 2,
+   "category": "Window installation service",
+   "phoneNumber": "(904) 536-1430",
+   "cid": "14009663832673551905"
+  }
+ ],
+ "credits": 1
+}

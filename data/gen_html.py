@@ -4,7 +4,7 @@
 Single self-contained page, no build step, no external assets. Same visual system as
 validation-jax.html so the pack reads as one family.
 """
-import json, os, html
+import json, os, html, statistics as st
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -18,6 +18,35 @@ with open(os.path.join(HERE, "nefl-supply-scan.csv")) as f:
     OPS = list(csv.DictReader(f))
 
 GAP_ORDER = ["well pump repair", "boat detailing", "hurricane shutter installation", "marine salvage / recovery"]
+
+# Paid data (added 23 Oct, ~$0.014 of treg credit): review depth per operator and local
+# keyword demand. Optional - the page still builds without them.
+REVIEWS, KW = [], []
+_rp = os.path.join(HERE, "nefl-review-counts.csv")
+if os.path.exists(_rp):
+    with open(_rp) as f:
+        REVIEWS = list(csv.DictReader(f))
+_kp = os.path.join(HERE, "nefl-keyword-demand.csv")
+if os.path.exists(_kp):
+    with open(_kp) as f:
+        KW = list(csv.DictReader(f))
+
+
+def review_summary(svc):
+    rs = [r for r in REVIEWS if r["service"] == svc]
+    rc = sorted(int(r["review_count"]) for r in rs if r["review_count"])
+    if not rc:
+        return None
+    return {"n": len(rs), "median": int(st.median(rc)), "lo": rc[0], "hi": rc[-1]}
+
+
+def kw_for(terms):
+    out = []
+    for r in KW:
+        if r["keyword"] in terms:
+            out.append(r)
+    return out
+
 SAT_ORDER = ["septic tank pumping", "dock / marine construction", "porta potty rental",
              "generator repair", "land clearing", "mobile mechanic"]
 
@@ -27,24 +56,28 @@ GAP_META = {
    stat="180 listings · 29 cells",
    line="Orange Park returns 2 listings. Macclenny's local options rate 3.0–3.2. Across the core and fringe, a large share of the operators that do exist have no website at all — and several advertise 24-hour service, which in a two-truck shop means a phone nobody is watching.",
    sell="Answer + triage + dispatch. Emergency-shaped, low ticket, high repeat.",
+   revread="Established incumbents exist in the metro — 928 reviews at the top. The gap is geographic (Orange Park, Macclenny, Callahan), not metro-wide, and 6 of 20 listings have no website.",
    why="Rural and semi-rural customers have no alternative but a phone call, and the well either works or the house is dry."),
  "boat detailing": dict(
    title="Boat detailing", tag="Clearest sellable gap",
    stat="160 listings · 26 cells",
    line="The beaches are saturated — every operator on the coast is 5.0-rated and competing on polish. The river metros and Amelia/Yulee are not: what shows up there is mostly car detailers with a boat line, plus a couple of genuinely boat-only mobile operators.",
    sell="Mobile, no shop, no inventory. Owner-operated, so a scheduling/intake layer is the constraint, not demand.",
+   revread="Thinnest bench of the four by a wide margin — median 17 reviews. Half the local-pack results are car detailers; the boat-only specialists are single-operator mobile businesses.",
    why="Boats are where the money is and the work is mobile by nature — the operator drives to the lift, not the other way round."),
  "hurricane shutter installation": dict(
    title="Hurricane shutter installation", tag="Thinnest specialist bench",
    stat="147 listings · 25 cells",
    line="Exactly one true shutter specialist serves the whole core metro. Everything else in the local pack is a blinds store or a window installer. Orange Park returns two results total. This is a consultative, quote-then-schedule sale.",
    sell="Qualified appointment setting — book the measure/quote, not the callback.",
+   revread="Bimodal: a 1,000-review incumbent next to entrants with 2–12 reviews. The spread is the opening, not the median.",
    why="High ticket, insurance-adjacent, and the buyer is a homeowner who fills a form or calls once and then waits."),
  "marine salvage / recovery": dict(
    title="Marine salvage &amp; recovery", tag="Real gap, storm-gated",
    stat="14 listings · 2 cells",
    line="No dedicated marine salvage operator appears in any metro scanned — only dive shops, tow services and boat yards. The availability gap is genuine. The catch is that it only matters during a named storm.",
    sell="Surge brokering: who can actually mobilise this week.",
+   revread="Most players sit at 2–12 reviews and the category is effectively unbuilt locally — which is also why there is no proof that anyone pays for it.",
    why="After a storm the scarce resource is a crew with a barge, not a phone number that ranks."),
 }
 
@@ -117,6 +150,13 @@ for svc in GAP_ORDER:
     meta = GAP_META[svc]
     a = D["assessment"][svc]
     tbl, n = op_table(svc)
+    rs = review_summary(svc)
+    if rs:
+        rev_line = (f'<p class="thin" style="margin:10px 0 0"><b>Review depth (paid Places pull):</b> '
+                    f'{rs["n"]} listings, median <b>{rs["median"]}</b> reviews, range {rs["lo"]}–{rs["hi"]}. '
+                    f'{meta.get("revread","")}</p>')
+    else:
+        rev_line = ""
     gap_sections.append(f"""
 <section>
   <div class="sechead"><h2>{meta['title']} <span class="tag-inline">{meta['tag']}</span></h2>
@@ -124,6 +164,7 @@ for svc in GAP_ORDER:
   <div class="panel" style="margin-bottom:14px">
     <p style="margin:0 0 10px">{meta['line']}</p>
     <p style="margin:0;font-size:.88rem;color:var(--ink2)"><b>What is sellable here:</b> {meta['sell']}</p>
+    {rev_line}
   </div>
   <div class="tablewrap"><table>
     <thead><tr><th>Operator (deduped)</th><th>Phone</th><th>Rating</th><th>Web</th><th>Seen in</th></tr></thead>
@@ -133,6 +174,66 @@ for svc in GAP_ORDER:
   </table></div>
   <p class="thin">{n} unique operators across core + fringe metros. Rating and website presence as displayed by Google Maps on 22–23 Oct 2026.</p>
 </section>""")
+
+# ---- paid-data section (review counts + local keyword demand) ----
+rev_rows = []
+for svc, label in [("well pump repair", "Well pump repair"), ("boat detailing", "Boat detailing"),
+                   ("hurricane shutter installation", "Hurricane shutters"), ("marine salvage", "Marine salvage")]:
+    s = review_summary(svc)
+    if not s:
+        continue
+    cell = [m for m in D["markets"] if m["service"] == svc and m["region"] == "core"]
+    noweb = sum(int(r["review_count"] is not None and (r["website"] == "no")) for r in REVIEWS if r["service"] == svc)
+    rev_rows.append(f'      <tr><td><b>{label}</b></td><td>{s["n"]}</td>'
+                    f'<td><b>{s["median"]}</b></td><td>{s["lo"]}–{s["hi"]}</td><td>{noweb}</td></tr>')
+
+JAX_KW = ["well pump repair jacksonville fl", "well pump repair jacksonville", "well pump service jacksonville fl",
+          "well drilling jacksonville fl", "boat detailing jacksonville fl", "boat detailing jacksonville",
+          "mobile boat detailing jacksonville", "hurricane shutters jacksonville fl",
+          "hurricane shutters jacksonville", "hurricane shutter installation jacksonville",
+          "storm shutters jacksonville fl", "marine salvage jacksonville fl", "boat salvage jacksonville",
+          "sunken boat removal jacksonville", "boat recovery jacksonville fl"]
+kw_rows = []
+for r in KW:
+    if r["keyword"] not in JAX_KW:
+        continue
+    vol = int(r["volume_monthly_national"] or 0)
+    cpc = float(r["cpc_usd"] or 0)
+    flag = ' <span class="pill p-no">outlier</span>' if cpc > 20 else ""
+    kw_rows.append(f'      <tr><td>{esc(r["keyword"])}</td><td>{vol}</td>'
+                   f'<td>${cpc:.2f}{flag}</td>'
+                   f'<td>{"yes" if r["has_local_pack"] == "True" else "no"}</td></tr>')
+kw_rows.sort(key=lambda s: int(s.split("<td>")[2].split("</td>")[0]))
+
+PAID_SECTION = f"""
+<hr class="rule">
+
+<section>
+  <div class="sechead"><h2>The paid data, and what it changed</h2><span class="note">pulled 23 Oct · review counts + keyword volume · $0.014 spent</span></div>
+  <div class="verdict v-kill" style="margin-bottom:14px">
+    <div class="tag">Correction to the free scan</div>
+    <h3>Review depth is not the gap — and local search demand is too thin to arbitrage.</h3>
+    <p>Two findings, both against the earlier read. <b>One:</b> Jacksonville's well-pump operators are established, not invisible — median <b>132</b> reviews. <b>Two:</b> every Jacksonville-specific search term in all four trades sits between <b>10 and 70 searches a month</b>. There is no volume here to sell as leads. What exists is a relationship-and-availability gap, which is a phone business, not a search-arbitrage business.</p>
+    <div class="stat">Spend: $0.0075 keyword pull + $0.0060 places pull = $0.0135</div>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Trade</th><th>Listings pulled</th><th>Median reviews</th><th>Range</th><th>No website</th></tr></thead>
+    <tbody>
+{"".join(rev_rows)}
+    </tbody>
+  </table></div>
+  <p class="thin">Source: Google Places via serper ($0.001/call), 7 queries across Jacksonville and Orange Park. Median review count is the discriminator the free list view could not show: 17 (boat detailing) is thin, 132 (well pump) is an established trade.</p>
+
+  <div class="tablewrap"><table>
+    <thead><tr><th>Jacksonville search term</th><th>Volume / mo (US)</th><th>CPC</th><th>Local pack</th></tr></thead>
+    <tbody>
+{"".join(kw_rows)}
+    </tbody>
+  </table></div>
+  <p class="thin">Source: Serpstat via treg, national monthly volume (no geo parameter exists — these are US-wide volumes for geo-tagged phrases, so treat them as an upper bound for the metro, not a local measurement). CPC is the commercial signal: $6.27 for "well pump repair jacksonville" and $4.17 for shutters says the clicks are worth buying; 70 searches a month says there are not many of them.</p>
+</section>
+"""
+
 
 sat_rows = []
 for svc in SAT_ORDER:
@@ -240,7 +341,7 @@ footer{{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;fon
   <div class="grid3">
     <div class="verdict v-go"><div class="tag">Thin supply</div><h3>4 of 10 trades</h3><p>Well pump repair, boat detailing, hurricane shutters and marine salvage all show fewer operators than the surrounding metros support — and the ones present often have no website.</p><div class="stat">see the gap tables below</div></div>
     <div class="verdict v-kill"><div class="tag">Already served</div><h3>6 of 10 trades</h3><p>Septic, dock building, porta potty, generators, land clearing and mobile mechanics have 5–11 competitors per metro at 4.3–5.0. Any lead product there competes with people who already rank.</p><div class="stat">documented so you don't revisit</div></div>
-    <div class="verdict v-test"><div class="tag">Known blind spot</div><h3>No review counts</h3><p>Maps' list view does not expose review depth in this layout. So "thin" here means few operators, low ratings or no website — not "nobody has 200 reviews." That is the paid API's job.</p><div class="stat">method limit, stated not hidden</div></div>
+    <div class="verdict v-test"><div class="tag">Now measured</div><h3>Review depth, not review gaps</h3><p>The paid pull closed the blind spot: median <b>17</b> reviews for boat detailing operators, <b>132</b> for well pump. Thin review depth is a real signal in two trades, and an illusion in the other two.</p><div class="stat">also: 10–70 Jacksonville searches / month</div></div>
   </div>
 </section>
 
@@ -259,6 +360,8 @@ footer{{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;fon
   </table></div>
   <p class="thin">"Gap" here is a supply statement, not a demand statement. It does not say anyone wants to pay for intake — that is the phone call, and it is still unmade.</p>
 </section>
+
+{PAID_SECTION}
 
 <hr class="rule">
 {"".join(gap_sections)}
@@ -290,7 +393,7 @@ footer{{border-top:1px solid var(--line);margin-top:26px;padding:22px 0 60px;fon
   <div class="sechead"><h2>Method &amp; limits</h2><span class="note">what this is and is not</span></div>
   <div class="caveat">
     <p><b>Source:</b> Google Maps local list view via browser, {total_cells} queries across 10 services and 30 metros, captured 22–23 Oct 2026. Names, phones, ratings and website presence as displayed. Zero data-provider spend.</p>
-    <p><b>No review counts.</b> {esc(D["limitation"])}</p>
+    <p><b>Review counts were added on 23 Oct.</b> The first pass used the free list view, which does not expose review depth; a paid Places pull (7 queries, $0.006) and a keyword pull (20 terms, $0.0075) now back the review and demand tables. Every raw response is saved as <code>data/raw_places_*.json</code> and <code>data/kw_raw.txt</code> so nothing has to be re-bought.</p>
     <p><b>Regions matter.</b> "Core" is Duval, Jacksonville Beach, St Johns, Clay and Nassau — your backyard. "Fringe" is the drivable NE Florida ring. "Out" cells (Gainesville, Ocala, Tallahassee, Brunswick, Waynesville/Waycross, the Carolinas) exist as comparison only and are <b>not</b> prospects.</p>
     <p><b>Duplicates.</b> The same operator appears across metros and occasionally under two phone numbers. Gap tables are deduped by name; market counts are not.</p>
     <p><b>Samples drift.</b> Repeated local-pack calls for the same query returned different counts and medians. Treat every number as a snapshot that orients a phone call, not a measurement.</p>

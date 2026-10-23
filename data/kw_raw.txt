@@ -1,0 +1,367 @@
+{
+  "id": "1",
+  "result": {
+    "data": [
+      {
+        "region_queries_count": 260,
+        "region_queries_count_wide": 0,
+        "cost": 1.5999999999999999,
+        "concurrency": 40,
+        "keyword": "boat detailing",
+        "found_results": 22600000,
+        "types": [
+          "related_search",
+          "also_asks",
+          "local_pack"
+        ],
+        "geo_names": [],
+        "social_domains": [
+          "yelp",
+          "facebook",
+          "youtube",
+          "amazon"
+        ],
+        "right_spelling": "boat detailing",
+        "difficulty": 1,
+        "lang": "en",
+        "suggestions_count": 3111,
+        "keywords_count": 6197
+      },
+      {
+        "region_queries_count": 10,
+        "region_queries_count_wide": 0,
+        "cost": 0,
+        "concurrency": 95,
+        "keyword": "well pump service jacksonville fl",
+        "found_results": 97,
+        "types": [],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [
+          "yelp",
+          "linkedin",
+          "facebook"
+        ],
+        "right_spelling": null,
+        "difficulty": 4,
+        "lang": "en",
+        "suggestions_count": 1,
+        "keywords_count": 3
+      },
+      {
+        "region_queries_count": 70,
+        "region_queries_count_wide": 0,
+        "cost": 6.27,
+        "concurrency": 81,
+        "keyword": "well pump repair jacksonville",
+        "found_results": 3820000,
+        "types": [
+          "ai_overview",
+          "also_asks",
+          "kn_graph_local",
+          "related_search"
+        ],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [
+          "reddit",
+          "yelp"
+        ],
+        "right_spelling": null,
+        "difficulty": 8,
+        "lang": "en",
+        "suggestions_count": 5,
+        "keywords_count": 7
+      },
+      {
+        "region_queries_count": 1,
+        "region_queries_count_wide": 0,
+        "cost": 0,
+        "concurrency": 0,
+        "keyword": "boat salvage jacksonville",
+        "found_results": 0,
+        "types": [],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [],
+        "right_spelling": null,
+        "difficulty": 1,
+        "lang": "en",
+        "suggestions_count": 5,
+        "keywords_count": 10
+      },
+      {
+        "region_queries_count": 9900,
+        "region_queries_count_wide": 0,
+        "cost": 2.180721,
+        "concurrency": 98,
+        "keyword": "hurricane shutters",
+        "found_results": 144,
+        "types": [
+          "ai_overview",
+          "pic",
+          "also_asks",
+          "related_search"
+        ],
+        "geo_names": [],
+        "social_domains": [
+          "youtube"
+        ],
+        "right_spelling": null,
+        "difficulty": 45,
+        "lang": "en",
+        "suggestions_count": 2467,
+        "keywords_count": 7782
+      },
+      {
+        "region_queries_count": 40,
+        "region_queries_count_wide": 0,
+        "cost": 62.910115,
+        "concurrency": 70,
+        "keyword": "boat detailing jacksonville fl",
+        "found_results": 90,
+        "types": [
+          "also_asks",
+          "related_search",
+          "local_pack"
+        ],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [
+          "yelp",
+          "facebook"
+        ],
+        "right_spelling": null,
+        "difficulty": 1,
+        "lang": "en",
+        "suggestions_count": 3,
+        "keywords_count": 3
+      },
+      {
+        "region_queries_count": 50,
+        "region_queries_count_wide": 0,
+        "cost": 2.23,
+        "concurrency": 67,
+        "keyword": "boat detailing jacksonville",
+        "found_results": 80,
+        "types": [
+          "related_search",
+          "local_pack",
+          "also_asks"
+        ],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [
+          "facebook",
+          "yelp"
+        ],
+        "right_spelling": null,
+        "difficulty": 2,
+        "lang": "fr",
+        "suggestions_count": 6,
+        "keywords_count": 8
+      },
+      {
+        "region_queries_count": 49500,
+        "region_queries_count_wide": 0,
+        "cost": 4.5,
+        "concurrency": 7,
+        "keyword": "well pump repair",
+        "found_results": 32,
+        "types": [
+          "also_asks",
+          "local_pack",
+          "related_search",
+          "pic"
+        ],
+        "geo_names": [],
+        "social_domains": [],
+        "right_spelling": null,
+        "difficulty": 19,
+        "lang": "en",
+        "suggestions_count": 314,
+        "keywords_count": 725
+      },
+      {
+        "region_queries_count": 70,
+        "region_queries_count_wide": 0,
+        "cost": 6.27,
+        "concurrency": 81,
+        "keyword": "well pump repair jacksonville fl",
+        "found_results": 90,
+        "types": [
+          "related_search",
+          "local_pack",
+          "also_asks"
+        ],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [
+          "yelp",
+          "facebook",
+          "reddit"
+        ],
+        "right_spelling": null,
+        "difficulty": 8,
+        "lang": "en",
+        "suggestions_count": 2,
+        "keywords_count": 5
+      },
+      {
+        "region_queries_count": 30,
+        "region_queries_count_wide": 0,
+        "cost": 5.326423,
+        "concurrency": 78,
+        "keyword": "storm shutters jacksonville fl",
+        "found_results": 90,
+        "types": [
+          "local_pack",
+          "also_asks",
+          "related_search"
+        ],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [
+          "yelp",
+          "reddit",
+          "facebook"
+        ],
+        "right_spelling": null,
+        "difficulty": 7,
+        "lang": "en",
+        "suggestions_count": 1,
+        "keywords_count": 1
+      },
+      {
+        "region_queries_count": 90,
+        "region_queries_count_wide": 0,
+        "cost": 1.865087,
+        "concurrency": 58,
+        "keyword": "well drilling jacksonville fl",
+        "found_results": 90,
+        "types": [
+          "related_search",
+          "local_pack",
+          "also_asks"
+        ],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [
+          "facebook",
+          "yelp"
+        ],
+        "right_spelling": null,
+        "difficulty": 4,
+        "lang": "en",
+        "suggestions_count": 6,
+        "keywords_count": 12
+      },
+      {
+        "region_queries_count": 10,
+        "region_queries_count_wide": 0,
+        "cost": 0.9673379999999999,
+        "concurrency": 61,
+        "keyword": "marine salvage jacksonville fl",
+        "found_results": 0,
+        "types": [],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [],
+        "right_spelling": null,
+        "difficulty": 1,
+        "lang": "fr",
+        "suggestions_count": 0,
+        "keywords_count": 2
+      },
+      {
+        "region_queries_count": 880,
+        "region_queries_count_wide": 0,
+        "cost": 26.474897999999996,
+        "concurrency": 2,
+        "keyword": "marine salvage",
+        "found_results": 90,
+        "types": [
+          "also_asks",
+          "related_search",
+          "local_pack"
+        ],
+        "geo_names": [],
+        "social_domains": [
+          "facebook"
+        ],
+        "right_spelling": null,
+        "difficulty": 19,
+        "lang": "fr",
+        "suggestions_count": 673,
+        "keywords_count": 1679
+      },
+      {
+        "region_queries_count": 50,
+        "region_queries_count_wide": 0,
+        "cost": 4.17,
+        "concurrency": 65,
+        "keyword": "hurricane shutters jacksonville fl",
+        "found_results": 90,
+        "types": [
+          "kn_graph_local",
+          "also_asks"
+        ],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [
+          "yelp",
+          "instagram",
+          "facebook"
+        ],
+        "right_spelling": null,
+        "difficulty": 6,
+        "lang": "en",
+        "suggestions_count": 1,
+        "keywords_count": 4
+      },
+      {
+        "region_queries_count": 50,
+        "region_queries_count_wide": 0,
+        "cost": 4.17,
+        "concurrency": 65,
+        "keyword": "hurricane shutters jacksonville",
+        "found_results": 100,
+        "types": [
+          "related_search",
+          "kn_graph_local",
+          "also_asks"
+        ],
+        "geo_names": [
+          "jacksonville"
+        ],
+        "social_domains": [
+          "reddit",
+          "yelp",
+          "facebook",
+          "instagram"
+        ],
+        "right_spelling": null,
+        "difficulty": 6,
+        "lang": "en",
+        "suggestions_count": 4,
+        "keywords_count": 16
+      }
+    ],
+    "summary_info": {
+      "page": 1,
+      "left_lines": 3253859
+    }
+  }
+}treg: charged $0.0075 · call id bc4e60019cca4bb8bd88d88f17fb5743
+treg: treg.google.keywords.volume does this job and picks the provider, with fallback; prefer it unless you need options only this provider has.
+

@@ -1,0 +1,126 @@
+treg: charged $0.001 · call id a0103b4e7a6c4340940c04fa94a6f553
+treg: treg.google.serp.local does this job and picks the provider, with fallback; prefer it unless you need options only this provider has.
+{
+  "searchParameters": {
+    "q": "well pump repair in Jacksonville, FL",
+    "gl": "us",
+    "hl": "en",
+    "type": "places",
+    "num": 10,
+    "page": 1,
+    "engine": "google"
+  },
+  "places": [
+    {
+      "position": 1,
+      "title": "Affordable Well Pump Services (formerly HALEFORCE)",
+      "address": "2233 Park Ave #104, Orange Park, FL 32073",
+      "latitude": 30.162516,
+      "longitude": -81.70037,
+      "rating": 4.8,
+      "ratingCount": 69,
+      "category": "Well drilling contractor",
+      "phoneNumber": "(904) 365-7995",
+      "website": "https://a-plus-environmental.com/affordablewells",
+      "cid": "9552081718841339494"
+    },
+    {
+      "position": 2,
+      "title": "Smitty's Pump Services",
+      "address": "1198 Lenda Ln, Middleburg, FL 32068",
+      "latitude": 30.12134,
+      "longitude": -81.9388,
+      "rating": 5,
+      "ratingCount": 167,
+      "category": "Well drilling contractor",
+      "phoneNumber": "(904) 282-7318",
+      "cid": "12609802616673959443"
+    },
+    {
+      "position": 3,
+      "title": "St.Johns Well&Pump Service llc",
+      "rating": 5,
+      "ratingCount": 128,
+      "category": "Water pump supplier",
+      "phoneNumber": "(904) 239-7703",
+      "cid": "9899212631638674945"
+    },
+    {
+      "position": 4,
+      "title": "Duval Pump Service, Inc.",
+      "rating": 5,
+      "ratingCount": 15,
+      "category": "Water pump supplier",
+      "phoneNumber": "(904) 268-9192",
+      "cid": "3579061956618769806"
+    },
+    {
+      "position": 5,
+      "title": "Destin's Well & Pump Services",
+      "rating": 4.2,
+      "ratingCount": 48,
+      "category": "Well drilling contractor",
+      "phoneNumber": "(904) 209-8866",
+      "cid": "15040581243170215561"
+    },
+    {
+      "position": 6,
+      "title": "The Pump Guy",
+      "rating": 5,
+      "ratingCount": 136,
+      "category": "Repair service",
+      "phoneNumber": "(904) 727-8976",
+      "cid": "2438462210891511687"
+    },
+    {
+      "position": 7,
+      "title": "Ne Florida Well & Pump",
+      "rating": 4.8,
+      "ratingCount": 31,
+      "category": "Well drilling contractor",
+      "phoneNumber": "(904) 753-1367",
+      "website": "https://www.neflwellpump.com/",
+      "cid": "13297526326873137630"
+    },
+    {
+      "position": 8,
+      "title": "Perry's Pump Repair LLC",
+      "address": "21404 County Rd 241, Alachua, FL 32615",
+      "latitude": 29.851267,
+      "longitude": -82.49433,
+      "rating": 4.9,
+      "ratingCount": 928,
+      "category": "Well drilling contractor",
+      "phoneNumber": "(352) 316-4088",
+      "website": "https://www.perryspumprepair.com/",
+      "cid": "3154078002764864381"
+    },
+    {
+      "position": 9,
+      "title": "Partridge Well Drilling Company, Inc.",
+      "address": "4744 Collins Rd, Jacksonville, FL 32244",
+      "latitude": 30.19256,
+      "longitude": -81.7107,
+      "rating": 4.8,
+      "ratingCount": 255,
+      "category": "Well drilling contractor",
+      "phoneNumber": "(904) 269-1333",
+      "website": "https://partridgewell.com/",
+      "cid": "14498252279081623742"
+    },
+    {
+      "position": 10,
+      "title": "Complete Services Water Well",
+      "address": "9785 Well Water Rd, Jacksonville, FL 32220",
+      "latitude": 30.335112,
+      "longitude": -81.822556,
+      "rating": 4.6,
+      "ratingCount": 25,
+      "category": "Well drilling contractor",
+      "phoneNumber": "(904) 693-8635",
+      "website": "http://www.jaxwelldrilling.com/",
+      "cid": "11233151917104434410"
+    }
+  ],
+  "credits": 1
+}

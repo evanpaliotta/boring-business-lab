@@ -1,0 +1,125 @@
+{
+ "searchParameters": {
+  "q": "boat detailing in Jacksonville, FL",
+  "gl": "us",
+  "hl": "en",
+  "type": "places",
+  "num": 10,
+  "page": 1,
+  "engine": "google"
+ },
+ "places": [
+  {
+   "position": 1,
+   "title": "Jacksonville Mobile Boat Detailing",
+   "rating": 5,
+   "ratingCount": 17,
+   "category": "Boat detailing service",
+   "phoneNumber": "(904) 465-6312",
+   "website": "https://www.jacksonvillemobileboatdetailing.com/",
+   "cid": "16795237254683103468"
+  },
+  {
+   "position": 2,
+   "title": "Florida Boat Detailing",
+   "rating": 4.9,
+   "ratingCount": 87,
+   "category": "Boat repair shop",
+   "phoneNumber": "(386) 214-0667",
+   "website": "http://www.floridaboatdetailing.com/",
+   "cid": "1537215842573527646"
+  },
+  {
+   "position": 3,
+   "title": "Nautical Shine Florida",
+   "rating": 5,
+   "ratingCount": 24,
+   "category": "Boat detailing service",
+   "phoneNumber": "(904) 728-2358",
+   "website": "http://nauticalshinefl.com/",
+   "cid": "4163363446880460324"
+  },
+  {
+   "position": 4,
+   "title": "Coastal Boat Detailing LLC",
+   "address": "13614 Macapa Rd, Jacksonville, FL 32246",
+   "latitude": 30.293045,
+   "longitude": -81.45985,
+   "rating": 5,
+   "ratingCount": 13,
+   "category": "Boat detailing service",
+   "phoneNumber": "(904) 451-7455",
+   "website": "https://coastalboatdetailingllc.com/",
+   "cid": "6700683301677485903"
+  },
+  {
+   "position": 5,
+   "title": "Moran\u2019s Performance Detailing",
+   "address": "155 Tresca Rd Unit 211, Jacksonville, FL 32225",
+   "latitude": 30.325321,
+   "longitude": -81.53897,
+   "rating": 5,
+   "ratingCount": 428,
+   "category": "Car detailing service",
+   "phoneNumber": "(904) 717-7127",
+   "website": "https://www.moransperformancedetailing.com/",
+   "cid": "4708226480973108689"
+  },
+  {
+   "position": 6,
+   "title": "Florida Marine Detailing",
+   "address": "830 A1A N Ste 13-14, Ponte Vedra Beach, FL 32082",
+   "latitude": 30.19828,
+   "longitude": -81.38156,
+   "rating": 5,
+   "ratingCount": 12,
+   "category": "Boat repair shop",
+   "phoneNumber": "(904) 614-7560",
+   "website": "http://flmarinedetailing.com/",
+   "cid": "12632682342782848963"
+  },
+  {
+   "position": 7,
+   "title": "Bayside Boat Detailing",
+   "rating": 5,
+   "ratingCount": 55,
+   "category": "Boat detailing service",
+   "phoneNumber": "(813) 480-7558",
+   "website": "https://baysideboatdetailing.com/",
+   "cid": "5827010836231529519"
+  },
+  {
+   "position": 8,
+   "title": "Northeast Florida Marine Care",
+   "rating": 5,
+   "ratingCount": 13,
+   "category": "Boat detailing service",
+   "phoneNumber": "(321) 458-2848",
+   "website": "http://neflmarinecare.com/",
+   "cid": "5118053954339512369"
+  },
+  {
+   "position": 9,
+   "title": "Excel Professional Detailing & Fiberglass Inc",
+   "address": "8940 San Jose Blvd, Jacksonville, FL 32257",
+   "latitude": 30.217169,
+   "longitude": -81.61833,
+   "rating": 5,
+   "ratingCount": 18,
+   "category": "Boat detailing service",
+   "phoneNumber": "(904) 716-2803",
+   "website": "http://www.excelfiberglassanddetailing.com/",
+   "cid": "8007994749359452432"
+  },
+  {
+   "position": 10,
+   "title": "KaTuna's Marine Detailing",
+   "rating": 5,
+   "ratingCount": 8,
+   "category": "Boat detailing service",
+   "phoneNumber": "(904) 629-6565",
+   "cid": "6740606779586762108"
+  }
+ ],
+ "credits": 1
+}
