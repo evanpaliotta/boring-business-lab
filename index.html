@@ -85,11 +85,6 @@ select.sort{border:1px solid var(--line);background:var(--card);border-radius:9p
 .idea h3{font-size:1.08rem;line-height:1.25}
 .idea .cat{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:4px}
 .idea .thesis{font-size:.9rem;color:var(--ink-2);margin:0}
-.status{font-size:.66rem;font-family:var(--mono);text-transform:uppercase;letter-spacing:.09em;padding:3px 8px;border-radius:4px;border:1px solid;white-space:nowrap}
-.st-seed{color:#6a5320;border-color:#d8c384;background:#f7efd8}
-.st-researching{color:#1d4a3f;border-color:#a9c3b6;background:#e6efe6}
-.st-validating{color:#8c3b1c;border-color:#dfb3a1;background:#fbeae0}
-.st-dropped{color:#6a756d;border-color:#cdd2c9;background:#eef0ea}
 .meta{display:grid;grid-template-columns:auto 1fr;gap:5px 10px;font-size:.8rem;border-top:1px dashed var(--line);padding-top:11px}
 .meta dt{color:var(--muted);font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;padding-top:2px}
 .meta dd{margin:0;color:var(--ink-2)}
@@ -373,7 +368,7 @@ const SEED = [
   },
   {
     id:"local-ai-agency", title:"AI services agency for $2M–$20M local trades", cat:"Services · Dream 100",
-    thesis:"Start with one trade and metro: use useful, personalized prospect research and visible proof to win a measurable marketing fix, then expand into recurring follow-up/automation or marketing operations. Agents handle repeatable research, audits, pacing, reporting and drafts; I retain client selection, pricing, strategy and approval of spend or sends.",
+    thesis:"Sell the business outcome, not AI or another tool: learn one trade client's context, build a custom software/workflow layer around how they work, and stay accountable for the result. Start with one niche outcome and one client; productize the repeatable delivery behind the scenes, then expand into recurring service.",
     rev:"Entry: scoped page/funnel or audit; charge for ongoing workflow only after proving client value. Test outcome-based pricing; use a 5x client-value target as a pricing discipline, not a guarantee. One source claims $10–20k systems / $2–5k monthly retainers; validate locally.",
     cap:"<$300",
     next:"Pick one trade/metro. Audit 10 ad-running firms on mobile; interview 5 owners about missed calls, follow-up and reporting pain; offer one tightly scoped fix with a baseline and agreed measurement. Track booked jobs, client value, delivery hours and willingness to pay before packaging a retainer.",
@@ -381,13 +376,14 @@ const SEED = [
     moat:"Trade-specific playbooks plus measurable proof, trusted local relationships and a content/referral loop. Agent-driven delivery reduces research/reporting labor, but is not a moat by itself.",
     risk:"Articles are playbooks, not validation: self-reported revenue and vendor statistics need independent checks. Long Dream-100 sales cycle; 5x ROI can be hard to attribute; recurring ad work adds performance/liability risk. Avoid risky bulk-email shortcuts; honor consent, deliverability and applicable law. Keep platform access read-only first; require human approval for spend, sends, contracts and pricing.",
     src:"https://x.com/boringmarketer/status/2112205041117360242",
-    origin:"Your links (boringmarketer + Ronin + Yarchi follow-ups)",
+    origin:"Your links (Boring Marketer + Ronin + Yarchi + Finlay Ekins)",
     refs:[
       {label:"Boring Marketer — local trades / Dream 100 playbook",url:"https://x.com/boringmarketer/status/2112205041117360242"},
       {label:"Ronin — Start a 1-Person Business with Claude (FULL COURSE)",url:"https://x.com/DeRonin_/status/2076690611399176506"},
-      {label:"Yarchi — How to build a one-person marketing agency with AI",url:"https://x.com/undefinedKi/status/2111804964334883320"}
+      {label:"Yarchi — How to build a one-person marketing agency with AI",url:"https://x.com/undefinedKi/status/2111804964334883320"},
+      {label:"Finlay Ekins — productized AI services / sell outcomes",url:"https://x.com/finlayekins/status/2113398480727425528"}
     ],
-    researchUpdate:"Two complementary playbooks broaden the offer beyond landing-page fixes. Ronin describes a service ladder (sites → recurring automations → integrated AI systems), public proof plus outbound, and pricing around a defensible 5x client return. Yarchi maps agency fulfillment to Win → Audit → Run → Report → Grow, automating repeatable data work while the owner approves consequential actions. Treat package prices and revenue claims as hypotheses, not market evidence.",
+    researchUpdate:"Positioning: sell a client-specific result and accountability, not software or AI expertise. Learn the client's context; adapt or build the workflow/software around their operation. Productize the internal recipe (playbook, workflow, verification) across clients, but keep the customer experience tailored. Start with one niche outcome and client, then automate what proves repeatable. This sharpens the earlier service ladder (site/funnel → recurring workflows → integrated systems) and agent-run Win → Audit → Run → Report → Grow delivery; claims remain unvalidated until buyers pay and outcomes are measured.",
     s:{demand:4, wtp:3, gap:4, competition:2, capital:5, fit:5}, updated:"2026-10-22"
   }
 ];
@@ -408,6 +404,7 @@ function load(){
         if(!parsed.migratedV2){
           const kill = new Set(["industrial-parts","compliance-calendar","kitchen-equip-service"]);
           saved = saved.filter(x=>!kill.has(x.id));
+          parsed.ideas = saved;
           for(const x of saved){
             if(x.id==="septic-capacity" && /gap_report/.test(x.src||"")) x.src = "data/nefl-supply-scan.csv · NE Florida supply scan";
           }
@@ -415,6 +412,24 @@ function load(){
           try{ localStorage.setItem(KEY, JSON.stringify(parsed)); }catch(e){}
         }
         const seed = SEED.find(x=>x.id==="local-ai-agency");
+        if(!parsed.migratedV3){
+          const remove = new Set(["industrial-parts","compliance-calendar","kitchen-equip-service"]);
+          saved = saved.filter(x=>!remove.has(x.id));
+          for(const x of saved) delete x.status;
+          const current = saved.find(x=>x.id==="local-ai-agency");
+          if(current){
+            const refs = current.refs || [];
+            const urls = new Set(refs.map(r=>r.url));
+            current.refs = [...refs, ...seed.refs.filter(r=>!urls.has(r.url))];
+            if(!(current.researchUpdate||"").includes("client-specific result")){
+              current.researchUpdate = [current.researchUpdate, seed.researchUpdate].filter(Boolean).join(" ");
+            }
+            current.origin = seed.origin;
+          }
+          parsed.ideas = saved;
+          parsed.migratedV3 = true;
+          try{ localStorage.setItem(KEY, JSON.stringify(parsed)); }catch(e){}
+        }
         let idea = saved.find(x=>x.id==="local-ai-agency");
         if(!idea){ idea = structuredClone(seed); saved.push(idea); }
         else {
