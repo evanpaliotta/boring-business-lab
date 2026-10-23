@@ -162,7 +162,6 @@ footer.site{border-top:1px solid var(--line);margin-top:26px;padding:26px 0 60px
     <p class="lede">A working pipeline, not a inspiration board. Every idea gets the same six questions, a number, and a next action. The rule: a business is only worth building when a real buyer with money meets a supplier with capacity — everything else is a domain name.</p>
     <div class="stats">
       <div class="stat"><b id="statCount">7</b><span>ideas tracked</span></div>
-      <div class="stat"><b id="statActive">5</b><span>live / in research</span></div>
       <div class="stat"><b id="statTop">—</b><span>top score</span></div>
       <div class="stat"><b>$0</b><span>spent so far</span></div>
     </div>
@@ -203,13 +202,6 @@ footer.site{border-top:1px solid var(--line);margin-top:26px;padding:26px 0 60px
   <section id="ideas">
     <div class="sechead"><h2>Pipeline</h2><span class="note" id="countNote">7 ideas</span></div>
     <div class="controls">
-      <div class="chips" id="statusChips">
-        <button class="chip" data-status="all" aria-pressed="true">All</button>
-        <button class="chip" data-status="seed" aria-pressed="false">Seed</button>
-        <button class="chip" data-status="researching" aria-pressed="false">Researching</button>
-        <button class="chip" data-status="validating" aria-pressed="false">Validating</button>
-        <button class="chip" data-status="dropped" aria-pressed="false">Dropped</button>
-      </div>
       <div class="search">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
         <input id="q" type="search" placeholder="Search ideas, customers, mechanics…" aria-label="Search ideas">
@@ -272,7 +264,6 @@ footer.site{border-top:1px solid var(--line);margin-top:26px;padding:26px 0 60px
     <div class="field"><label for="f_title">Idea</label><input id="f_title" required placeholder="e.g. Portable-toilet capacity brokering in South Texas"></div>
     <div class="two">
       <div class="field"><label for="f_cat">Category</label><input id="f_cat" placeholder="Rental / AI ops / Media"></div>
-      <div class="field"><label for="f_status">Status</label><select id="f_status"><option value="seed">Seed</option><option value="researching">Researching</option><option value="validating">Validating</option><option value="dropped">Dropped</option></select></div>
     </div>
     <div class="field"><label for="f_thesis">One-line thesis</label><input id="f_thesis" placeholder="Who pays, for what, and why now"></div>
     <div class="two">
@@ -309,10 +300,10 @@ const KEY = "bbl.v1";
 
 const SEED = [
   {
-    id:"crane-leads", title:"Specialty equipment lead arbitrage", cat:"Arbitrage · lead flow", status:"dropped",
+    id:"crane-leads", title:"Specialty equipment lead arbitrage", cat:"Arbitrage · lead flow",
     thesis:"Route real requests to whoever actually has capacity. Parked for North Florida: local operators already rank, so the gap is intake and dispatch, not visibility.",
     rev:"Per qualified request, or $500–800/mo exclusive", cap:"$50–300",
-    next:"Parked 2026-10-22: superseded by after-hours intake + dispatch (jax-after-hours-intake). Local scan says visibility is NOT the gap in Jax.",
+    next:"Cut from the active list 2026-10-22: superseded by after-hours intake + dispatch (jax-after-hours-intake). Local scan says visibility is NOT the gap in Jax.",
     pain:"Out-of-state industrial buyers can't tell who is available; local operators have no web presence and no intake process.",
     moat:"Routing relationships + response speed in 10–20 narrow markets. Not the domain.",
     risk:"Suppliers already full; rankings slow; Google treats thin city pages as doorway spam.",
@@ -321,7 +312,7 @@ const SEED = [
     s:{demand:3, wtp:3, gap:3, competition:2, capital:5, fit:4}, updated:"2026-10-22"
   },
   {
-    id:"jax-after-hours-intake", title:"After-hours intake desk for coastal trades", cat:"Local ops · dispatch", status:"researching",
+    id:"jax-after-hours-intake", title:"After-hours intake desk for coastal trades", cat:"Local ops · dispatch",
     thesis:"One local number that answers at 7pm on a Saturday, qualifies the job, quotes a range, and dispatches to whichever Jacksonville operator can actually serve today.",
     rev:"Per dispatched job ($40–120) or monthly retainer per operator", cap:"<$300",
     next:"Call Jacksonville Septic Tank Pumping (904) 747-8871 and Bullfrog (904) 680-5044; ask what happens to after-hours calls and whether they turn work away.",
@@ -333,7 +324,7 @@ const SEED = [
     s:{demand:4, wtp:3, gap:3, competition:3, capital:5, fit:5}, updated:"2026-10-22"
   },
   {
-    id:"ai-support-install", title:"AI support agent install for service SMBs", cat:"AI ops · done-for-you", status:"validating",
+    id:"ai-support-install", title:"AI support agent install for service SMBs", cat:"AI ops · done-for-you",
     thesis:"Sell a working outcome — tickets answered, calls triaged — using off-the-shelf agents; charge setup plus monthly tuning.",
     rev:"$1.5–2k setup + $300–800/mo", cap:"<$200",
     next:"Pick one vertical (dental, HVAC, equipment rental). Mystery-shop 10 of them; time their response.",
@@ -345,7 +336,7 @@ const SEED = [
     s:{demand:4, wtp:4, gap:3, competition:2, capital:5, fit:5}, updated:"2026-10-22"
   },
   {
-    id:"equip-fleet-broker", title:"Truck & trailer capacity brokerage", cat:"Brokerage · rental", status:"seed",
+    id:"equip-fleet-broker", title:"Truck & trailer capacity brokerage", cat:"Brokerage · rental",
     thesis:"Be the availability layer for small fleets: know who has trucks, trailers, and drivers free this week and place them.",
     rev:"15–25% of transaction, or flat placement fee", cap:"<$500",
     next:"Interview 3 small fleet owners about idle weeks and how they currently fill them.",
@@ -357,10 +348,10 @@ const SEED = [
     s:{demand:4, wtp:3, gap:3, competition:3, capital:5, fit:3}, updated:"2026-10-21"
   },
   {
-    id:"flight-newsletter", title:"City flight-deal newsletter", cat:"Media · niche", status:"dropped",
+    id:"flight-newsletter", title:"City flight-deal newsletter", cat:"Media · niche",
     thesis:"Own one city's flight-deal habit with automated fare alerts and local framing; monetise the list later.",
     rev:"Sponsorships, affiliates, paid tier", cap:"$60",
-    next:"Parked 2026-10-22: weak moat, weak willingness to pay — kept only as a reference pattern.",
+    next:"Cut from the active list 2026-10-22: weak moat, weak willingness to pay — kept only as a reference pattern.",
     pain:"People want cheap fares but hate searching; deal sites are national and generic.",
     moat:"Local audience habit and inbox position. Weak moat overall.",
     risk:"Thin margins, slow list growth, fare data terms, and a saturated national field.",
@@ -369,7 +360,7 @@ const SEED = [
     s:{demand:3, wtp:2, gap:2, competition:2, capital:5, fit:2}, updated:"2026-10-20"
   },
   {
-    id:"septic-capacity", title:"Septic & portable-sanitation dispatch desk", cat:"Local ops · dispatch", status:"researching",
+    id:"septic-capacity", title:"Septic & portable-sanitation dispatch desk", cat:"Local ops · dispatch",
     thesis:"Become the intake desk for a fragmented trade: one number, real availability, honest dispatch to whoever can serve today.",
     rev:"Per dispatched job ($40–120) or monthly retainer", cap:"<$400",
     next:"Call P & E Collectors (no site) and A-Plus (3 reviews, no site) first — the two invisible operators.",
@@ -381,7 +372,7 @@ const SEED = [
     s:{demand:4, wtp:3, gap:4, competition:3, capital:4, fit:3}, updated:"2026-10-22"
   },
   {
-    id:"local-ai-agency", title:"AI services agency for $2M–$20M local trades", cat:"Services · Dream 100", status:"seed",
+    id:"local-ai-agency", title:"AI services agency for $2M–$20M local trades", cat:"Services · Dream 100",
     thesis:"Start with one trade and metro: use useful, personalized prospect research and visible proof to win a measurable marketing fix, then expand into recurring follow-up/automation or marketing operations. Agents handle repeatable research, audits, pacing, reporting and drafts; I retain client selection, pricing, strategy and approval of spend or sends.",
     rev:"Entry: scoped page/funnel or audit; charge for ongoing workflow only after proving client value. Test outcome-based pricing; use a 5x client-value target as a pricing discipline, not a guarantee. One source claims $10–20k systems / $2–5k monthly retainers; validate locally.",
     cap:"<$300",
@@ -403,10 +394,8 @@ const SEED = [
 
 const $ = s => document.querySelector(s);
 const scoreOf = s => Math.round(FACTORS.reduce((a,[k]) => a + (s[k]||0)/5*WEIGHTS[k], 0) * 100);
-const STATUS_LABEL = {seed:"Seed", researching:"Researching", validating:"Validating", dropped:"Dropped"};
-
 let state = load();
-let filter = "all", query = "", sort = "score", editingId = null;
+let query = "", sort = "score", editingId = null;
 
 function load(){
   try{
@@ -419,9 +408,7 @@ function load(){
         if(!parsed.migratedV2){
           const kill = new Set(["industrial-parts","compliance-calendar","kitchen-equip-service"]);
           saved = saved.filter(x=>!kill.has(x.id));
-          const park = {"crane-leads":"dropped","flight-newsletter":"dropped"};
           for(const x of saved){
-            if(park[x.id] && x.status!=="dropped"){ x.status = park[x.id]; x.updated = "2026-10-22"; }
             if(x.id==="septic-capacity" && /gap_report/.test(x.src||"")) x.src = "data/nefl-supply-scan.csv · NE Florida supply scan";
           }
           parsed.migratedV2 = true;
@@ -451,7 +438,7 @@ function toast(msg){
 function esc(s){ return String(s??"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
 function visible(){
-  let list = state.filter(i => filter === "all" || i.status === filter);
+  let list = [...state];
   if(query){
     const q = query.toLowerCase();
     list = list.filter(i => [i.title,i.cat,i.thesis,i.pain,i.moat,i.risk,i.next,i.rev].join(" ").toLowerCase().includes(q));
@@ -469,8 +456,7 @@ function render(){
   const list = visible();
   $("#countNote").textContent = `${list.length} of ${state.length} shown`;
   $("#statCount").textContent = state.length;
-  $("#statActive").textContent = state.filter(i=>i.status!=="dropped").length;
-  const top = state.filter(i=>i.status!=="dropped").reduce((m,i)=>Math.max(m,scoreOf(i.s)),0);
+  const top = state.reduce((m,i)=>Math.max(m,scoreOf(i.s)),0);
   $("#statTop").textContent = top || "—";
   $("#grid").innerHTML = list.map(card).join("");
   $("#empty").hidden = list.length > 0;
@@ -478,12 +464,6 @@ function render(){
     el.querySelector(".toggle").addEventListener("click", ()=>el.classList.toggle("open"));
   });
   document.querySelectorAll("[data-edit]").forEach(b=>b.addEventListener("click", ()=>openForm(b.dataset.edit)));
-  document.querySelectorAll("[data-drop]").forEach(b=>b.addEventListener("click", ()=>{
-    const i = state.find(x=>x.id===b.dataset.drop);
-    i.status = i.status === "dropped" ? "seed" : "dropped";
-    i.updated = new Date().toISOString().slice(0,10); save(); render();
-    toast(i.status === "dropped" ? "Parked" : "Back in play");
-  }));
   document.querySelectorAll("[data-del]").forEach(b=>b.addEventListener("click", ()=>{
     if(!confirm("Delete this idea permanently?")) return;
     state = state.filter(x=>x.id!==b.dataset.del); save(); render(); toast("Deleted");
@@ -500,7 +480,6 @@ function card(i){
         <h3>${esc(i.title)}</h3>
         <div class="cat">${esc(i.cat)}</div>
       </div>
-      <div style="margin-left:auto"><span class="status st-${esc(i.status)}">${STATUS_LABEL[i.status]||i.status}</span></div>
     </div>
     <p class="thesis">${esc(i.thesis)}</p>
     <dl class="meta">
@@ -523,7 +502,6 @@ function card(i){
     <div class="actions">
       <button class="btn ghost tiny toggle">Details</button>
       <button class="btn ghost tiny" data-edit="${esc(i.id)}">Edit</button>
-      <button class="btn ghost tiny" data-drop="${esc(i.id)}">${i.status==="dropped"?"Restore":"Park"}</button>
       <button class="btn ghost tiny" data-del="${esc(i.id)}" title="Delete">✕</button>
     </div>
   </article>`;
@@ -557,7 +535,6 @@ function openForm(id){
   $("#dlgTitle").textContent = i ? "Edit idea" : "Add an idea";
   $("#f_title").value = i?.title || "";
   $("#f_cat").value = i?.cat || "";
-  $("#f_status").value = i?.status || "seed";
   $("#f_thesis").value = i?.thesis || "";
   $("#f_rev").value = i?.rev || "";
   $("#f_cap").value = i?.cap || "";
@@ -579,7 +556,6 @@ function saveIdea(){
   const payload = {
     title: $("#f_title").value.trim() || "Untitled idea",
     cat: $("#f_cat").value.trim() || "Uncategorised",
-    status: $("#f_status").value,
     thesis: $("#f_thesis").value.trim(),
     rev: $("#f_rev").value.trim() || "—",
     cap: $("#f_cap").value.trim() || "—",
@@ -612,12 +588,6 @@ $("#closeDlg").addEventListener("click", ()=>$("#dlg").close());
 $("#cancelBtn").addEventListener("click", ()=>$("#dlg").close());
 
 /* controls */
-$("#statusChips").addEventListener("click", e => {
-  const b = e.target.closest(".chip"); if(!b) return;
-  filter = b.dataset.status;
-  document.querySelectorAll("#statusChips .chip").forEach(c => c.setAttribute("aria-pressed", String(c===b)));
-  render();
-});
 $("#q").addEventListener("input", e => { query = e.target.value.trim(); render(); });
 $("#sort").addEventListener("change", e => { sort = e.target.value; render(); });
 
