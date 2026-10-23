@@ -487,6 +487,127 @@ Southlantic Services|(843) 626-9856|4.9|w
 """),
 },
 
+"hurricane shutter installation": {
+ "Jacksonville FL": ("core", """
+First Coast Hurricane Shutters|(904) 467-7008|5.0|w
+Mastercraft Shutters & Blinds|(904) 379-7544|5.0|w
+Budget Blinds of Northern Jacksonville|(904) 515-6156|5.0|w
+Reece Windows & Doors|(904) 643-7755|4.8|w
+KMS Systems|(904) 568-4211|5.0|w
+Simply Shutters North Florida|(904) 913-0009|5.0|w
+ArmorGuard Exteriors|(904) 844-0335|4.9|w
+"""),
+ "Jacksonville Beach FL": ("core", """
+First Coast Hurricane Shutters|(904) 467-7008|5.0|w
+Budget Blinds of Northern Jacksonville|(904) 515-6156|5.0|w
+Mastercraft Shutters & Blinds|(904) 379-7544|5.0|w
+Reece Windows & Doors|(904) 643-7755|4.8|w
+KMS Systems|(904) 568-4211|5.0|w
+Beach Shutters and Blinds|(904) 439-2151|5.0|w
+Atlantic Garage Experts|(904) 853-8553|4.9|w
+"""),
+ "Ponte Vedra Beach FL": ("core", """
+First Coast Hurricane Shutters|(904) 467-7008|5.0|w
+NAC INSTALLS|(904) 640-7841|5.0|w
+Mastercraft Shutters & Blinds|(904) 379-7544|5.0|w
+Beach Shutters and Blinds|(904) 439-2151|5.0|w
+Budget Blinds of Northern Jacksonville|(904) 515-6156|5.0|w
+KMS Systems|(904) 568-4211|5.0|w
+Reece Windows & Doors|(904) 643-7755|4.8|w
+"""),
+ "Orange Park FL": ("core", """
+First Coast Hurricane Shutters|(904) 467-7008|5.0|w
+Hurricane Protection by Design|(904) 536-1430|5.0|-
+"""),
+ "Middleburg FL": ("core", """
+First Coast Hurricane Shutters|(904) 467-7008|5.0|w
+Window World of Northeast Florida|(904) 443-7001|4.7|w
+Better Exterior Solutions|(904) 561-2747|4.8|w
+Reece Windows & Doors|(904) 643-7755|4.8|w
+Anderson Exteriors|(904) 955-5830|5.0|w
+ArmorGuard Exteriors|(904) 844-0335|4.9|w
+Hurricane Protection By Design|(904) 276-4030||-
+"""),
+ "Green Cove Springs FL": ("fringe", """
+First Coast Hurricane Shutters|(904) 467-7008|5.0|-
+Hurricane Armor|(904) 517-7607|5.0|-
+Smart Guard Shutters|(386) 227-6295|4.9|-
+Better Exterior Solutions|(904) 561-2747|4.8|-
+APS Hurricane Protection|(386) 281-5151|4.8|-
+"""),
+ "Saint Johns FL": ("fringe", """
+First Coast Hurricane Shutters|(904) 467-7008|5.0|w
+Mastercraft Shutters & Blinds|(904) 379-7544|5.0|w
+Window World of Northeast Florida|(904) 443-7001|4.7|w
+Titan Outdoor Solutions|(904) 484-7580|4.1|w
+Those Blind Guys|(904) 944-9596|5.0|w
+Budget Blinds of Northern Jacksonville|(904) 515-6156|5.0|w
+All About Blinds & Shutters|(904) 746-4994|4.8|w
+"""),
+ "Fleming Island FL": ("fringe", """
+First Coast Hurricane Shutters|(904) 467-7008|5.0|w
+Hurricane Protection by Design|(904) 536-1430|5.0|-
+Window World of Northeast Florida|(904) 443-7001|4.7|w
+Reece Windows & Doors|(904) 643-7755|4.8|w
+Renewal by Andersen of Jacksonville|(904) 507-6370|4.8|w
+Better Exterior Solutions|(904) 561-2747|4.8|w
+Action Windows & Siding|(904) 276-1207|5.0|w
+"""),
+ "Saint Augustine FL": ("fringe", """
+Titan Outdoor Solutions|(904) 484-7580|4.1|-
+Anastasia Shutters & Shades|(904) 794-0005|5.0|-
+First Coast Hurricane Shutters|(904) 467-7008|5.0|-
+Waters Edge Window Decor|(904) 567-6039|5.0|-
+Gotcha Covered of North St Johns|(904) 204-2367|5.0|-
+"""),
+ "Callahan FL": ("fringe", """
+First Coast Hurricane Shutters|(904) 467-7008|5.0|w
+J Rowland Shutters|(904) 335-7346|5.0|w
+NAC INSTALLS|(904) 640-7841|5.0|w
+Wells Windows & Doors|(904) 720-5003||-
+Mastercraft Shutters & Blinds|(904) 379-7544|5.0|w
+Reece Windows & Doors|(904) 643-7755|4.8|w
+Hurricane Protection by Design|(904) 536-1430|5.0|-
+"""),
+ "Yulee FL": ("fringe", """
+J Rowland Shutters|(904) 335-7346|5.0|w
+First Coast Hurricane Shutters|(904) 467-7008|5.0|w
+Bayside Shades and Shutters|(904) 761-7444|5.0|w
+Mastercraft Shutters & Blinds|(904) 379-7544|5.0|w
+Reece Windows & Doors|(904) 643-7755|4.8|w
+NAC INSTALLS|(904) 640-7841|5.0|w
+Wyatt's Contracting Services|(904) 468-7979|4.9|w
+"""),
+ "Fernandina Beach FL": ("fringe", """
+Bayside Shades and Shutters|(904) 761-7444|5.0|-
+J Rowland Shutters|(904) 335-7346|5.0|-
+First Coast Hurricane Shutters|(904) 467-7008|5.0|-
+NAC INSTALLS|(904) 640-7841|5.0|-
+Reece Windows & Doors|(904) 643-7755|4.8|-
+"""),
+},
+
+"marine salvage / recovery": {
+ "Jacksonville FL": ("core", """
+Sea Tow Jacksonville|(904) 220-7500|4.0|w
+Dixie Towing|(904) 251-3707|3.5|w
+Safe Harbor Towing|(904) 659-3888|4.7|w
+Lewis Diving & Salvage|(904) 221-0221|4.5|w
+Logan Diving & Salvage|(904) 731-0000|4.2|w
+Statewide Transportation & Recovery|(904) 746-0090|4.4|w
+St Johns Boat Co|(904) 251-3707|4.2|w
+"""),
+ "Jacksonville Beach FL": ("core", """
+Lewis Diving & Salvage|(904) 221-0221|4.5|w
+Beach Marine|(904) 249-8200|4.3|w
+Logan Diving & Salvage|(904) 731-0000|4.2|w
+Boathouse Discount Marine|(904) 778-7775|4.4|w
+Sailors Exchange Marine Supply|(904) 808-0667|4.7|w
+Jacksonville Boat Sales|(904) 330-0433|4.5|w
+St Johns Boat Co|(904) 251-3707|4.2|w
+"""),
+},
+
 "boat detailing": {
  "Jacksonville FL": ("core", """
 Jacksonville Mobile Boat Detailing|(904) 465-6312|5.0|w
@@ -495,9 +616,6 @@ Florida Marine Detailing|(904) 614-7560|5.0|w
 Dockside Mobile Marine|(904) 716-3966|5.0|w
 Moran's Performance Detailing (car)|(904) 717-7127|5.0|w
 Salty Boat Worx|(904) 667-8312|5.0|-
-"""),
- "Jacksonville Beach FL": ("core", """
-Jacksonville Beach Local Pool Cleaners (n/a)|-|-|-
 """),
  "Ponte Vedra Beach FL": ("core", """
 Florida Marine Detailing|(904) 614-7560|5.0|w
@@ -866,7 +984,10 @@ def main():
                 "basis": "Google Maps list view",
             })
 
+    seen = {(m["service"], m["metro"]) for m in market_rows}
     for service, metro, region, n, med, noweb, note in AGG:
+        if (service, metro) in seen:
+            continue  # row-level data already covers this cell
         market_rows.append({"service": service, "metro": metro, "region": region,
                             "operators": n, "median_rating": med, "no_website": noweb,
                             "unrated": None, "basis": "Google Maps list view",

@@ -65,10 +65,24 @@
    "fringe_metros": 5,
    "out_metros": 17
   },
+  "hurricane shutter installation": {
+   "cells": 25,
+   "operator_rows": 147,
+   "core_metros": 5,
+   "fringe_metros": 7,
+   "out_metros": 13
+  },
+  "marine salvage / recovery": {
+   "cells": 2,
+   "operator_rows": 14,
+   "core_metros": 2,
+   "fringe_metros": 0,
+   "out_metros": 0
+  },
   "boat detailing": {
-   "cells": 26,
-   "operator_rows": 160,
-   "core_metros": 7,
+   "cells": 25,
+   "operator_rows": 159,
+   "core_metros": 6,
    "fringe_metros": 5,
    "out_metros": 14
   },
@@ -78,13 +92,6 @@
    "core_metros": 7,
    "fringe_metros": 4,
    "out_metros": 6
-  },
-  "hurricane shutter installation": {
-   "cells": 25,
-   "operator_rows": 147,
-   "core_metros": 5,
-   "fringe_metros": 7,
-   "out_metros": 13
   },
   "porta potty rental": {
    "cells": 32,
@@ -108,13 +115,6 @@
    "out_metros": 0
   },
   "mobile mechanic": {
-   "cells": 2,
-   "operator_rows": 14,
-   "core_metros": 2,
-   "fringe_metros": 0,
-   "out_metros": 0
-  },
-  "marine salvage / recovery": {
    "cells": 2,
    "operator_rows": 14,
    "core_metros": 2,
@@ -674,6 +674,146 @@
    "basis": "Google Maps list view"
   },
   {
+   "service": "hurricane shutter installation",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Ponte Vedra Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Orange Park FL",
+   "region": "core",
+   "operators": 2,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Middleburg FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.85,
+   "no_website": 1,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Green Cove Springs FL",
+   "region": "fringe",
+   "operators": 5,
+   "median_rating": 4.9,
+   "no_website": 5,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Saint Johns FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Fleming Island FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Saint Augustine FL",
+   "region": "fringe",
+   "operators": 5,
+   "median_rating": 5.0,
+   "no_website": 5,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Callahan FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Yulee FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Fernandina Beach FL",
+   "region": "fringe",
+   "operators": 5,
+   "median_rating": 5.0,
+   "no_website": 5,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "marine salvage / recovery",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.2,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "marine salvage / recovery",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.4,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
    "service": "boat detailing",
    "metro": "Jacksonville FL",
    "region": "core",
@@ -681,16 +821,6 @@
    "median_rating": 5.0,
    "no_website": 1,
    "unrated": 0,
-   "basis": "Google Maps list view"
-  },
-  {
-   "service": "boat detailing",
-   "metro": "Jacksonville Beach FL",
-   "region": "core",
-   "operators": 1,
-   "median_rating": null,
-   "no_website": 1,
-   "unrated": 1,
    "basis": "Google Maps list view"
   },
   {
@@ -1119,138 +1249,6 @@
    "unrated": null,
    "basis": "Google Maps list view",
    "note": "Type1(nosite), JSC, Florida Docks, American Marine, Trailer Doc, Florida Dock & Boat Lifts, Millers"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Jacksonville FL",
-   "region": "core",
-   "operators": 7,
-   "median_rating": 5.0,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "First Coast Hurricane Shutters + 6 window-treatment/installation firms; only 1 true shutter specialist"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Jacksonville Beach FL",
-   "region": "core",
-   "operators": 7,
-   "median_rating": 5.0,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "same pool + Beach Shutters and Blinds, NAC Installs"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Ponte Vedra Beach FL",
-   "region": "core",
-   "operators": 7,
-   "median_rating": 5.0,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "First Coast, NAC, Mastercraft, Beach Shutters, Budget Blinds, KMS, Reece"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Orange Park FL",
-   "region": "core",
-   "operators": 2,
-   "median_rating": 5.0,
-   "no_website": 1,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "First Coast Hurricane Shutters, Hurricane Protection by Design (nosite) - thinnest core cell"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Middleburg FL",
-   "region": "core",
-   "operators": 7,
-   "median_rating": 4.9,
-   "no_website": 1,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "First Coast, Window World, Better Exterior, Reece, Anderson, ArmorGuard, Hurricane Protection by Design(nosite) - mostly generic"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Green Cove Springs FL",
-   "region": "fringe",
-   "operators": 5,
-   "median_rating": 5.0,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "First Coast, Hurricane Armor, Smart Guard(4.9), Better Exterior, APS Hurricane(4.8)"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Saint Johns FL",
-   "region": "fringe",
-   "operators": 7,
-   "median_rating": 5.0,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "First Coast, Mastercraft, Window World, Titan, Those Blind Guys, Budget Blinds, All About Blinds"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Fleming Island FL",
-   "region": "fringe",
-   "operators": 7,
-   "median_rating": 5.0,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "First Coast, Hurricane Protection by Design, Window World, Reece, Renewal by Andersen, Better Exterior, Action Windows"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Saint Augustine FL",
-   "region": "fringe",
-   "operators": 5,
-   "median_rating": 5.0,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "Titan(4.1), Anastasia Shutters, First Coast, Waters Edge, Gotcha Covered"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Callahan FL",
-   "region": "fringe",
-   "operators": 7,
-   "median_rating": 5.0,
-   "no_website": 1,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "First Coast, J Rowland, NAC, Wells Windows(nosite,no rating), Mastercraft, Reece, Hurricane Protection by Design"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Yulee FL",
-   "region": "fringe",
-   "operators": 7,
-   "median_rating": 5.0,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "J Rowland, First Coast, Bayside Shades, Mastercraft, Reece, NAC, Wyatt's(4.9)"
-  },
-  {
-   "service": "hurricane shutter installation",
-   "metro": "Fernandina Beach FL",
-   "region": "fringe",
-   "operators": 5,
-   "median_rating": 5.0,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "Bayside Shades, J Rowland, First Coast, NAC, Reece"
   },
   {
    "service": "hurricane shutter installation",
@@ -1889,28 +1887,6 @@
    "unrated": null,
    "basis": "Google Maps list view",
    "note": "Jax Cruisers, Q's(nosite), Neps(3.0,nosite), Mayport(nosite,unrated), McDermott, Simple, Bunting(nosite)"
-  },
-  {
-   "service": "marine salvage / recovery",
-   "metro": "Jacksonville FL",
-   "region": "core",
-   "operators": 7,
-   "median_rating": 4.0,
-   "no_website": 2,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "Sea Tow(4.0), Dixie Towing(3.5), Safe Harbor, Lewis Diving, Logan Diving, Statewide Recovery, St Johns Boat - no dedicated salvage operator"
-  },
-  {
-   "service": "marine salvage / recovery",
-   "metro": "Jacksonville Beach FL",
-   "region": "core",
-   "operators": 7,
-   "median_rating": 4.5,
-   "no_website": 0,
-   "unrated": null,
-   "basis": "Google Maps list view",
-   "note": "Lewis Diving, Beach Marine, Logan Diving, Boathouse Discount, Sailors Exchange, Jax Boat Sales, St Johns Boat"
   }
  ],
  "paid_pull": {
@@ -1918,18 +1894,6 @@
   "cost_usd": 0.0135,
   "what": "review counts (Google Places via serper, 7 calls) + keyword volume/CPC (Serpstat, 20 terms)",
   "review_depth": {
-   "marine salvage": {
-    "listings": 10,
-    "median_reviews": 12,
-    "min": 2,
-    "max": 517
-   },
-   "well pump repair": {
-    "listings": 20,
-    "median_reviews": 132,
-    "min": 15,
-    "max": 928
-   },
    "hurricane shutter installation": {
     "listings": 12,
     "median_reviews": 78,
@@ -1941,6 +1905,18 @@
     "median_reviews": 17,
     "min": 3,
     "max": 428
+   },
+   "marine salvage": {
+    "listings": 10,
+    "median_reviews": 12,
+    "min": 2,
+    "max": 517
+   },
+   "well pump repair": {
+    "listings": 20,
+    "median_reviews": 132,
+    "min": 15,
+    "max": 928
    }
   },
   "corrects": [

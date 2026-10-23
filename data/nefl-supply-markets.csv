@@ -54,8 +54,21 @@ well pump repair,Morehead City NC,out,3,4.6,0,0,Google Maps list view,
 well pump repair,Wilmington NC,out,6,4.5,3,1,Google Maps list view,
 well pump repair,Charleston SC,out,4,4.65,2,0,Google Maps list view,
 well pump repair,Myrtle Beach SC,out,7,4.9,2,0,Google Maps list view,
+hurricane shutter installation,Jacksonville FL,core,7,5.0,0,0,Google Maps list view,
+hurricane shutter installation,Jacksonville Beach FL,core,7,5.0,0,0,Google Maps list view,
+hurricane shutter installation,Ponte Vedra Beach FL,core,7,5.0,0,0,Google Maps list view,
+hurricane shutter installation,Orange Park FL,core,2,5.0,1,0,Google Maps list view,
+hurricane shutter installation,Middleburg FL,core,7,4.85,1,1,Google Maps list view,
+hurricane shutter installation,Green Cove Springs FL,fringe,5,4.9,5,0,Google Maps list view,
+hurricane shutter installation,Saint Johns FL,fringe,7,5.0,0,0,Google Maps list view,
+hurricane shutter installation,Fleming Island FL,fringe,7,4.8,1,0,Google Maps list view,
+hurricane shutter installation,Saint Augustine FL,fringe,5,5.0,5,0,Google Maps list view,
+hurricane shutter installation,Callahan FL,fringe,7,5.0,2,1,Google Maps list view,
+hurricane shutter installation,Yulee FL,fringe,7,5.0,0,0,Google Maps list view,
+hurricane shutter installation,Fernandina Beach FL,fringe,5,5.0,5,0,Google Maps list view,
+marine salvage / recovery,Jacksonville FL,core,7,4.2,0,0,Google Maps list view,
+marine salvage / recovery,Jacksonville Beach FL,core,7,4.4,0,0,Google Maps list view,
 boat detailing,Jacksonville FL,core,6,5.0,1,0,Google Maps list view,
-boat detailing,Jacksonville Beach FL,core,1,,1,1,Google Maps list view,
 boat detailing,Ponte Vedra Beach FL,core,6,5.0,0,0,Google Maps list view,
 boat detailing,Fleming Island FL,core,6,5.0,1,0,Google Maps list view,
 boat detailing,Orange Park FL,core,6,5.0,0,0,Google Maps list view,
@@ -97,18 +110,6 @@ dock / marine construction,Morehead City NC,out,7,5.0,1,,Google Maps list view,"
 dock / marine construction,Wilmington NC,out,7,5.0,0,,Google Maps list view,"North End, Dock Doctors, Vision, Wilmington Marine, F&S Lift Pro, F and S Marine, Logan Marine"
 dock / marine construction,Myrtle Beach SC,out,7,5.0,0,,Google Maps list view,"MB Elite, Greenbeach, Waterbridge, Myers, Beaver, Seven Seas(3.4), Dock Dudes"
 dock / marine construction,Ocala FL,out,7,4.9,1,,Google Maps list view,"Type1(nosite), JSC, Florida Docks, American Marine, Trailer Doc, Florida Dock & Boat Lifts, Millers"
-hurricane shutter installation,Jacksonville FL,core,7,5.0,0,,Google Maps list view,First Coast Hurricane Shutters + 6 window-treatment/installation firms; only 1 true shutter specialist
-hurricane shutter installation,Jacksonville Beach FL,core,7,5.0,0,,Google Maps list view,"same pool + Beach Shutters and Blinds, NAC Installs"
-hurricane shutter installation,Ponte Vedra Beach FL,core,7,5.0,0,,Google Maps list view,"First Coast, NAC, Mastercraft, Beach Shutters, Budget Blinds, KMS, Reece"
-hurricane shutter installation,Orange Park FL,core,2,5.0,1,,Google Maps list view,"First Coast Hurricane Shutters, Hurricane Protection by Design (nosite) - thinnest core cell"
-hurricane shutter installation,Middleburg FL,core,7,4.9,1,,Google Maps list view,"First Coast, Window World, Better Exterior, Reece, Anderson, ArmorGuard, Hurricane Protection by Design(nosite) - mostly generic"
-hurricane shutter installation,Green Cove Springs FL,fringe,5,5.0,0,,Google Maps list view,"First Coast, Hurricane Armor, Smart Guard(4.9), Better Exterior, APS Hurricane(4.8)"
-hurricane shutter installation,Saint Johns FL,fringe,7,5.0,0,,Google Maps list view,"First Coast, Mastercraft, Window World, Titan, Those Blind Guys, Budget Blinds, All About Blinds"
-hurricane shutter installation,Fleming Island FL,fringe,7,5.0,0,,Google Maps list view,"First Coast, Hurricane Protection by Design, Window World, Reece, Renewal by Andersen, Better Exterior, Action Windows"
-hurricane shutter installation,Saint Augustine FL,fringe,5,5.0,0,,Google Maps list view,"Titan(4.1), Anastasia Shutters, First Coast, Waters Edge, Gotcha Covered"
-hurricane shutter installation,Callahan FL,fringe,7,5.0,1,,Google Maps list view,"First Coast, J Rowland, NAC, Wells Windows(nosite,no rating), Mastercraft, Reece, Hurricane Protection by Design"
-hurricane shutter installation,Yulee FL,fringe,7,5.0,0,,Google Maps list view,"J Rowland, First Coast, Bayside Shades, Mastercraft, Reece, NAC, Wyatt's(4.9)"
-hurricane shutter installation,Fernandina Beach FL,fringe,5,5.0,0,,Google Maps list view,"Bayside Shades, J Rowland, First Coast, NAC, Reece"
 hurricane shutter installation,Gainesville FL,out,5,4.9,0,,Google Maps list view,"72 Hour Blind Factory, Gotcha Covered, Budget Blinds, My Blind and Shutter Store, First Coast (no local shutter specialist)"
 hurricane shutter installation,Ocala FL,out,7,4.9,0,,Google Maps list view,"Arnold's Aluminum, Gator Blinds, Grand View, Budget Blinds, Windoor, CWS(3.1), RC Windows"
 hurricane shutter installation,Lake City FL,out,5,4.9,0,,Google Maps list view,"Advanced Sun Shade, Florida Hurricane Shutters, Hurricane Shutter 4u, United Hurricane, Total Hurricane - all out-of-area phone numbers"
@@ -167,5 +168,3 @@ land clearing,Middleburg FL,core,2,5.0,0,,Google Maps list view,"Florida Land Cl
 land clearing,Saint Augustine FL,fringe,7,4.9,1,,Google Maps list view,"Ancient City(4.3,nosite), Hicks(4.0), Precision, Bug's Tree, Clarkson's(4.1), Clint's, W.C.H"
 mobile mechanic,Jacksonville FL,core,7,4.8,1,,Google Maps list view,"Simple Mobile Mechanic, RC Mobile, Q's(nosite), Jax Mobile Mechanics, Pedroso, Tevin's, McDermott"
 mobile mechanic,Jacksonville Beach FL,core,7,4.8,3,,Google Maps list view,"Jax Cruisers, Q's(nosite), Neps(3.0,nosite), Mayport(nosite,unrated), McDermott, Simple, Bunting(nosite)"
-marine salvage / recovery,Jacksonville FL,core,7,4.0,2,,Google Maps list view,"Sea Tow(4.0), Dixie Towing(3.5), Safe Harbor, Lewis Diving, Logan Diving, Statewide Recovery, St Johns Boat - no dedicated salvage operator"
-marine salvage / recovery,Jacksonville Beach FL,core,7,4.5,0,,Google Maps list view,"Lewis Diving, Beach Marine, Logan Diving, Boathouse Discount, Sailors Exchange, Jax Boat Sales, St Johns Boat"
