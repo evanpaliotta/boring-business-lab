@@ -1,0 +1,1916 @@
+{
+ "captured": "2026-10-22 / 2026-10-23",
+ "source": "Google Maps local list view (free browser extraction, no paid API)",
+ "cost_usd": 0.0,
+ "limitation": "Google Maps list view does not expose review counts in this layout. Supply strength is therefore expressed as operator count, median rating and website presence only. Review depth requires the paid Places API.",
+ "region_legend": {
+  "core": "Evan's backyard - Duval, Jacksonville Beach, St Johns, Clay, Nassau",
+  "fringe": "NE Florida outer ring, still drivable",
+  "out": "out-of-area comparison metros (GA/FL interior/NC/SC) - not prospects"
+ },
+ "assessment": {
+  "boat detailing": {
+   "verdict": "gap",
+   "why": "Mobile-first work with no shop requirement; core-river metros (Fleming Island, Orange Park, Middleburg, Amelia, Yulee) are thin on boat-only operators while the beaches are saturated at 5.0. The visible supply in most core metros is car detailers with a boat line."
+  },
+  "well pump repair": {
+   "verdict": "gap",
+   "why": "Deepest supply gap in the drivable ring. Orange Park returned 2 listings, Macclenny 3.0-3.2-rated shops, and a large share of core/fringe operators have no website at all (Destin's, Williams, Smitty's, Mumford, Mizell, The Pump Guy, St Johns Well). 24-hour flags are common, which reads as intake gap, not visibility gap."
+  },
+  "hurricane shutter installation": {
+   "verdict": "gap",
+   "why": "One true specialist (First Coast Hurricane Shutters) serves the whole core; every other result is a blinds store or window installer. Orange Park: 2 results. Consultative sale, so the sellable product is qualified appointments, not intake."
+  },
+  "marine salvage / recovery": {
+   "verdict": "thin-gap",
+   "why": "2-3 results per metro and no dedicated marine salvage operator in any scanned metro - only dive shops and tow services. Genuine availability gap, but storm-gated: a burst business, best run as the surge-brokering adjunct."
+  },
+  "septic tank pumping": {
+   "verdict": "saturated",
+   "why": "7-11 operators per metro at 4.3-5.0, nearly all with websites. No visibility gap anywhere in the ring. Only the after-hours intake angle survives."
+  },
+  "dock / marine construction": {
+   "verdict": "saturated",
+   "why": "7-10 per metro, median 4.9-5.0, websites near-universal. Premium trade with established relationships; not a lead-gen opening."
+  },
+  "porta potty rental": {
+   "verdict": "saturated-but-sloppy",
+   "why": "Heavy listing density, but a large share are unrated, no-website, city-name shell listings - the SEO-spam pattern. Real operators (Floaters, Premier, Fortis, Maxline, Carefree) are established. Not a clean gap."
+  },
+  "generator repair": {
+   "verdict": "adequate",
+   "why": "5-7 per metro, mostly electricians and generator dealers rather than repair specialists. Moderate opening at best; storm-season demand spike is real but seasonal."
+  },
+  "land clearing": {
+   "verdict": "saturated",
+   "why": "5-8 per metro at 5.0, developer-led with long sales cycles. Not a call-driven business."
+  },
+  "mobile mechanic": {
+   "verdict": "saturated",
+   "why": "7 per metro, 24-hour flags everywhere, several no-website operators. Density is high enough that this is a service-quality competition, not a supply gap."
+  }
+ },
+ "services": {
+  "septic tank pumping": {
+   "cells": 26,
+   "operator_rows": 168,
+   "core_metros": 9,
+   "fringe_metros": 3,
+   "out_metros": 14
+  },
+  "well pump repair": {
+   "cells": 29,
+   "operator_rows": 180,
+   "core_metros": 7,
+   "fringe_metros": 5,
+   "out_metros": 17
+  },
+  "boat detailing": {
+   "cells": 26,
+   "operator_rows": 160,
+   "core_metros": 7,
+   "fringe_metros": 5,
+   "out_metros": 14
+  },
+  "dock / marine construction": {
+   "cells": 17,
+   "operator_rows": 118,
+   "core_metros": 7,
+   "fringe_metros": 4,
+   "out_metros": 6
+  },
+  "hurricane shutter installation": {
+   "cells": 25,
+   "operator_rows": 147,
+   "core_metros": 5,
+   "fringe_metros": 7,
+   "out_metros": 13
+  },
+  "porta potty rental": {
+   "cells": 32,
+   "operator_rows": 186,
+   "core_metros": 7,
+   "fringe_metros": 8,
+   "out_metros": 17
+  },
+  "generator repair": {
+   "cells": 7,
+   "operator_rows": 41,
+   "core_metros": 5,
+   "fringe_metros": 2,
+   "out_metros": 0
+  },
+  "land clearing": {
+   "cells": 4,
+   "operator_rows": 24,
+   "core_metros": 3,
+   "fringe_metros": 1,
+   "out_metros": 0
+  },
+  "mobile mechanic": {
+   "cells": 2,
+   "operator_rows": 14,
+   "core_metros": 2,
+   "fringe_metros": 0,
+   "out_metros": 0
+  },
+  "marine salvage / recovery": {
+   "cells": 2,
+   "operator_rows": 14,
+   "core_metros": 2,
+   "fringe_metros": 0,
+   "out_metros": 0
+  }
+ },
+ "markets": [
+  {
+   "service": "septic tank pumping",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 10,
+   "median_rating": 4.65,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Orange Park FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.6,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Fleming Island FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.5,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Saint Augustine FL",
+   "region": "core",
+   "operators": 6,
+   "median_rating": 4.65,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Saint Johns FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.5,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Nocatee FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.5,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Green Cove Springs FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Fernandina Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Callahan FL",
+   "region": "fringe",
+   "operators": 6,
+   "median_rating": 4.4,
+   "no_website": 3,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Macclenny FL",
+   "region": "fringe",
+   "operators": 3,
+   "median_rating": 4.8,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Lake City FL",
+   "region": "fringe",
+   "operators": 4,
+   "median_rating": 4.55,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Gainesville FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.6,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Ocala FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.7,
+   "no_website": 4,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Starke FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.7,
+   "no_website": 4,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Tallahassee FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.6,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Brunswick GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Saint Marys GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Waycross GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Douglas GA",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 4.8,
+   "no_website": 1,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Valdosta GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.5,
+   "no_website": 4,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Jacksonville NC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Morehead City NC",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 4.6,
+   "no_website": 4,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Wilmington NC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.7,
+   "no_website": 0,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Charleston SC",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 4.7,
+   "no_website": 3,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "septic tank pumping",
+   "metro": "Myrtle Beach SC",
+   "region": "out",
+   "operators": 2,
+   "median_rating": 4.8,
+   "no_website": 0,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 12,
+   "median_rating": 4.7,
+   "no_website": 3,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Orange Park FL",
+   "region": "core",
+   "operators": 2,
+   "median_rating": 4.7,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Fleming Island FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.7,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Saint Johns FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.7,
+   "no_website": 3,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Nocatee FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.7,
+   "no_website": 3,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Callahan FL",
+   "region": "fringe",
+   "operators": 6,
+   "median_rating": 4.8,
+   "no_website": 4,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Macclenny FL",
+   "region": "fringe",
+   "operators": 6,
+   "median_rating": 4.0,
+   "no_website": 5,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Green Cove Springs FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 4.7,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Saint Augustine FL",
+   "region": "core",
+   "operators": 6,
+   "median_rating": 4.8,
+   "no_website": 3,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Yulee FL",
+   "region": "fringe",
+   "operators": 6,
+   "median_rating": 4.8,
+   "no_website": 3,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Fernandina Beach FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 4.7,
+   "no_website": 3,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Starke FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.7,
+   "no_website": 3,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Keystone Heights FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 4,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Hawthorne FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 3,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Gainesville FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Ocala FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Lake City FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 4,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Tallahassee FL",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 4.75,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Brunswick GA",
+   "region": "out",
+   "operators": 4,
+   "median_rating": 4.7,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Saint Marys GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 4,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Waycross GA",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 4.75,
+   "no_website": 4,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Douglas GA",
+   "region": "out",
+   "operators": 2,
+   "median_rating": 4.5,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Valdosta GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.0,
+   "no_website": 4,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Jacksonville NC",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 4.6,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Morehead City NC",
+   "region": "out",
+   "operators": 3,
+   "median_rating": 4.6,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Wilmington NC",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 4.5,
+   "no_website": 3,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Charleston SC",
+   "region": "out",
+   "operators": 4,
+   "median_rating": 4.65,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "well pump repair",
+   "metro": "Myrtle Beach SC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 6,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 1,
+   "median_rating": null,
+   "no_website": 1,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Ponte Vedra Beach FL",
+   "region": "core",
+   "operators": 6,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Fleming Island FL",
+   "region": "core",
+   "operators": 6,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Orange Park FL",
+   "region": "core",
+   "operators": 6,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Middleburg FL",
+   "region": "fringe",
+   "operators": 4,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Nocatee FL",
+   "region": "core",
+   "operators": 6,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Saint Augustine FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Amelia Island FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Yulee FL",
+   "region": "fringe",
+   "operators": 6,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Callahan FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Macclenny FL",
+   "region": "fringe",
+   "operators": 6,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 1,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Gainesville FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Ocala FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Lake City FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 4,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Starke FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 5,
+   "unrated": 2,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Tallahassee FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Brunswick GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Saint Marys GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Waycross GA",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 4.9,
+   "no_website": 3,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Douglas GA",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 4.6,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Valdosta GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Morehead City NC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Wilmington NC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Jacksonville NC",
+   "region": "out",
+   "operators": 3,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "boat detailing",
+   "metro": "Myrtle Beach SC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 2,
+   "unrated": 0,
+   "basis": "Google Maps list view"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 10,
+   "median_rating": 4.85,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "B&W, Barefoot, Kenyon, Serenity, Top Dog, Cove Points, Coastal Marine, Dock Doctors, Ashcraft, Master Marine"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 9,
+   "median_rating": 4.8,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "same metro pool + Docks, Decks & More, Legacy, Tidewater"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Ponte Vedra Beach FL",
+   "region": "core",
+   "operators": 8,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "OutBack, Docks Decks, Elite, Barefoot, Master Marine, Serenity, Coastal Marine"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Saint Johns FL",
+   "region": "core",
+   "operators": 8,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Dock On!, Coastal Marine, Anchor Marine(3.0), Ashcraft, Master Marine, Top Dog, Dock Doctors"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Nocatee FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "OutBack, Coastal Marine, Master Marine, Docks Decks, Ashcraft, Dock Doctors, Barefoot"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Fleming Island FL",
+   "region": "core",
+   "operators": 8,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Dock Experts, Legacy, Top Dog, Coastal Marine, Dock On!, Brothers Marine, Creekside"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Middleburg FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Dock Experts, Top Dog, Legacy x2, Creekside, Legacy Docks, Kenyon"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Green Cove Springs FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 4.6,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Marine CS(4.0,nosite), Top Dog, Creekside, Green Cove Marina, Black Creek Marina, McKinney Marine, Dock Experts"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Saint Augustine FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 4.85,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Olde Florida, St Aug Boat Works, LaConte(nosite), Yelton, Miner's(nosite), Oasis Boat Yard, Right Price(nosite)"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Callahan FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Kenyon, Cove Points, Pickett(nosite), Serenity, Coastal Marine, Tidewater(nosite), Barefoot"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Macclenny FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Kenyon, Top Dog, Legacy Docks, Legacy, Cove Points, Serenity, Tidewater"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Brunswick GA",
+   "region": "out",
+   "operators": 3,
+   "median_rating": 4.8,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Marineco, Brunswick Landing Boat Yard, Atlas Marine"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Saint Marys GA",
+   "region": "out",
+   "operators": 2,
+   "median_rating": 4.6,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "St Marys Boat Services, Pierce Marine(nosite)"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Morehead City NC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Outer Banks Marine, Buck(nosite), inner banks, Edgewater, Carteret Marine, Dynamic East, EZ Dock"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Wilmington NC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "North End, Dock Doctors, Vision, Wilmington Marine, F&S Lift Pro, F and S Marine, Logan Marine"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Myrtle Beach SC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "MB Elite, Greenbeach, Waterbridge, Myers, Beaver, Seven Seas(3.4), Dock Dudes"
+  },
+  {
+   "service": "dock / marine construction",
+   "metro": "Ocala FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Type1(nosite), JSC, Florida Docks, American Marine, Trailer Doc, Florida Dock & Boat Lifts, Millers"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "First Coast Hurricane Shutters + 6 window-treatment/installation firms; only 1 true shutter specialist"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "same pool + Beach Shutters and Blinds, NAC Installs"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Ponte Vedra Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "First Coast, NAC, Mastercraft, Beach Shutters, Budget Blinds, KMS, Reece"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Orange Park FL",
+   "region": "core",
+   "operators": 2,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "First Coast Hurricane Shutters, Hurricane Protection by Design (nosite) - thinnest core cell"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Middleburg FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "First Coast, Window World, Better Exterior, Reece, Anderson, ArmorGuard, Hurricane Protection by Design(nosite) - mostly generic"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Green Cove Springs FL",
+   "region": "fringe",
+   "operators": 5,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "First Coast, Hurricane Armor, Smart Guard(4.9), Better Exterior, APS Hurricane(4.8)"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Saint Johns FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "First Coast, Mastercraft, Window World, Titan, Those Blind Guys, Budget Blinds, All About Blinds"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Fleming Island FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "First Coast, Hurricane Protection by Design, Window World, Reece, Renewal by Andersen, Better Exterior, Action Windows"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Saint Augustine FL",
+   "region": "fringe",
+   "operators": 5,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Titan(4.1), Anastasia Shutters, First Coast, Waters Edge, Gotcha Covered"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Callahan FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "First Coast, J Rowland, NAC, Wells Windows(nosite,no rating), Mastercraft, Reece, Hurricane Protection by Design"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Yulee FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "J Rowland, First Coast, Bayside Shades, Mastercraft, Reece, NAC, Wyatt's(4.9)"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Fernandina Beach FL",
+   "region": "fringe",
+   "operators": 5,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Bayside Shades, J Rowland, First Coast, NAC, Reece"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Gainesville FL",
+   "region": "out",
+   "operators": 5,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "72 Hour Blind Factory, Gotcha Covered, Budget Blinds, My Blind and Shutter Store, First Coast (no local shutter specialist)"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Ocala FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Arnold's Aluminum, Gator Blinds, Grand View, Budget Blinds, Windoor, CWS(3.1), RC Windows"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Lake City FL",
+   "region": "out",
+   "operators": 5,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Advanced Sun Shade, Florida Hurricane Shutters, Hurricane Shutter 4u, United Hurricane, Total Hurricane - all out-of-area phone numbers"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Tallahassee FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Made in the Shade, Budget Blinds, Gulf Breeze, NRG, Florida Window Coverings, JM Storm Shutter, MPC"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Brunswick GA",
+   "region": "out",
+   "operators": 5,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Plantation Shutter Co(4.2), Little's Custom, Coastal Shutters, Palmetto, Garage Door of Brunswick"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Saint Marys GA",
+   "region": "out",
+   "operators": 5,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Custom Built Aluminum, J Rowland, Budget Blinds Golden Isles, World Class Windows, Cleansafe"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Waycross GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Heritage Pro Coatings, Security Blanket, Southern Gutter x2, J&M, White Star, Plantation Shutter Co - no local shutter specialist"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Douglas GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Castleberry(5.0), Dubberly's Glass(4.4), RGC Roofs, Window World SGA, Lowe's, South Georgia Shutters(3.7), Prograde"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Valdosta GA",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Window World SGA, A Shade of Perfection(4.3), Plantation Shutter & Blind, Fisher Rain Gutter, Hector & Sons, HC Wilkinson, Southern Window Works"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Wilmington NC",
+   "region": "out",
+   "operators": 5,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Port City, American Hurricane, Seacoast Systems, Creative Outdoor, Wilmington Awning"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Morehead City NC",
+   "region": "out",
+   "operators": 4,
+   "median_rating": 4.6,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Atlantic Breeze(4.9), Coastal Awnings(4.3), Hurricane Shield Systems, Shutter Solutions - 2 of 4 unrated"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Charleston SC",
+   "region": "out",
+   "operators": 5,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Lowcountry, Coastal Shutter, Windward, Carolina Shutter & Blinds, Sea Island"
+  },
+  {
+   "service": "hurricane shutter installation",
+   "metro": "Myrtle Beach SC",
+   "region": "out",
+   "operators": 5,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "AAA Blind & Shutter, Midatlantic Storm Protection, Plantation Shutter Pros, Shade and Shutter Expo, Hurricane Shutters of MB"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 4,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Jax Beach PP, Porta Potty Rentals Jax Beach, Neptune Beach PP, Floaters(4.5), Fortis, Porta Potty Rental Jax, Jax PP Rentals - most unrated/nosite"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 4,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Jax Beach PP(nosite), Porta Potty Rentals Jax Beach(nosite), Neptune Beach(nosite), Floaters, Fortis, Jax PP(nosite), Maxline"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Ponte Vedra Beach FL",
+   "region": "core",
+   "operators": 3,
+   "median_rating": 5.0,
+   "no_website": 3,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "PVB PP, Jax Beach Portable Toilet, Jax Beach PP - all no website"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Nocatee FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 4,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "PVB, Neptune Beach, Jax Beach x2, PP Rentals Jax Beach, Fortis, Carefree"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Orange Park FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Fortis, Premier Restroom, Maxline, BoldRiver, Mobile Thrones, Jax PP, Floaters"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Fleming Island FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Fortis, Fruit Cove Dumpster & PP(nosite), Floaters, Premier, BoldRiver, OP Dumpster & PP(nosite), Maxline"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Middleburg FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Portable Toilet Rentals Middleburg(nosite), KM & Sons, Fortis, Deep Branch, Jax Portables, BoldRiver, Maxline"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Green Cove Springs FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Neptune Beach(nosite), Fortis, Floaters, Jax Beach(nosite), Maxline, Carefree, Portable Toilet Rentals Middleburg"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Saint Johns FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Neptune Beach(nosite), Fortis, Floaters, Jax Beach(nosite), Carefree, Jax PP, Maxline"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Saint Augustine FL",
+   "region": "fringe",
+   "operators": 3,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Carefree, Doodie Calls, Elite PP of St Augustine(nosite, unrated)"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Saint Augustine Beach FL",
+   "region": "fringe",
+   "operators": 3,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Carefree, Doodie Calls, Elite PP St Augustine(nosite)"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Yulee FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Floaters, Neptune Beach, Fortis, Jax PP, PP Rental Jax, St Marys PP(nosite), Jax Beach PP"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Fernandina Beach FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 3,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Jax Beach PP, Floaters, ASAP Marketplace(3.1), Fortis, PP Rentals Jax Beach, Atlantic Beach PT(nosite), BoldRiver"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Callahan FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Floaters, Fortis, Neptune Beach, Jax PP, PP Rental Jax, Premier, Jax Beach PP"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Macclenny FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Premier, Floaters, Fortis, Jax Beach PP, Maxline, United Rentals(4.8), PP Rentals Jax City(nosite)"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Keystone Heights FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Gainesville PP, Hunk, Carefree, Fortis, Jax Beach PP, Floaters, Princess Portable(4.6)"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Hawthorne FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Hunk, PP Rentals Gainesville, Gainesville PP, Gainesville PP Rentals, PP Rentals of Gainesville, NextGen, Gainesville Portable"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Starke FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Premier, PP Rentals of Gainesville, Hunk, Floaters, Portable Toilet Rentals Middleburg, Gainesville PP Rentals, Princess(4.6)"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Gainesville FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 3,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Gainesville PP, Hunk, PP Rentals of Gainesville, Floaters, Gainesville PP Rentals x2, PP Rentals Gainesville"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Ocala FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 4,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Ocala PP Rentals x2, PP Rentals of Ocala(3.7), PP Rentals Ocala, Ocala Portable Toilet, PP Rental Ocala x2"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Lake City FL",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "386 INC, Doodie Calls, Porta Serve, Jones Luxury, Florida Portable, United Rentals(4.8), Veolia"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Tallahassee FL",
+   "region": "out",
+   "operators": 5,
+   "median_rating": 5.0,
+   "no_website": 3,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Tallahassee PP Rentals, Tallahassee PP Supplier, Doodie Calls x2, Tallahassee Portable Potty"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Brunswick GA",
+   "region": "out",
+   "operators": 4,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Brunswick PP Rentals, Brunswick PT Rentals, Prime Portable(nosite.. has site), Golden Isles Disposal(3.5)"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Saint Marys GA",
+   "region": "out",
+   "operators": 2,
+   "median_rating": 5.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "St Marys Portable Toilet, St Marys PP - neither has a website"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Waycross GA",
+   "region": "out",
+   "operators": 3,
+   "median_rating": 4.8,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Waycross PP, Sammy's Septic(4.2), Lewis Portable Restrooms"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Douglas GA",
+   "region": "out",
+   "operators": 2,
+   "median_rating": 4.8,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Douglas PP(nosite), A&C Septic"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Valdosta GA",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 5.0,
+   "no_website": 4,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Valdosta PP, Eugene PP, PP Rental Valdosta, Advanced Portable, Valdosta Porta Pros, Valdosta PT Rentals"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Jacksonville NC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Wild Water, Royal Flush, G&G, Septic Solutions, Fisher, Plowboy, Atlantic All-Pro"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Morehead City NC",
+   "region": "out",
+   "operators": 2,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Havelock PP(nosite), Patriot Waste"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Wilmington NC",
+   "region": "out",
+   "operators": 6,
+   "median_rating": 5.0,
+   "no_website": 3,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Wilmington PP(nosite), Oasis Restroom Trailers, Wilmington PT(nosite), ENC Restroom, Alfonzo(4.0,nosite), Rent-A-John"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Myrtle Beach SC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 4,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "MB PP, Elvis(4.8), MB PT(nosite), NMB PP(nosite), NMB PT(nosite), Ricky's, Palmetto"
+  },
+  {
+   "service": "porta potty rental",
+   "metro": "Charleston SC",
+   "region": "out",
+   "operators": 7,
+   "median_rating": 4.6,
+   "no_website": 3,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "United Site Services(2.7), Mightrex, Charleston PP, N Charleston PP(nosite), Access(3.5), Charleston PP Restrooms, PP Rentals N Charleston"
+  },
+  {
+   "service": "generator repair",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Generator Supercenter, Ronnie's Repair, DCS Electrician, American Electrical, GenCo, My Emergency Power, ACF Industrial"
+  },
+  {
+   "service": "generator repair",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 5,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "DCS, Generator Supercenter, Patriot Tool, Crawford Electric, Tenax"
+  },
+  {
+   "service": "generator repair",
+   "metro": "Orange Park FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.6,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Orange Park Small Eng, Generator Supercenter, My Emergency Power, Premier Power(4.1), ACF, Northern Tool, Ronnie's"
+  },
+  {
+   "service": "generator repair",
+   "metro": "Fleming Island FL",
+   "region": "core",
+   "operators": 5,
+   "median_rating": 4.9,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "My Emergency Power, Generator Supercenter, JL Power Systems, A-1 Tool, ACF"
+  },
+  {
+   "service": "generator repair",
+   "metro": "Saint Johns FL",
+   "region": "core",
+   "operators": 5,
+   "median_rating": 4.8,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "SJ Electrician, Generator Supercenter, My Emergency Power, Double A, Florida Generator Specialists"
+  },
+  {
+   "service": "generator repair",
+   "metro": "Saint Augustine FL",
+   "region": "fringe",
+   "operators": 5,
+   "median_rating": 4.7,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "St Aug Electric Motor Works, Florida Generator Specialists, Ag-Pro, Elkton Engine, Braddock's"
+  },
+  {
+   "service": "generator repair",
+   "metro": "Middleburg FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 4.5,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Middleburg Power Equipment(4.1), A-1 Tool(4.0), Nationwide Electric, Ag-Pro(4.1), Generator Supercenter, Black Creek Electrical, Gearhead"
+  },
+  {
+   "service": "land clearing",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 8,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Tomlinson, Southeast Forest, Advantage Outdoors, Varner, Shaw's(4.1), Set Apart(nosite), Champs, Christopher Rice(4.4)"
+  },
+  {
+   "service": "land clearing",
+   "metro": "Orange Park FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 5.0,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Florida Land Clearing, Tree Pros, Giddens, J&M Land and Demo, Tomlinson, Set Apart(nosite), Black Creek"
+  },
+  {
+   "service": "land clearing",
+   "metro": "Middleburg FL",
+   "region": "core",
+   "operators": 2,
+   "median_rating": 5.0,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Florida Land Clearing, Black Creek Land Clearing"
+  },
+  {
+   "service": "land clearing",
+   "metro": "Saint Augustine FL",
+   "region": "fringe",
+   "operators": 7,
+   "median_rating": 4.9,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Ancient City(4.3,nosite), Hicks(4.0), Precision, Bug's Tree, Clarkson's(4.1), Clint's, W.C.H"
+  },
+  {
+   "service": "mobile mechanic",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 1,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Simple Mobile Mechanic, RC Mobile, Q's(nosite), Jax Mobile Mechanics, Pedroso, Tevin's, McDermott"
+  },
+  {
+   "service": "mobile mechanic",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.8,
+   "no_website": 3,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Jax Cruisers, Q's(nosite), Neps(3.0,nosite), Mayport(nosite,unrated), McDermott, Simple, Bunting(nosite)"
+  },
+  {
+   "service": "marine salvage / recovery",
+   "metro": "Jacksonville FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.0,
+   "no_website": 2,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Sea Tow(4.0), Dixie Towing(3.5), Safe Harbor, Lewis Diving, Logan Diving, Statewide Recovery, St Johns Boat - no dedicated salvage operator"
+  },
+  {
+   "service": "marine salvage / recovery",
+   "metro": "Jacksonville Beach FL",
+   "region": "core",
+   "operators": 7,
+   "median_rating": 4.5,
+   "no_website": 0,
+   "unrated": null,
+   "basis": "Google Maps list view",
+   "note": "Lewis Diving, Beach Marine, Logan Diving, Boathouse Discount, Sailors Exchange, Jax Boat Sales, St Johns Boat"
+  }
+ ]
+}

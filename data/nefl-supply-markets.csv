@@ -1,0 +1,171 @@
+service,metro,region,operators,median_rating,no_website,unrated,basis,note
+septic tank pumping,Jacksonville FL,core,10,4.65,0,0,Google Maps list view,
+septic tank pumping,Jacksonville Beach FL,core,7,4.8,0,0,Google Maps list view,
+septic tank pumping,Orange Park FL,core,7,4.6,0,0,Google Maps list view,
+septic tank pumping,Fleming Island FL,core,7,4.5,0,0,Google Maps list view,
+septic tank pumping,Saint Augustine FL,core,6,4.65,0,0,Google Maps list view,
+septic tank pumping,Saint Johns FL,core,7,4.5,0,0,Google Maps list view,
+septic tank pumping,Nocatee FL,core,7,4.5,0,0,Google Maps list view,
+septic tank pumping,Green Cove Springs FL,core,7,4.8,0,0,Google Maps list view,
+septic tank pumping,Fernandina Beach FL,core,7,4.9,1,0,Google Maps list view,
+septic tank pumping,Callahan FL,fringe,6,4.4,3,1,Google Maps list view,
+septic tank pumping,Macclenny FL,fringe,3,4.8,1,0,Google Maps list view,
+septic tank pumping,Lake City FL,fringe,4,4.55,1,0,Google Maps list view,
+septic tank pumping,Gainesville FL,out,7,4.6,0,0,Google Maps list view,
+septic tank pumping,Ocala FL,out,7,4.7,4,0,Google Maps list view,
+septic tank pumping,Starke FL,out,7,4.7,4,1,Google Maps list view,
+septic tank pumping,Tallahassee FL,out,7,4.6,1,0,Google Maps list view,
+septic tank pumping,Brunswick GA,out,7,5.0,2,0,Google Maps list view,
+septic tank pumping,Saint Marys GA,out,7,4.9,1,0,Google Maps list view,
+septic tank pumping,Waycross GA,out,7,4.9,2,0,Google Maps list view,
+septic tank pumping,Douglas GA,out,6,4.8,1,1,Google Maps list view,
+septic tank pumping,Valdosta GA,out,7,4.5,4,0,Google Maps list view,
+septic tank pumping,Jacksonville NC,out,7,4.8,2,0,Google Maps list view,
+septic tank pumping,Morehead City NC,out,6,4.6,4,1,Google Maps list view,
+septic tank pumping,Wilmington NC,out,7,4.7,0,1,Google Maps list view,
+septic tank pumping,Charleston SC,out,6,4.7,3,1,Google Maps list view,
+septic tank pumping,Myrtle Beach SC,out,2,4.8,0,1,Google Maps list view,
+well pump repair,Jacksonville FL,core,12,4.7,3,0,Google Maps list view,
+well pump repair,Jacksonville Beach FL,core,7,4.8,2,0,Google Maps list view,
+well pump repair,Orange Park FL,core,2,4.7,0,0,Google Maps list view,
+well pump repair,Fleming Island FL,core,7,4.7,1,0,Google Maps list view,
+well pump repair,Saint Johns FL,core,7,4.7,3,0,Google Maps list view,
+well pump repair,Nocatee FL,core,7,4.7,3,0,Google Maps list view,
+well pump repair,Callahan FL,fringe,6,4.8,4,0,Google Maps list view,
+well pump repair,Macclenny FL,fringe,6,4.0,5,0,Google Maps list view,
+well pump repair,Green Cove Springs FL,fringe,7,4.7,2,0,Google Maps list view,
+well pump repair,Saint Augustine FL,core,6,4.8,3,1,Google Maps list view,
+well pump repair,Yulee FL,fringe,6,4.8,3,0,Google Maps list view,
+well pump repair,Fernandina Beach FL,fringe,7,4.7,3,0,Google Maps list view,
+well pump repair,Starke FL,out,7,4.7,3,0,Google Maps list view,
+well pump repair,Keystone Heights FL,out,7,4.8,4,0,Google Maps list view,
+well pump repair,Hawthorne FL,out,7,4.9,3,0,Google Maps list view,
+well pump repair,Gainesville FL,out,7,4.9,0,0,Google Maps list view,
+well pump repair,Ocala FL,out,7,4.9,1,0,Google Maps list view,
+well pump repair,Lake City FL,out,7,4.9,4,0,Google Maps list view,
+well pump repair,Tallahassee FL,out,6,4.75,0,0,Google Maps list view,
+well pump repair,Brunswick GA,out,4,4.7,1,0,Google Maps list view,
+well pump repair,Saint Marys GA,out,7,4.8,4,1,Google Maps list view,
+well pump repair,Waycross GA,out,6,4.75,4,0,Google Maps list view,
+well pump repair,Douglas GA,out,2,4.5,2,0,Google Maps list view,
+well pump repair,Valdosta GA,out,7,4.0,4,0,Google Maps list view,
+well pump repair,Jacksonville NC,out,6,4.6,2,0,Google Maps list view,
+well pump repair,Morehead City NC,out,3,4.6,0,0,Google Maps list view,
+well pump repair,Wilmington NC,out,6,4.5,3,1,Google Maps list view,
+well pump repair,Charleston SC,out,4,4.65,2,0,Google Maps list view,
+well pump repair,Myrtle Beach SC,out,7,4.9,2,0,Google Maps list view,
+boat detailing,Jacksonville FL,core,6,5.0,1,0,Google Maps list view,
+boat detailing,Jacksonville Beach FL,core,1,,1,1,Google Maps list view,
+boat detailing,Ponte Vedra Beach FL,core,6,5.0,0,0,Google Maps list view,
+boat detailing,Fleming Island FL,core,6,5.0,1,0,Google Maps list view,
+boat detailing,Orange Park FL,core,6,5.0,0,0,Google Maps list view,
+boat detailing,Middleburg FL,fringe,4,5.0,1,0,Google Maps list view,
+boat detailing,Nocatee FL,core,6,5.0,1,0,Google Maps list view,
+boat detailing,Saint Augustine FL,core,7,5.0,2,1,Google Maps list view,
+boat detailing,Amelia Island FL,fringe,7,5.0,2,0,Google Maps list view,
+boat detailing,Yulee FL,fringe,6,5.0,2,0,Google Maps list view,
+boat detailing,Callahan FL,fringe,7,5.0,0,1,Google Maps list view,
+boat detailing,Macclenny FL,fringe,6,5.0,1,1,Google Maps list view,
+boat detailing,Gainesville FL,out,7,5.0,1,0,Google Maps list view,
+boat detailing,Ocala FL,out,7,5.0,2,0,Google Maps list view,
+boat detailing,Lake City FL,out,7,4.9,4,0,Google Maps list view,
+boat detailing,Starke FL,out,7,4.9,5,2,Google Maps list view,
+boat detailing,Tallahassee FL,out,7,5.0,0,0,Google Maps list view,
+boat detailing,Brunswick GA,out,7,5.0,1,0,Google Maps list view,
+boat detailing,Saint Marys GA,out,7,4.9,2,0,Google Maps list view,
+boat detailing,Waycross GA,out,6,4.9,3,0,Google Maps list view,
+boat detailing,Douglas GA,out,6,4.6,0,0,Google Maps list view,
+boat detailing,Valdosta GA,out,7,4.8,1,0,Google Maps list view,
+boat detailing,Morehead City NC,out,7,5.0,1,0,Google Maps list view,
+boat detailing,Wilmington NC,out,7,5.0,1,0,Google Maps list view,
+boat detailing,Jacksonville NC,out,3,4.9,0,0,Google Maps list view,
+boat detailing,Myrtle Beach SC,out,7,4.9,2,0,Google Maps list view,
+dock / marine construction,Jacksonville FL,core,10,4.85,2,,Google Maps list view,"B&W, Barefoot, Kenyon, Serenity, Top Dog, Cove Points, Coastal Marine, Dock Doctors, Ashcraft, Master Marine"
+dock / marine construction,Jacksonville Beach FL,core,9,4.8,1,,Google Maps list view,"same metro pool + Docks, Decks & More, Legacy, Tidewater"
+dock / marine construction,Ponte Vedra Beach FL,core,8,4.9,0,,Google Maps list view,"OutBack, Docks Decks, Elite, Barefoot, Master Marine, Serenity, Coastal Marine"
+dock / marine construction,Saint Johns FL,core,8,5.0,1,,Google Maps list view,"Dock On!, Coastal Marine, Anchor Marine(3.0), Ashcraft, Master Marine, Top Dog, Dock Doctors"
+dock / marine construction,Nocatee FL,core,7,5.0,0,,Google Maps list view,"OutBack, Coastal Marine, Master Marine, Docks Decks, Ashcraft, Dock Doctors, Barefoot"
+dock / marine construction,Fleming Island FL,core,8,5.0,0,,Google Maps list view,"Dock Experts, Legacy, Top Dog, Coastal Marine, Dock On!, Brothers Marine, Creekside"
+dock / marine construction,Middleburg FL,core,7,4.9,0,,Google Maps list view,"Dock Experts, Top Dog, Legacy x2, Creekside, Legacy Docks, Kenyon"
+dock / marine construction,Green Cove Springs FL,fringe,7,4.6,1,,Google Maps list view,"Marine CS(4.0,nosite), Top Dog, Creekside, Green Cove Marina, Black Creek Marina, McKinney Marine, Dock Experts"
+dock / marine construction,Saint Augustine FL,fringe,7,4.85,2,,Google Maps list view,"Olde Florida, St Aug Boat Works, LaConte(nosite), Yelton, Miner's(nosite), Oasis Boat Yard, Right Price(nosite)"
+dock / marine construction,Callahan FL,fringe,7,4.9,1,,Google Maps list view,"Kenyon, Cove Points, Pickett(nosite), Serenity, Coastal Marine, Tidewater(nosite), Barefoot"
+dock / marine construction,Macclenny FL,fringe,7,4.9,1,,Google Maps list view,"Kenyon, Top Dog, Legacy Docks, Legacy, Cove Points, Serenity, Tidewater"
+dock / marine construction,Brunswick GA,out,3,4.8,0,,Google Maps list view,"Marineco, Brunswick Landing Boat Yard, Atlas Marine"
+dock / marine construction,Saint Marys GA,out,2,4.6,1,,Google Maps list view,"St Marys Boat Services, Pierce Marine(nosite)"
+dock / marine construction,Morehead City NC,out,7,5.0,1,,Google Maps list view,"Outer Banks Marine, Buck(nosite), inner banks, Edgewater, Carteret Marine, Dynamic East, EZ Dock"
+dock / marine construction,Wilmington NC,out,7,5.0,0,,Google Maps list view,"North End, Dock Doctors, Vision, Wilmington Marine, F&S Lift Pro, F and S Marine, Logan Marine"
+dock / marine construction,Myrtle Beach SC,out,7,5.0,0,,Google Maps list view,"MB Elite, Greenbeach, Waterbridge, Myers, Beaver, Seven Seas(3.4), Dock Dudes"
+dock / marine construction,Ocala FL,out,7,4.9,1,,Google Maps list view,"Type1(nosite), JSC, Florida Docks, American Marine, Trailer Doc, Florida Dock & Boat Lifts, Millers"
+hurricane shutter installation,Jacksonville FL,core,7,5.0,0,,Google Maps list view,First Coast Hurricane Shutters + 6 window-treatment/installation firms; only 1 true shutter specialist
+hurricane shutter installation,Jacksonville Beach FL,core,7,5.0,0,,Google Maps list view,"same pool + Beach Shutters and Blinds, NAC Installs"
+hurricane shutter installation,Ponte Vedra Beach FL,core,7,5.0,0,,Google Maps list view,"First Coast, NAC, Mastercraft, Beach Shutters, Budget Blinds, KMS, Reece"
+hurricane shutter installation,Orange Park FL,core,2,5.0,1,,Google Maps list view,"First Coast Hurricane Shutters, Hurricane Protection by Design (nosite) - thinnest core cell"
+hurricane shutter installation,Middleburg FL,core,7,4.9,1,,Google Maps list view,"First Coast, Window World, Better Exterior, Reece, Anderson, ArmorGuard, Hurricane Protection by Design(nosite) - mostly generic"
+hurricane shutter installation,Green Cove Springs FL,fringe,5,5.0,0,,Google Maps list view,"First Coast, Hurricane Armor, Smart Guard(4.9), Better Exterior, APS Hurricane(4.8)"
+hurricane shutter installation,Saint Johns FL,fringe,7,5.0,0,,Google Maps list view,"First Coast, Mastercraft, Window World, Titan, Those Blind Guys, Budget Blinds, All About Blinds"
+hurricane shutter installation,Fleming Island FL,fringe,7,5.0,0,,Google Maps list view,"First Coast, Hurricane Protection by Design, Window World, Reece, Renewal by Andersen, Better Exterior, Action Windows"
+hurricane shutter installation,Saint Augustine FL,fringe,5,5.0,0,,Google Maps list view,"Titan(4.1), Anastasia Shutters, First Coast, Waters Edge, Gotcha Covered"
+hurricane shutter installation,Callahan FL,fringe,7,5.0,1,,Google Maps list view,"First Coast, J Rowland, NAC, Wells Windows(nosite,no rating), Mastercraft, Reece, Hurricane Protection by Design"
+hurricane shutter installation,Yulee FL,fringe,7,5.0,0,,Google Maps list view,"J Rowland, First Coast, Bayside Shades, Mastercraft, Reece, NAC, Wyatt's(4.9)"
+hurricane shutter installation,Fernandina Beach FL,fringe,5,5.0,0,,Google Maps list view,"Bayside Shades, J Rowland, First Coast, NAC, Reece"
+hurricane shutter installation,Gainesville FL,out,5,4.9,0,,Google Maps list view,"72 Hour Blind Factory, Gotcha Covered, Budget Blinds, My Blind and Shutter Store, First Coast (no local shutter specialist)"
+hurricane shutter installation,Ocala FL,out,7,4.9,0,,Google Maps list view,"Arnold's Aluminum, Gator Blinds, Grand View, Budget Blinds, Windoor, CWS(3.1), RC Windows"
+hurricane shutter installation,Lake City FL,out,5,4.9,0,,Google Maps list view,"Advanced Sun Shade, Florida Hurricane Shutters, Hurricane Shutter 4u, United Hurricane, Total Hurricane - all out-of-area phone numbers"
+hurricane shutter installation,Tallahassee FL,out,7,5.0,0,,Google Maps list view,"Made in the Shade, Budget Blinds, Gulf Breeze, NRG, Florida Window Coverings, JM Storm Shutter, MPC"
+hurricane shutter installation,Brunswick GA,out,5,4.9,0,,Google Maps list view,"Plantation Shutter Co(4.2), Little's Custom, Coastal Shutters, Palmetto, Garage Door of Brunswick"
+hurricane shutter installation,Saint Marys GA,out,5,5.0,0,,Google Maps list view,"Custom Built Aluminum, J Rowland, Budget Blinds Golden Isles, World Class Windows, Cleansafe"
+hurricane shutter installation,Waycross GA,out,7,4.9,0,,Google Maps list view,"Heritage Pro Coatings, Security Blanket, Southern Gutter x2, J&M, White Star, Plantation Shutter Co - no local shutter specialist"
+hurricane shutter installation,Douglas GA,out,7,4.8,0,,Google Maps list view,"Castleberry(5.0), Dubberly's Glass(4.4), RGC Roofs, Window World SGA, Lowe's, South Georgia Shutters(3.7), Prograde"
+hurricane shutter installation,Valdosta GA,out,7,4.8,0,,Google Maps list view,"Window World SGA, A Shade of Perfection(4.3), Plantation Shutter & Blind, Fisher Rain Gutter, Hector & Sons, HC Wilkinson, Southern Window Works"
+hurricane shutter installation,Wilmington NC,out,5,4.9,0,,Google Maps list view,"Port City, American Hurricane, Seacoast Systems, Creative Outdoor, Wilmington Awning"
+hurricane shutter installation,Morehead City NC,out,4,4.6,0,,Google Maps list view,"Atlantic Breeze(4.9), Coastal Awnings(4.3), Hurricane Shield Systems, Shutter Solutions - 2 of 4 unrated"
+hurricane shutter installation,Charleston SC,out,5,4.9,0,,Google Maps list view,"Lowcountry, Coastal Shutter, Windward, Carolina Shutter & Blinds, Sea Island"
+hurricane shutter installation,Myrtle Beach SC,out,5,4.9,0,,Google Maps list view,"AAA Blind & Shutter, Midatlantic Storm Protection, Plantation Shutter Pros, Shade and Shutter Expo, Hurricane Shutters of MB"
+porta potty rental,Jacksonville FL,core,7,5.0,4,,Google Maps list view,"Jax Beach PP, Porta Potty Rentals Jax Beach, Neptune Beach PP, Floaters(4.5), Fortis, Porta Potty Rental Jax, Jax PP Rentals - most unrated/nosite"
+porta potty rental,Jacksonville Beach FL,core,7,5.0,4,,Google Maps list view,"Jax Beach PP(nosite), Porta Potty Rentals Jax Beach(nosite), Neptune Beach(nosite), Floaters, Fortis, Jax PP(nosite), Maxline"
+porta potty rental,Ponte Vedra Beach FL,core,3,5.0,3,,Google Maps list view,"PVB PP, Jax Beach Portable Toilet, Jax Beach PP - all no website"
+porta potty rental,Nocatee FL,core,7,5.0,4,,Google Maps list view,"PVB, Neptune Beach, Jax Beach x2, PP Rentals Jax Beach, Fortis, Carefree"
+porta potty rental,Orange Park FL,core,7,5.0,0,,Google Maps list view,"Fortis, Premier Restroom, Maxline, BoldRiver, Mobile Thrones, Jax PP, Floaters"
+porta potty rental,Fleming Island FL,core,7,5.0,1,,Google Maps list view,"Fortis, Fruit Cove Dumpster & PP(nosite), Floaters, Premier, BoldRiver, OP Dumpster & PP(nosite), Maxline"
+porta potty rental,Middleburg FL,core,7,5.0,1,,Google Maps list view,"Portable Toilet Rentals Middleburg(nosite), KM & Sons, Fortis, Deep Branch, Jax Portables, BoldRiver, Maxline"
+porta potty rental,Green Cove Springs FL,fringe,7,5.0,2,,Google Maps list view,"Neptune Beach(nosite), Fortis, Floaters, Jax Beach(nosite), Maxline, Carefree, Portable Toilet Rentals Middleburg"
+porta potty rental,Saint Johns FL,fringe,7,5.0,2,,Google Maps list view,"Neptune Beach(nosite), Fortis, Floaters, Jax Beach(nosite), Carefree, Jax PP, Maxline"
+porta potty rental,Saint Augustine FL,fringe,3,5.0,1,,Google Maps list view,"Carefree, Doodie Calls, Elite PP of St Augustine(nosite, unrated)"
+porta potty rental,Saint Augustine Beach FL,fringe,3,5.0,1,,Google Maps list view,"Carefree, Doodie Calls, Elite PP St Augustine(nosite)"
+porta potty rental,Yulee FL,fringe,7,5.0,2,,Google Maps list view,"Floaters, Neptune Beach, Fortis, Jax PP, PP Rental Jax, St Marys PP(nosite), Jax Beach PP"
+porta potty rental,Fernandina Beach FL,fringe,7,5.0,3,,Google Maps list view,"Jax Beach PP, Floaters, ASAP Marketplace(3.1), Fortis, PP Rentals Jax Beach, Atlantic Beach PT(nosite), BoldRiver"
+porta potty rental,Callahan FL,fringe,7,5.0,2,,Google Maps list view,"Floaters, Fortis, Neptune Beach, Jax PP, PP Rental Jax, Premier, Jax Beach PP"
+porta potty rental,Macclenny FL,fringe,7,5.0,2,,Google Maps list view,"Premier, Floaters, Fortis, Jax Beach PP, Maxline, United Rentals(4.8), PP Rentals Jax City(nosite)"
+porta potty rental,Keystone Heights FL,out,7,5.0,2,,Google Maps list view,"Gainesville PP, Hunk, Carefree, Fortis, Jax Beach PP, Floaters, Princess Portable(4.6)"
+porta potty rental,Hawthorne FL,out,7,5.0,2,,Google Maps list view,"Hunk, PP Rentals Gainesville, Gainesville PP, Gainesville PP Rentals, PP Rentals of Gainesville, NextGen, Gainesville Portable"
+porta potty rental,Starke FL,out,7,5.0,2,,Google Maps list view,"Premier, PP Rentals of Gainesville, Hunk, Floaters, Portable Toilet Rentals Middleburg, Gainesville PP Rentals, Princess(4.6)"
+porta potty rental,Gainesville FL,out,7,5.0,3,,Google Maps list view,"Gainesville PP, Hunk, PP Rentals of Gainesville, Floaters, Gainesville PP Rentals x2, PP Rentals Gainesville"
+porta potty rental,Ocala FL,out,7,5.0,4,,Google Maps list view,"Ocala PP Rentals x2, PP Rentals of Ocala(3.7), PP Rentals Ocala, Ocala Portable Toilet, PP Rental Ocala x2"
+porta potty rental,Lake City FL,out,7,5.0,1,,Google Maps list view,"386 INC, Doodie Calls, Porta Serve, Jones Luxury, Florida Portable, United Rentals(4.8), Veolia"
+porta potty rental,Tallahassee FL,out,5,5.0,3,,Google Maps list view,"Tallahassee PP Rentals, Tallahassee PP Supplier, Doodie Calls x2, Tallahassee Portable Potty"
+porta potty rental,Brunswick GA,out,4,5.0,2,,Google Maps list view,"Brunswick PP Rentals, Brunswick PT Rentals, Prime Portable(nosite.. has site), Golden Isles Disposal(3.5)"
+porta potty rental,Saint Marys GA,out,2,5.0,2,,Google Maps list view,"St Marys Portable Toilet, St Marys PP - neither has a website"
+porta potty rental,Waycross GA,out,3,4.8,1,,Google Maps list view,"Waycross PP, Sammy's Septic(4.2), Lewis Portable Restrooms"
+porta potty rental,Douglas GA,out,2,4.8,1,,Google Maps list view,"Douglas PP(nosite), A&C Septic"
+porta potty rental,Valdosta GA,out,6,5.0,4,,Google Maps list view,"Valdosta PP, Eugene PP, PP Rental Valdosta, Advanced Portable, Valdosta Porta Pros, Valdosta PT Rentals"
+porta potty rental,Jacksonville NC,out,7,5.0,0,,Google Maps list view,"Wild Water, Royal Flush, G&G, Septic Solutions, Fisher, Plowboy, Atlantic All-Pro"
+porta potty rental,Morehead City NC,out,2,5.0,1,,Google Maps list view,"Havelock PP(nosite), Patriot Waste"
+porta potty rental,Wilmington NC,out,6,5.0,3,,Google Maps list view,"Wilmington PP(nosite), Oasis Restroom Trailers, Wilmington PT(nosite), ENC Restroom, Alfonzo(4.0,nosite), Rent-A-John"
+porta potty rental,Myrtle Beach SC,out,7,5.0,4,,Google Maps list view,"MB PP, Elvis(4.8), MB PT(nosite), NMB PP(nosite), NMB PT(nosite), Ricky's, Palmetto"
+porta potty rental,Charleston SC,out,7,4.6,3,,Google Maps list view,"United Site Services(2.7), Mightrex, Charleston PP, N Charleston PP(nosite), Access(3.5), Charleston PP Restrooms, PP Rentals N Charleston"
+generator repair,Jacksonville FL,core,7,4.9,0,,Google Maps list view,"Generator Supercenter, Ronnie's Repair, DCS Electrician, American Electrical, GenCo, My Emergency Power, ACF Industrial"
+generator repair,Jacksonville Beach FL,core,5,4.9,0,,Google Maps list view,"DCS, Generator Supercenter, Patriot Tool, Crawford Electric, Tenax"
+generator repair,Orange Park FL,core,7,4.6,0,,Google Maps list view,"Orange Park Small Eng, Generator Supercenter, My Emergency Power, Premier Power(4.1), ACF, Northern Tool, Ronnie's"
+generator repair,Fleming Island FL,core,5,4.9,0,,Google Maps list view,"My Emergency Power, Generator Supercenter, JL Power Systems, A-1 Tool, ACF"
+generator repair,Saint Johns FL,core,5,4.8,0,,Google Maps list view,"SJ Electrician, Generator Supercenter, My Emergency Power, Double A, Florida Generator Specialists"
+generator repair,Saint Augustine FL,fringe,5,4.7,0,,Google Maps list view,"St Aug Electric Motor Works, Florida Generator Specialists, Ag-Pro, Elkton Engine, Braddock's"
+generator repair,Middleburg FL,fringe,7,4.5,0,,Google Maps list view,"Middleburg Power Equipment(4.1), A-1 Tool(4.0), Nationwide Electric, Ag-Pro(4.1), Generator Supercenter, Black Creek Electrical, Gearhead"
+land clearing,Jacksonville FL,core,8,5.0,1,,Google Maps list view,"Tomlinson, Southeast Forest, Advantage Outdoors, Varner, Shaw's(4.1), Set Apart(nosite), Champs, Christopher Rice(4.4)"
+land clearing,Orange Park FL,core,7,5.0,1,,Google Maps list view,"Florida Land Clearing, Tree Pros, Giddens, J&M Land and Demo, Tomlinson, Set Apart(nosite), Black Creek"
+land clearing,Middleburg FL,core,2,5.0,0,,Google Maps list view,"Florida Land Clearing, Black Creek Land Clearing"
+land clearing,Saint Augustine FL,fringe,7,4.9,1,,Google Maps list view,"Ancient City(4.3,nosite), Hicks(4.0), Precision, Bug's Tree, Clarkson's(4.1), Clint's, W.C.H"
+mobile mechanic,Jacksonville FL,core,7,4.8,1,,Google Maps list view,"Simple Mobile Mechanic, RC Mobile, Q's(nosite), Jax Mobile Mechanics, Pedroso, Tevin's, McDermott"
+mobile mechanic,Jacksonville Beach FL,core,7,4.8,3,,Google Maps list view,"Jax Cruisers, Q's(nosite), Neps(3.0,nosite), Mayport(nosite,unrated), McDermott, Simple, Bunting(nosite)"
+marine salvage / recovery,Jacksonville FL,core,7,4.0,2,,Google Maps list view,"Sea Tow(4.0), Dixie Towing(3.5), Safe Harbor, Lewis Diving, Logan Diving, Statewide Recovery, St Johns Boat - no dedicated salvage operator"
+marine salvage / recovery,Jacksonville Beach FL,core,7,4.5,0,,Google Maps list view,"Lewis Diving, Beach Marine, Logan Diving, Boathouse Discount, Sailors Exchange, Jax Boat Sales, St Johns Boat"

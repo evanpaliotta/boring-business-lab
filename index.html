@@ -148,6 +148,7 @@ footer.site{border-top:1px solid var(--line);margin-top:26px;padding:26px 0 60px
 <div class="bar"><div class="wrap">
   <div class="brand"><span class="dot"></span>Boring Business Lab <span class="sub">/ personal idea pipeline</span></div>
   <div class="spacer"></div>
+  <a class="btn ghost tiny" href="validation-nefl-services.html" style="text-decoration:none">Supply scan (10 trades)</a>
   <a class="btn ghost tiny" href="validation-jax.html" style="text-decoration:none;background:#1d4a3f;color:#f7f5ec;border-color:#1d4a3f">Jax validation pack</a>
   <button class="btn ghost tiny" id="exportBtn">Export JSON</button>
   <button class="btn tiny" id="addBtn">+ Add idea</button>
@@ -406,6 +407,24 @@ const SEED = [
     risk:"Quality control on other people's work; thin tickets; emergency expectations 24/7.",
     src:"https://idealab.ai",
     s:{demand:4, wtp:3, gap:3, competition:2, capital:4, fit:2}, updated:"2026-10-18"
+  },
+  {
+    id:"local-ai-agency", title:"AI services agency for $2M–$20M local trades", cat:"Services · Dream 100", status:"seed",
+    thesis:"Start with one trade and metro: use useful, personalized prospect research and visible proof to win a measurable marketing fix, then expand into recurring follow-up/automation or marketing operations. Agents handle repeatable research, audits, pacing, reporting and drafts; I retain client selection, pricing, strategy and approval of spend or sends.",
+    rev:"Entry: scoped page/funnel or audit; charge for ongoing workflow only after proving client value. Test outcome-based pricing; use a 5x client-value target as a pricing discipline, not a guarantee. One source claims $10–20k systems / $2–5k monthly retainers; validate locally.",
+    cap:"<$300",
+    next:"Pick one trade/metro. Audit 10 ad-running firms on mobile; interview 5 owners about missed calls, follow-up and reporting pain; offer one tightly scoped fix with a baseline and agreed measurement. Track booked jobs, client value, delivery hours and willingness to pay before packaging a retainer.",
+    pain:"Local trades lose paid leads through weak landing pages, unanswered calls and slow follow-up. Once clients grow, agencies also burn time on repetitive audits, budget pacing and reports that can be systematized.",
+    moat:"Trade-specific playbooks plus measurable proof, trusted local relationships and a content/referral loop. Agent-driven delivery reduces research/reporting labor, but is not a moat by itself.",
+    risk:"Articles are playbooks, not validation: self-reported revenue and vendor statistics need independent checks. Long Dream-100 sales cycle; 5x ROI can be hard to attribute; recurring ad work adds performance/liability risk. Avoid risky bulk-email shortcuts; honor consent, deliverability and applicable law. Keep platform access read-only first; require human approval for spend, sends, contracts and pricing.",
+    src:"https://x.com/boringmarketer/status/2112205041117360242",
+    refs:[
+      {label:"Boring Marketer — local trades / Dream 100 playbook",url:"https://x.com/boringmarketer/status/2112205041117360242"},
+      {label:"Ronin — Start a 1-Person Business with Claude (FULL COURSE)",url:"https://x.com/DeRonin_/status/2076690611399176506"},
+      {label:"Yarchi — How to build a one-person marketing agency with AI",url:"https://x.com/undefinedKi/status/2111804964334883320"}
+    ],
+    researchUpdate:"Two complementary playbooks broaden the offer beyond landing-page fixes. Ronin describes a service ladder (sites → recurring automations → integrated AI systems), public proof plus outbound, and pricing around a defensible 5x client return. Yarchi maps agency fulfillment to Win → Audit → Run → Report → Grow, automating repeatable data work while the owner approves consequential actions. Treat package prices and revenue claims as hypotheses, not market evidence.",
+    s:{demand:4, wtp:3, gap:4, competition:2, capital:5, fit:5}, updated:"2026-10-22"
   }
 ];
 
@@ -419,7 +438,20 @@ let filter = "all", query = "", sort = "score", editingId = null;
 function load(){
   try{
     const raw = localStorage.getItem(KEY);
-    if(raw){ const parsed = JSON.parse(raw); if(Array.isArray(parsed.ideas)) return parsed.ideas; }
+    if(raw){
+      const parsed = JSON.parse(raw);
+      if(Array.isArray(parsed.ideas)){
+        const saved = parsed.ideas;
+        const seed = SEED.find(x=>x.id==="local-ai-agency");
+        let idea = saved.find(x=>x.id==="local-ai-agency");
+        if(!idea){ idea = structuredClone(seed); saved.push(idea); }
+        else {
+          if(!idea.refs?.length) idea.refs = seed.refs;
+          if(!idea.researchUpdate) idea.researchUpdate = seed.researchUpdate;
+        }
+        return saved;
+      }
+    }
   }catch(e){}
   return structuredClone(SEED);
 }
@@ -498,6 +530,8 @@ function card(i){
       <h4>Scores</h4>
       <div class="scores6">${six}</div>
       ${i.src ? `<h4>Source</h4><p><a href="${esc(i.src)}" target="_blank" rel="noopener">${esc(i.src.replace(/^https?:\/\//,"").slice(0,58))}…</a></p>` : ""}
+      ${i.researchUpdate ? `<h4>Research update</h4><p>${esc(i.researchUpdate)}</p>` : ""}
+      ${i.refs?.length ? `<h4>Related sources</h4><ul>${i.refs.map(r=>`<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a></li>`).join("")}</ul>` : ""}
       <h4>Updated</h4><p>${esc(i.updated||"—")}</p>
     </div>
     <div class="actions">
@@ -568,6 +602,8 @@ function saveIdea(){
     moat: $("#f_moat").value.trim(),
     risk: $("#f_risk").value.trim(),
     src: $("#f_src").value.trim(),
+    refs: editingId ? (state.find(x=>x.id===editingId)?.refs||[]) : [],
+    researchUpdate: editingId ? (state.find(x=>x.id===editingId)?.researchUpdate||"") : "",
     s: readSliders(),
     updated: new Date().toISOString().slice(0,10)
   };

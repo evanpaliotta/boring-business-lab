@@ -1,0 +1,509 @@
+service,metro,region,operator,phone,rating,website
+septic tank pumping,Jacksonville FL,core,Duck Duck Rooter,(904) 209-9050,4.8,yes
+septic tank pumping,Jacksonville FL,core,Flamingo Septic,(904) 222-7465,4.5,yes
+septic tank pumping,Jacksonville FL,core,Metro Rooter (Wind River),(904) 567-3775,4.8,yes
+septic tank pumping,Jacksonville FL,core,Dr. Poo Sanitation Solutions,(904) 727-0000,4.9,yes
+septic tank pumping,Jacksonville FL,core,Jacksonville Septic Tank Pumping,(904) 747-8871,4.3,yes
+septic tank pumping,Jacksonville FL,core,Bullfrog Septic,(904) 680-5044,5.0,yes
+septic tank pumping,Jacksonville FL,core,Presto Plumbing & Septic,(904) 944-4644,4.8,yes
+septic tank pumping,Jacksonville FL,core,O'Connor's Plumbing & Septic,(904) 767-4059,4.5,yes
+septic tank pumping,Jacksonville FL,core,Septic Specialists LLC,(904) 895-5785,4.5,yes
+septic tank pumping,Jacksonville FL,core,Jax Plumbing & Septic Tank,(904) 786-1380,4.3,yes
+septic tank pumping,Jacksonville Beach FL,core,Jacksonville Septic Tank Pumping,(904) 747-8871,4.3,yes
+septic tank pumping,Jacksonville Beach FL,core,Flamingo Septic,(904) 222-7465,4.5,yes
+septic tank pumping,Jacksonville Beach FL,core,Bullfrog Septic,(904) 680-5044,5.0,yes
+septic tank pumping,Jacksonville Beach FL,core,Duck Duck Rooter,(904) 209-9050,4.8,yes
+septic tank pumping,Jacksonville Beach FL,core,Metro Rooter,(904) 567-3775,4.8,yes
+septic tank pumping,Jacksonville Beach FL,core,Dr. Poo Sanitation Solutions,(904) 727-0000,4.9,yes
+septic tank pumping,Jacksonville Beach FL,core,Septic Specialists LLC,(904) 895-5785,4.5,yes
+septic tank pumping,Orange Park FL,core,Florida Pump Service,(904) 269-0202,4.6,yes
+septic tank pumping,Orange Park FL,core,Duck Duck Rooter,(904) 209-9050,4.8,yes
+septic tank pumping,Orange Park FL,core,Jacksonville Septic Tank Pumping,(904) 747-8871,4.3,yes
+septic tank pumping,Orange Park FL,core,Flamingo Septic,(904) 222-7465,4.5,yes
+septic tank pumping,Orange Park FL,core,Grant's Plumbing,(904) 600-0707,4.9,yes
+septic tank pumping,Orange Park FL,core,Jax Plumbing & Septic Tank,(904) 786-1380,4.3,yes
+septic tank pumping,Orange Park FL,core,Presto Plumbing & Septic,(904) 944-4644,4.8,yes
+septic tank pumping,Fleming Island FL,core,Flamingo Septic,(904) 222-7465,4.5,yes
+septic tank pumping,Fleming Island FL,core,Jacksonville Septic Tank Pumping,(904) 747-8871,4.3,yes
+septic tank pumping,Fleming Island FL,core,Jax Plumbing & Septic Tank,(904) 786-1380,4.3,yes
+septic tank pumping,Fleming Island FL,core,Florida Pump Service,(904) 269-0202,4.6,yes
+septic tank pumping,Fleming Island FL,core,Duck Duck Rooter,(904) 209-9050,4.8,yes
+septic tank pumping,Fleming Island FL,core,Grant's Plumbing,(904) 600-0707,4.9,yes
+septic tank pumping,Fleming Island FL,core,JL Smith Septic Tank,(904) 378-1411,4.5,yes
+septic tank pumping,Saint Augustine FL,core,Moore's Sand and Septic,(904) 824-8939,4.9,yes
+septic tank pumping,Saint Augustine FL,core,Burney's Septic Tank Service,(904) 829-2953,4.5,yes
+septic tank pumping,Saint Augustine FL,core,East Coast Septic Services,(904) 545-6241,3.3,yes
+septic tank pumping,Saint Augustine FL,core,McDaniel's Sand & Septic Tank,(904) 824-1033,4.0,yes
+septic tank pumping,Saint Augustine FL,core,Mr. Rooter Plumbing of St. Augustine,(386) 338-0107,4.8,yes
+septic tank pumping,Saint Augustine FL,core,Outhouse Septic,(904) 829-1184,5.0,yes
+septic tank pumping,Saint Johns FL,core,Moore's Sand and Septic,(904) 824-8939,4.9,yes
+septic tank pumping,Saint Johns FL,core,Burney's Septic Tank Service,(904) 829-2953,4.5,yes
+septic tank pumping,Saint Johns FL,core,Jacksonville Septic Tank Pumping,(904) 747-8871,4.3,yes
+septic tank pumping,Saint Johns FL,core,Duck Duck Rooter,(904) 209-9050,4.8,yes
+septic tank pumping,Saint Johns FL,core,Presto Plumbing & Septic,(904) 944-4644,4.8,yes
+septic tank pumping,Saint Johns FL,core,East Coast Septic Services,(904) 545-6241,3.6,yes
+septic tank pumping,Saint Johns FL,core,A1 Septic Service,,2.8,yes
+septic tank pumping,Nocatee FL,core,Jacksonville Septic Tank Pumping,(904) 747-8871,4.3,yes
+septic tank pumping,Nocatee FL,core,Moore's Sand and Septic,(904) 824-8939,4.9,yes
+septic tank pumping,Nocatee FL,core,Burney's Septic Tank Service,(904) 829-2953,4.5,yes
+septic tank pumping,Nocatee FL,core,Bullfrog Septic,(904) 680-5044,5.0,yes
+septic tank pumping,Nocatee FL,core,Flamingo Septic,(904) 222-7465,4.5,yes
+septic tank pumping,Nocatee FL,core,East Coast Septic Services,(904) 545-6241,3.6,yes
+septic tank pumping,Nocatee FL,core,Consolidated Utilities,(904) 249-8080,4.0,yes
+septic tank pumping,Green Cove Springs FL,core,J&J Septic,(904) 579-7103,5.0,yes
+septic tank pumping,Green Cove Springs FL,core,Grant's Plumbing,(904) 600-0707,4.9,yes
+septic tank pumping,Green Cove Springs FL,core,Metro Rooter,(904) 567-3775,4.8,yes
+septic tank pumping,Green Cove Springs FL,core,O'Connor's Plumbing & Septic,(904) 767-4059,4.5,yes
+septic tank pumping,Green Cove Springs FL,core,Presto Plumbing & Septic,(904) 944-4644,4.8,yes
+septic tank pumping,Green Cove Springs FL,core,A1 Septic Service,,2.8,yes
+septic tank pumping,Green Cove Springs FL,core,Tom Hunter Septic,(904) 757-7319,5.0,yes
+septic tank pumping,Fernandina Beach FL,core,Murray Septic Tank,(904) 261-5726,4.8,no
+septic tank pumping,Fernandina Beach FL,core,Blockers Septic Service,(904) 225-5265,4.0,yes
+septic tank pumping,Fernandina Beach FL,core,CJ Bass Plumbing,(904) 838-9935,4.9,yes
+septic tank pumping,Fernandina Beach FL,core,Flamingo Septic,(904) 222-7465,4.5,yes
+septic tank pumping,Fernandina Beach FL,core,Ground Control Septic,(912) 390-5555,5.0,yes
+septic tank pumping,Fernandina Beach FL,core,Dr. Poo Sanitation Solutions,(904) 727-0000,4.9,yes
+septic tank pumping,Fernandina Beach FL,core,Tom Hunter Septic,(904) 757-7319,5.0,yes
+septic tank pumping,Callahan FL,fringe,K.A. Farmer's Septic Tank,(904) 879-4701,4.8,yes
+septic tank pumping,Callahan FL,fringe,Ron's Septic Tank Services,(904) 445-8102,4.3,no
+septic tank pumping,Callahan FL,fringe,Hendricks Septic Systems,(904) 879-3823,3.9,no
+septic tank pumping,Callahan FL,fringe,Flamingo Septic,(904) 222-7465,4.5,yes
+septic tank pumping,Callahan FL,fringe,Florida Pumping,(904) 909-9969,4.4,yes
+septic tank pumping,Callahan FL,fringe,A & H Septic & Site Prep,(904) 718-8459,,no
+septic tank pumping,Macclenny FL,fringe,Terry Crews Septic Tank,(904) 259-7818,4.8,no
+septic tank pumping,Macclenny FL,fringe,Darrell Crews Septic Tank,(904) 923-1241,4.7,yes
+septic tank pumping,Macclenny FL,fringe,Superior Septic Services,(904) 838-6500,5.0,yes
+septic tank pumping,Lake City FL,fringe,North Florida Septic,(386) 755-6372,4.6,yes
+septic tank pumping,Lake City FL,fringe,Ford's Septic Tank Service,(386) 755-6288,3.6,no
+septic tank pumping,Lake City FL,fringe,Gross Septic,(386) 984-0173,4.8,yes
+septic tank pumping,Lake City FL,fringe,Hall's Pump & Well Services,(386) 752-1854,4.5,yes
+septic tank pumping,Gainesville FL,out,Wind River Environmental,(978) 574-7666,4.8,yes
+septic tank pumping,Gainesville FL,out,Dampier Septic Tank,(352) 378-2659,4.5,yes
+septic tank pumping,Gainesville FL,out,Newsome Well & Septic,(386) 588-8378,4.6,yes
+septic tank pumping,Gainesville FL,out,Florida Septic Services,(904) 966-1015,5.0,yes
+septic tank pumping,Gainesville FL,out,BJ's Septic & Site Work,(352) 234-0805,4.6,yes
+septic tank pumping,Gainesville FL,out,Branson & Son's Septic,(352) 895-0806,5.0,yes
+septic tank pumping,Gainesville FL,out,Stephenson Septic Tank Service,(352) 542-8659,4.4,yes
+septic tank pumping,Ocala FL,out,A-1 Payless Septic Service,(352) 732-6800,4.2,yes
+septic tank pumping,Ocala FL,out,Hills Septic Service,(352) 648-2654,4.8,yes
+septic tank pumping,Ocala FL,out,Moring Septic Tank Services,(352) 629-7286,4.7,no
+septic tank pumping,Ocala FL,out,Ocala Well and Septic,(352) 425-7161,4.9,no
+septic tank pumping,Ocala FL,out,Nu Septic,(352) 679-5382,4.7,yes
+septic tank pumping,Ocala FL,out,ABC Septic Pumping of Ocala,(352) 282-5353,4.5,no
+septic tank pumping,Ocala FL,out,Ocala Septic Tank Pumping,(352) 414-4761,2.7,no
+septic tank pumping,Starke FL,out,Phillip McDonald Plumbing & Septic,(904) 964-3737,4.9,yes
+septic tank pumping,Starke FL,out,Triple S Plumbing,(352) 473-0083,4.5,no
+septic tank pumping,Starke FL,out,Durrance Pump & Supply,(904) 964-7061,4.3,no
+septic tank pumping,Starke FL,out,Florida Septic Services,(904) 966-1015,5.0,yes
+septic tank pumping,Starke FL,out,BJ's Septic & Site Work,(352) 234-0805,4.6,yes
+septic tank pumping,Starke FL,out,Terry Crews Septic Tank,(904) 259-7818,4.8,no
+septic tank pumping,Starke FL,out,East Star Industries,(904) 964-9649,,no
+septic tank pumping,Tallahassee FL,out,Brian's Septic Service,(850) 309-0000,4.6,yes
+septic tank pumping,Tallahassee FL,out,Capital City Septic Services,(850) 536-6919,4.6,yes
+septic tank pumping,Tallahassee FL,out,Apalachee Backhoe & Septic Tank,(850) 877-2824,4.4,yes
+septic tank pumping,Tallahassee FL,out,All Septic Solutions,(850) 491-1924,5.0,yes
+septic tank pumping,Tallahassee FL,out,Southern Septic Solutions,(850) 841-9066,5.0,yes
+septic tank pumping,Tallahassee FL,out,Big Bend Septic Tank Company,(850) 629-0261,4.4,no
+septic tank pumping,Tallahassee FL,out,Terry West Plumbing,(850) 756-9407,4.8,yes
+septic tank pumping,Brunswick GA,out,Hutcheson Septic,(912) 617-2430,4.8,yes
+septic tank pumping,Brunswick GA,out,AAA Septic Tank Service of Glynn,(912) 461-6120,4.9,yes
+septic tank pumping,Brunswick GA,out,Coastal Georgia Septic,(912) 476-0063,5.0,yes
+septic tank pumping,Brunswick GA,out,Wiggins Septic Service,(912) 223-0700,4.9,no
+septic tank pumping,Brunswick GA,out,TideCo Septic & Services,(912) 230-8097,5.0,yes
+septic tank pumping,Brunswick GA,out,A1 of Glynn Septic Solutions,(912) 399-7143,5.0,yes
+septic tank pumping,Brunswick GA,out,AAA Septic Tank Service of Glynn,(912) 262-0055,5.0,no
+septic tank pumping,Saint Marys GA,out,Ground Control Septic,(912) 390-5555,5.0,yes
+septic tank pumping,Saint Marys GA,out,Superior Septic Tank Service,(912) 674-2966,4.9,yes
+septic tank pumping,Saint Marys GA,out,Cox-Shytle Septic Services,(912) 324-1507,4.9,yes
+septic tank pumping,Saint Marys GA,out,AAA Septic Tank Service of Glynn,(912) 461-6120,4.9,yes
+septic tank pumping,Saint Marys GA,out,Blockers Septic Service,(904) 225-5265,4.0,yes
+septic tank pumping,Saint Marys GA,out,Coastal Georgia Septic,(912) 476-0063,5.0,yes
+septic tank pumping,Saint Marys GA,out,Murray Septic Tank,(904) 261-5726,4.8,no
+septic tank pumping,Waycross GA,out,Satilla Septic,(912) 286-4231,4.9,yes
+septic tank pumping,Waycross GA,out,Sammy's Septic Service,(912) 288-3631,4.2,yes
+septic tank pumping,Waycross GA,out,Jake's Septic Solutions,(912) 286-8280,5.0,yes
+septic tank pumping,Waycross GA,out,Peacock Septic Tank Service,(912) 221-2229,5.0,yes
+septic tank pumping,Waycross GA,out,Bob's Septic Tank Co,(912) 283-6727,4.8,no
+septic tank pumping,Waycross GA,out,Cox-Shytle Septic Services,(912) 324-1507,4.9,yes
+septic tank pumping,Waycross GA,out,Outdoor Septic & Services,(912) 816-5546,5.0,no
+septic tank pumping,Douglas GA,out,Gray's Septic Service,(912) 592-1184,5.0,yes
+septic tank pumping,Douglas GA,out,A & C Septic Tanks & Portable Toilets,(912) 383-7005,4.8,yes
+septic tank pumping,Douglas GA,out,Down Under Enterprises,(912) 384-2487,4.2,no
+septic tank pumping,Douglas GA,out,Clement Septic Tank,(229) 425-7926,5.0,yes
+septic tank pumping,Douglas GA,out,Veterans Drain Solutions,(912) 327-0128,,yes
+septic tank pumping,Douglas GA,out,Mr. Rooter Plumbing of SE Georgia,(912) 623-4240,4.8,yes
+septic tank pumping,Valdosta GA,out,Herring Septic Service,(229) 356-1786,4.8,yes
+septic tank pumping,Valdosta GA,out,Checkered Flag Septic Service,(229) 559-0331,4.4,no
+septic tank pumping,Valdosta GA,out,Septic Tank Pros Valdosta,(229) 415-7780,3.7,yes
+septic tank pumping,Valdosta GA,out,Hunter Plumbing & Septic,(229) 292-8625,5.0,no
+septic tank pumping,Valdosta GA,out,Best Way Septic Service,(229) 563-2778,4.2,yes
+septic tank pumping,Valdosta GA,out,aHunter Septic Tank Service,(229) 292-8625,4.5,no
+septic tank pumping,Valdosta GA,out,H&H Drain Cleaning,(229) 292-8625,4.9,no
+septic tank pumping,Jacksonville NC,out,Ray's Septic Service,(910) 347-7867,4.6,yes
+septic tank pumping,Jacksonville NC,out,Royal Flush Septic Services,(910) 546-2092,5.0,yes
+septic tank pumping,Jacksonville NC,out,G & G Pumping,(910) 915-9322,4.9,yes
+septic tank pumping,Jacksonville NC,out,Septic Solutions Jacksonville,(910) 358-2888,5.0,yes
+septic tank pumping,Jacksonville NC,out,Fisher Septic & Excavation,(910) 358-0820,4.8,no
+septic tank pumping,Jacksonville NC,out,Plowboy Septic,(910) 346-8904,4.7,yes
+septic tank pumping,Jacksonville NC,out,Atlantic All-Pro Septic Tank,(910) 346-3995,4.0,no
+septic tank pumping,Morehead City NC,out,Rouses Septic Tank Services,(252) 726-6761,4.4,no
+septic tank pumping,Morehead City NC,out,R & W Septic Tank Services,(252) 726-7390,4.6,no
+septic tank pumping,Morehead City NC,out,All County Septic,(252) 241-4929,4.7,yes
+septic tank pumping,Morehead City NC,out,Carteret Septic Tank & Construction,(252) 241-1748,4.7,yes
+septic tank pumping,Morehead City NC,out,Ballou & Sons Construction,(252) 726-2138,,no
+septic tank pumping,Morehead City NC,out,Garner Construction Co,(252) 223-4019,3.9,no
+septic tank pumping,Wilmington NC,out,Skipper Septic Tank Service,(910) 791-9488,4.5,yes
+septic tank pumping,Wilmington NC,out,Dan Inman Septic Tank,(910) 763-1146,4.1,yes
+septic tank pumping,Wilmington NC,out,Wilmington Septic Tank Service,(910) 541-8727,3.7,yes
+septic tank pumping,Wilmington NC,out,The Sewer & Drain Medic,(910) 233-9618,4.9,yes
+septic tank pumping,Wilmington NC,out,Septic Services in Wilmington,(910) 984-2233,,yes
+septic tank pumping,Wilmington NC,out,Lewis Farms & Liquid Waste,(910) 283-9823,4.9,yes
+septic tank pumping,Wilmington NC,out,Clark's Septic and Land Services,(910) 549-8124,5.0,yes
+septic tank pumping,Charleston SC,out,A-1 Septic Tank Service,(843) 766-4464,3.6,yes
+septic tank pumping,Charleston SC,out,Knights Septic Tank Services,(843) 747-0737,4.7,yes
+septic tank pumping,Charleston SC,out,Superior Charleston Septic,(843) 806-0001,5.0,no
+septic tank pumping,Charleston SC,out,Island Septic Systems,(843) 559-3491,4.9,yes
+septic tank pumping,Charleston SC,out,Fain Septic Tank Services,(843) 553-0888,4.0,no
+septic tank pumping,Charleston SC,out,Charleston Septic Tank Pumping,(843) 547-2079,,no
+septic tank pumping,Myrtle Beach SC,out,Elvis Service Company,(843) 448-5016,4.8,yes
+septic tank pumping,Myrtle Beach SC,out,Quick Fix Septic,(843) 631-2332,,yes
+well pump repair,Jacksonville FL,core,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Jacksonville FL,core,Well Dr & Accessories,(904) 999-9975,4.7,yes
+well pump repair,Jacksonville FL,core,American Well & Irrigation,(904) 249-5400,4.7,yes
+well pump repair,Jacksonville FL,core,Partridge Well Drilling,(904) 269-1333,4.8,yes
+well pump repair,Jacksonville FL,core,Florida Pump Service,(904) 269-0202,4.6,yes
+well pump repair,Jacksonville FL,core,Destin's Well & Pump Services,(904) 209-8866,4.2,no
+well pump repair,Jacksonville FL,core,Hulihan Territory Outdoor Solutions,(904) 773-4867,4.9,yes
+well pump repair,Jacksonville FL,core,Williams Well Drilling,(904) 241-8489,5.0,no
+well pump repair,Jacksonville FL,core,Complete Services Water Well,(904) 693-8635,4.6,yes
+well pump repair,Jacksonville FL,core,Englewood Well & Pump,(904) 724-3145,4.1,no
+well pump repair,Jacksonville FL,core,Riverview Pump Well & Septic,(904) 764-4568,4.2,yes
+well pump repair,Jacksonville FL,core,Blue Spring Well and Pump,(904) 412-4822,4.8,yes
+well pump repair,Jacksonville Beach FL,core,American Well & Irrigation,(904) 249-5400,4.7,yes
+well pump repair,Jacksonville Beach FL,core,Owens & Sons Plumbing,(904) 590-7600,4.8,yes
+well pump repair,Jacksonville Beach FL,core,Hulihan Territory Outdoor Solutions,(904) 773-4867,4.9,yes
+well pump repair,Jacksonville Beach FL,core,Destin's Well & Pump Services,(904) 209-8866,4.2,no
+well pump repair,Jacksonville Beach FL,core,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Jacksonville Beach FL,core,Williams Well Drilling,(904) 241-8489,5.0,no
+well pump repair,Jacksonville Beach FL,core,Well Dr & Accessories,(904) 999-9975,4.7,yes
+well pump repair,Orange Park FL,core,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Orange Park FL,core,Florida Pump Service,(904) 269-0202,4.6,yes
+well pump repair,Fleming Island FL,core,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Fleming Island FL,core,Florida Pump Service,(904) 269-0202,4.6,yes
+well pump repair,Fleming Island FL,core,Partridge Well Drilling,(904) 269-1333,4.8,yes
+well pump repair,Fleming Island FL,core,Well Dr & Accessories,(904) 999-9975,4.7,yes
+well pump repair,Fleming Island FL,core,Smitty's Pump Services,(904) 282-7318,5.0,no
+well pump repair,Fleming Island FL,core,Daymon Well Drilling & Pump,(904) 282-1121,4.7,yes
+well pump repair,Fleming Island FL,core,Advanced Pump Service,(904) 203-7468,4.5,yes
+well pump repair,Saint Johns FL,core,Well Dr & Accessories,(904) 999-9975,4.7,yes
+well pump repair,Saint Johns FL,core,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Saint Johns FL,core,Partridge Well Drilling,(904) 269-1333,4.8,yes
+well pump repair,Saint Johns FL,core,Superior Well and Pump Service,,4.6,no
+well pump repair,Saint Johns FL,core,Destin's Well & Pump Services,(904) 209-8866,4.2,no
+well pump repair,Saint Johns FL,core,Florida Pump Service,(904) 269-0202,4.6,yes
+well pump repair,Saint Johns FL,core,St. Johns Well & Pump Service,(904) 239-7703,5.0,no
+well pump repair,Nocatee FL,core,Well Dr & Accessories,(904) 999-9975,4.7,yes
+well pump repair,Nocatee FL,core,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Nocatee FL,core,Partridge Well Drilling,(904) 269-1333,4.8,yes
+well pump repair,Nocatee FL,core,Superior Well and Pump Service,,4.6,no
+well pump repair,Nocatee FL,core,Destin's Well & Pump Services,(904) 209-8866,4.2,no
+well pump repair,Nocatee FL,core,St. Johns Well & Pump Service,(904) 239-7703,5.0,no
+well pump repair,Nocatee FL,core,Aqua 1 Well & Pump,(904) 829-2837,4.5,yes
+well pump repair,Callahan FL,fringe,Mumford & Son Well Drilling,(904) 879-2870,5.0,no
+well pump repair,Callahan FL,fringe,Mizell Well & Pump,(904) 879-6871,4.8,no
+well pump repair,Callahan FL,fringe,David Weeks Well & Pump,(904) 268-6907,4.8,no
+well pump repair,Callahan FL,fringe,Advanced Well Drilling & Water,(912) 414-1278,4.5,yes
+well pump repair,Callahan FL,fringe,The Pump Guy,(904) 727-8976,5.0,no
+well pump repair,Callahan FL,fringe,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Macclenny FL,fringe,Martin Well Drilling,(904) 259-9014,3.2,no
+well pump repair,Macclenny FL,fringe,Ronnie Sapp Well Drilling,(904) 259-6934,3.1,no
+well pump repair,Macclenny FL,fringe,Smitty's Pump Services,(904) 282-7318,5.0,no
+well pump repair,Macclenny FL,fringe,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Macclenny FL,fringe,Sapp Plumbing and Drilling,(904) 259-6934,3.0,no
+well pump repair,Macclenny FL,fringe,Drains Plus of Jacksonville,(904) 510-7358,4.9,no
+well pump repair,Green Cove Springs FL,fringe,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Green Cove Springs FL,fringe,Daymon Well Drilling & Pump,(904) 282-1121,4.7,yes
+well pump repair,Green Cove Springs FL,fringe,Smitty's Pump Services,(904) 282-7318,5.0,no
+well pump repair,Green Cove Springs FL,fringe,Clay Pump & Industrial Supplies,(904) 284-4879,5.0,no
+well pump repair,Green Cove Springs FL,fringe,Advanced Pump Service,(904) 203-7468,4.5,yes
+well pump repair,Green Cove Springs FL,fringe,Florida Pump Service,(904) 269-0202,4.6,yes
+well pump repair,Green Cove Springs FL,fringe,Well Dr & Accessories,(904) 999-9975,4.7,yes
+well pump repair,Saint Augustine FL,core,Aqua 1 Well & Pump,(904) 829-2837,4.5,yes
+well pump repair,Saint Augustine FL,core,East Coast Wells & Water Treatment,(904) 824-6630,4.7,yes
+well pump repair,Saint Augustine FL,core,St. Johns Well & Pump Service,(904) 239-7703,5.0,no
+well pump repair,Saint Augustine FL,core,St Augustine Electric Motor Works,(904) 829-8211,4.8,yes
+well pump repair,Saint Augustine FL,core,"b & m wells, pumps, water treatment",(904) 466-7498,,no
+well pump repair,Saint Augustine FL,core,Southland Well Drilling,(904) 824-0774,5.0,no
+well pump repair,Yulee FL,fringe,Advanced Well Drilling & Water,(912) 414-1278,4.5,yes
+well pump repair,Yulee FL,fringe,Mumford & Son Well Drilling,(904) 879-2870,5.0,no
+well pump repair,Yulee FL,fringe,Mizell Well & Pump,(904) 879-6871,4.8,no
+well pump repair,Yulee FL,fringe,NE Florida Well & Pump,(904) 753-1367,4.8,yes
+well pump repair,Yulee FL,fringe,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Yulee FL,fringe,Destin's Well & Pump Services,(904) 209-8866,4.2,no
+well pump repair,Fernandina Beach FL,fringe,NE Florida Well & Pump,(904) 753-1367,4.8,yes
+well pump repair,Fernandina Beach FL,fringe,Destin's Well & Pump Services,(904) 209-8866,4.2,no
+well pump repair,Fernandina Beach FL,fringe,Mumford & Son Well Drilling,(904) 879-2870,5.0,no
+well pump repair,Fernandina Beach FL,fringe,Advanced Well Drilling & Water,(912) 414-1278,4.5,yes
+well pump repair,Fernandina Beach FL,fringe,American Well & Irrigation,(904) 249-5400,4.7,yes
+well pump repair,Fernandina Beach FL,fringe,Dustin Turner Plumbing,(904) 817-9508,5.0,yes
+well pump repair,Fernandina Beach FL,fringe,Superior Well and Pump Service,,4.6,no
+well pump repair,Starke FL,out,Durrance Pump & Supply,(904) 964-7061,4.3,no
+well pump repair,Starke FL,out,Smitty's Pump Services,(904) 282-7318,5.0,no
+well pump repair,Starke FL,out,Dykes Pump Service,(352) 473-0348,5.0,no
+well pump repair,Starke FL,out,North Fla Well Drilling & Pump,(352) 473-3204,4.7,yes
+well pump repair,Starke FL,out,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Starke FL,out,Bronco Well Drilling,(352) 473-0534,4.7,yes
+well pump repair,Starke FL,out,Daymon Well Drilling & Pump,(904) 282-1121,4.7,yes
+well pump repair,Keystone Heights FL,out,Dykes Pump Service,(352) 473-0348,5.0,no
+well pump repair,Keystone Heights FL,out,North Fla Well Drilling & Pump,(352) 473-3204,4.7,yes
+well pump repair,Keystone Heights FL,out,Bronco Well Drilling,(352) 473-0534,4.7,yes
+well pump repair,Keystone Heights FL,out,After Hours Well & Pump,(352) 358-7420,5.0,no
+well pump repair,Keystone Heights FL,out,Durrance Pump & Supply,(904) 964-7061,4.3,no
+well pump repair,Keystone Heights FL,out,Smitty's Pump Services,(904) 282-7318,5.0,no
+well pump repair,Keystone Heights FL,out,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Hawthorne FL,out,After Hours Well & Pump,(352) 358-7420,5.0,no
+well pump repair,Hawthorne FL,out,Perry - Pump Repair Service,(352) 320-2412,4.9,yes
+well pump repair,Hawthorne FL,out,Lucky's Pump Service,(352) 481-2883,4.6,no
+well pump repair,Hawthorne FL,out,Archer Pump Service,(352) 495-2024,4.9,yes
+well pump repair,Hawthorne FL,out,Boyette Pump and Well Service,(813) 923-0008,5.0,yes
+well pump repair,Hawthorne FL,out,Durrance Pump & Supply,(904) 964-7061,4.3,no
+well pump repair,Hawthorne FL,out,Burch Well & Pump,(352) 466-3485,5.0,yes
+well pump repair,Gainesville FL,out,Perry - Pump Repair Service,(352) 320-2412,4.9,yes
+well pump repair,Gainesville FL,out,A & W Pump Service,(352) 575-8818,4.9,yes
+well pump repair,Gainesville FL,out,Dampier Well and Pump Service,(352) 275-6553,5.0,yes
+well pump repair,Gainesville FL,out,Perry's Pump Repair,(352) 316-4088,4.9,yes
+well pump repair,Gainesville FL,out,All County Water,(352) 514-3745,4.9,yes
+well pump repair,Gainesville FL,out,Archer Pump Service,(352) 495-2024,4.9,yes
+well pump repair,Gainesville FL,out,Burch Well & Pump,(352) 466-3485,5.0,yes
+well pump repair,Ocala FL,out,Bryant's Pump Service & Well Drilling,(352) 900-5839,4.7,yes
+well pump repair,Ocala FL,out,Smokey's Pump Service,(352) 732-5570,4.9,yes
+well pump repair,Ocala FL,out,WaterBoys Emergency Well Repair,(352) 977-9355,5.0,yes
+well pump repair,Ocala FL,out,Ocala Well and Septic,(352) 425-7161,4.9,no
+well pump repair,Ocala FL,out,Advanced Well Drilling,(352) 723-0123,5.0,yes
+well pump repair,Ocala FL,out,Sweetwater Well Drilling & Pump,(352) 402-9355,4.6,yes
+well pump repair,Ocala FL,out,B & C Enterprises Well Drilling,(352) 629-1098,4.9,yes
+well pump repair,Lake City FL,out,Hall's Pump & Well Services,(386) 752-1854,4.5,yes
+well pump repair,Lake City FL,out,Lynch Well Drilling,(386) 288-5975,4.8,yes
+well pump repair,Lake City FL,out,Fargo Well & Pump Services,(386) 752-3039,5.0,no
+well pump repair,Lake City FL,out,A&B Well Drilling & Pump,(386) 999-4827,4.9,yes
+well pump repair,Lake City FL,out,Jupiter Pump and Well,(561) 747-4770,5.0,no
+well pump repair,Lake City FL,out,WaterBoy Well Repair and Drilling,(386) 330-6099,4.5,no
+well pump repair,Lake City FL,out,Hingson's Pump & Water Solutions,(386) 364-8128,5.0,no
+well pump repair,Tallahassee FL,out,KCW Water Well Service,(850) 510-6887,4.8,yes
+well pump repair,Tallahassee FL,out,Mills Well Drilling,(850) 562-2906,4.5,yes
+well pump repair,Tallahassee FL,out,C & L Well & Pump Services,(850) 570-9153,4.9,yes
+well pump repair,Tallahassee FL,out,Robin Dean Well Drilling,(850) 421-7203,4.5,yes
+well pump repair,Tallahassee FL,out,Capital Well & Pump,(850) 894-4439,4.7,yes
+well pump repair,Tallahassee FL,out,Simmons Well Service and Repair,(850) 878-8489,5.0,yes
+well pump repair,Brunswick GA,out,Woodrow Sapp Well Drilling,(912) 265-2603,4.5,yes
+well pump repair,Brunswick GA,out,Coastal Pump Service,(912) 264-2048,4.8,yes
+well pump repair,Brunswick GA,out,Golden Isles Well Drilling,(912) 264-1133,4.6,no
+well pump repair,Brunswick GA,out,Cox Well Drilling & Pump Service,(912) 258-2642,5.0,yes
+well pump repair,Saint Marys GA,out,JS Well Drilling Kingsland,(912) 504-4204,5.0,no
+well pump repair,Saint Marys GA,out,O'Quinn Well Drilling,(912) 729-7800,4.8,no
+well pump repair,Saint Marys GA,out,Advanced Well Drilling & Water,(912) 414-1278,3.5,no
+well pump repair,Saint Marys GA,out,Cox Well Drilling,(912) 552-3308,,no
+well pump repair,Saint Marys GA,out,Cox Well Drilling & Pump Service,(912) 258-2642,5.0,yes
+well pump repair,Saint Marys GA,out,NE Florida Well & Pump,(904) 753-1367,4.8,yes
+well pump repair,Saint Marys GA,out,Affordable Well Pump Services,(904) 365-7995,4.8,yes
+well pump repair,Waycross GA,out,Thrift Well Drilling,(912) 285-8874,4.6,no
+well pump repair,Waycross GA,out,Goulds Pumps,(912) 285-2524,4.3,no
+well pump repair,Waycross GA,out,Mock Drilling Co,(912) 283-0530,2.7,no
+well pump repair,Waycross GA,out,Middleton Drilling Co,(912) 462-3507,4.9,no
+well pump repair,Waycross GA,out,Cox Well Drilling & Pump Service,(912) 258-2642,5.0,yes
+well pump repair,Waycross GA,out,Brown Well Drilling & Pump,(912) 367-6225,4.9,yes
+well pump repair,Douglas GA,out,Pittman Pump & Well Drilling,(912) 422-3484,4.9,no
+well pump repair,Douglas GA,out,Miller Pump & Electric,(912) 384-3209,4.1,no
+well pump repair,Valdosta GA,out,Valdosta Well and Pump,(229) 896-4403,4.0,yes
+well pump repair,Valdosta GA,out,Creasy Well Drilling Co,(229) 244-0558,3.8,no
+well pump repair,Valdosta GA,out,Paulk's Well Drilling,(229) 244-5296,3.0,no
+well pump repair,Valdosta GA,out,Everetts Well Drilling & Service,(229) 263-4192,4.8,yes
+well pump repair,Valdosta GA,out,Aqua Logistics Well Drilling,(229) 559-8272,5.0,yes
+well pump repair,Valdosta GA,out,A W Stubbs Well Service,(229) 292-2235,5.0,no
+well pump repair,Valdosta GA,out,Flythe's Well & Pump Services,(229) 242-2617,3.0,no
+well pump repair,Jacksonville NC,out,Wild Water Plumbing + Septic,(910) 750-2312,4.9,yes
+well pump repair,Jacksonville NC,out,Superior Well and Pump Service,,4.6,no
+well pump repair,Jacksonville NC,out,Riverview Pump Well & Septic,(904) 764-4568,4.2,yes
+well pump repair,Jacksonville NC,out,Coastal Geothermal,(910) 353-0926,4.5,yes
+well pump repair,Jacksonville NC,out,Blue Spring Well and Pump,(904) 412-4822,4.8,yes
+well pump repair,Jacksonville NC,out,Meadows Well Drilling,(910) 619-1076,4.6,no
+well pump repair,Morehead City NC,out,Aqua Well & Pump Services,(252) 728-7867,4.6,yes
+well pump repair,Morehead City NC,out,Morton Well Drilling,(252) 222-0513,3.7,yes
+well pump repair,Morehead City NC,out,Anderson Priority Service,(252) 240-2771,4.9,yes
+well pump repair,Wilmington NC,out,Sage Drilling & Pump Services,(910) 231-6669,4.9,yes
+well pump repair,Wilmington NC,out,TWS Well Service & Water Systems,(910) 679-6101,5.0,no
+well pump repair,Wilmington NC,out,Craig's Well Drilling & Pump,(910) 799-9604,,yes
+well pump repair,Wilmington NC,out,Coastal Well & Pump,,4.0,no
+well pump repair,Wilmington NC,out,Skipper's Well Drilling & Pump,(910) 371-2770,4.4,yes
+well pump repair,Wilmington NC,out,Aqua Well Drilling (Shallow),(910) 395-1987,4.5,no
+well pump repair,Charleston SC,out,J P Anderson Well & Pump,(843) 810-4045,4.8,yes
+well pump repair,Charleston SC,out,Anderson Well Drilling,(843) 889-8144,4.1,no
+well pump repair,Charleston SC,out,H.M. Northcutt Corporation,(843) 884-4952,5.0,yes
+well pump repair,Charleston SC,out,Affordable Well Drilling,(843) 714-4570,4.5,no
+well pump repair,Myrtle Beach SC,out,Mike Welch Well Drilling,(843) 340-0283,4.8,yes
+well pump repair,Myrtle Beach SC,out,Hodge Well Drilling & Pump,(843) 756-3843,3.8,no
+well pump repair,Myrtle Beach SC,out,Jesse's Well Pump & Filtration,(803) 585-9001,4.9,yes
+well pump repair,Myrtle Beach SC,out,Horry's Water Well,(843) 726-8560,4.9,yes
+well pump repair,Myrtle Beach SC,out,Cribbs Well Drilling,(843) 340-4340,4.2,no
+well pump repair,Myrtle Beach SC,out,B & B Well Drilling,(843) 765-4059,4.9,yes
+well pump repair,Myrtle Beach SC,out,Southlantic Services,(843) 626-9856,4.9,yes
+boat detailing,Jacksonville FL,core,Jacksonville Mobile Boat Detailing,(904) 465-6312,5.0,yes
+boat detailing,Jacksonville FL,core,Coastal Boat Detailing,(904) 451-7455,5.0,yes
+boat detailing,Jacksonville FL,core,Florida Marine Detailing,(904) 614-7560,5.0,yes
+boat detailing,Jacksonville FL,core,Dockside Mobile Marine,(904) 716-3966,5.0,yes
+boat detailing,Jacksonville FL,core,Moran's Performance Detailing (car),(904) 717-7127,5.0,yes
+boat detailing,Jacksonville FL,core,Salty Boat Worx,(904) 667-8312,5.0,no
+boat detailing,Jacksonville Beach FL,core,Jacksonville Beach Local Pool Cleaners (n/a),,,no
+boat detailing,Ponte Vedra Beach FL,core,Florida Marine Detailing,(904) 614-7560,5.0,yes
+boat detailing,Ponte Vedra Beach FL,core,Speedy Mobile Car Detailing (car),(904) 736-6521,5.0,yes
+boat detailing,Ponte Vedra Beach FL,core,Pristine Mobile Car Detailing (car),(904) 872-7679,5.0,yes
+boat detailing,Ponte Vedra Beach FL,core,Coastal Boat Detailing,(904) 451-7455,5.0,yes
+boat detailing,Ponte Vedra Beach FL,core,Jacksonville Mobile Boat Detailing,(904) 465-6312,5.0,yes
+boat detailing,Ponte Vedra Beach FL,core,Ponte Vedra Mobile Detailing (car),(904) 534-6464,5.0,yes
+boat detailing,Fleming Island FL,core,VH Auto and Marine Detailing,(904) 465-4896,5.0,no
+boat detailing,Fleming Island FL,core,Island Cove Detailing Co,(904) 600-4499,5.0,yes
+boat detailing,Fleming Island FL,core,Coastal Boat Detailing,(904) 451-7455,5.0,yes
+boat detailing,Fleming Island FL,core,Anchors Up Marine Detailing & Gelcoat,(904) 200-7703,4.6,yes
+boat detailing,Fleming Island FL,core,B&T Mobile Auto Detailing (car),(904) 235-6419,5.0,yes
+boat detailing,Fleming Island FL,core,Jacksonville Mobile Boat Detailing,(904) 465-6312,5.0,yes
+boat detailing,Orange Park FL,core,B&T Mobile Auto Detailing (car),(904) 235-6419,5.0,yes
+boat detailing,Orange Park FL,core,Clean&Shine Mobile Detailing (car),(904) 579-3713,4.8,yes
+boat detailing,Orange Park FL,core,Jacksonville Mobile Boat Detailing,(904) 465-6312,5.0,yes
+boat detailing,Orange Park FL,core,Waxman Mobile CarWash (car),(904) 780-5548,4.8,yes
+boat detailing,Orange Park FL,core,Coastal Boat Detailing,(904) 451-7455,5.0,yes
+boat detailing,Orange Park FL,core,Excel Professional Detailing & Fiberglass,(904) 716-2803,5.0,yes
+boat detailing,Middleburg FL,fringe,Anchors Up Marine Detailing & Gelcoat,(904) 200-7703,4.6,yes
+boat detailing,Middleburg FL,fringe,Coastal Boat Detailing,(904) 451-7455,5.0,yes
+boat detailing,Middleburg FL,fringe,Island Cove Detailing Co,(904) 600-4499,5.0,yes
+boat detailing,Middleburg FL,fringe,Blue Water Boat Detailing (mobile),(904) 444-3757,5.0,no
+boat detailing,Nocatee FL,core,Florida Marine Detailing,(904) 614-7560,5.0,yes
+boat detailing,Nocatee FL,core,Next Level Auto Solutions (car),,5.0,no
+boat detailing,Nocatee FL,core,Coastal Boat Detailing,(904) 451-7455,5.0,yes
+boat detailing,Nocatee FL,core,Jacksonville Mobile Boat Detailing,(904) 465-6312,5.0,yes
+boat detailing,Nocatee FL,core,Mavinate Boat Detailing & Restoration,(386) 566-6483,5.0,yes
+boat detailing,Nocatee FL,core,All Pro Auto Detailing (car),(240) 988-1401,5.0,yes
+boat detailing,Saint Augustine FL,core,Top Knotch Marine Detailing,(904) 315-5130,5.0,no
+boat detailing,Saint Augustine FL,core,St Augustine Boat Works Decks Docks Detailing,(321) 372-4294,5.0,yes
+boat detailing,Saint Augustine FL,core,West Shore Boat Detailing,(813) 390-0119,,no
+boat detailing,Saint Augustine FL,core,North Florida Yacht Services & Marine Detailing,(904) 557-1994,5.0,yes
+boat detailing,Saint Augustine FL,core,SunCoast Boat Detailing,(904) 274-3156,5.0,yes
+boat detailing,Saint Augustine FL,core,St Augustine Detailing and Reconditioning (car),(904) 315-2603,4.8,yes
+boat detailing,Saint Augustine FL,core,Detail One (car),(904) 826-9123,5.0,yes
+boat detailing,Amelia Island FL,fringe,Salt & Suds,(360) 688-4705,5.0,no
+boat detailing,Amelia Island FL,fringe,Coastal Boat Detailing,(904) 451-7455,5.0,yes
+boat detailing,Amelia Island FL,fringe,Moran's Performance Detailing (car),(904) 717-7127,5.0,yes
+boat detailing,Amelia Island FL,fringe,The Waters' Edge Complete Boat Detailing,(904) 571-0725,5.0,yes
+boat detailing,Amelia Island FL,fringe,Jacksonville Mobile Boat Detailing,(904) 465-6312,5.0,yes
+boat detailing,Amelia Island FL,fringe,KaTuna's Marine Detailing,(904) 629-6565,5.0,no
+boat detailing,Amelia Island FL,fringe,Chelsea Boat Center,(904) 261-8884,4.7,yes
+boat detailing,Yulee FL,fringe,Coastal Boat Detailing,(904) 451-7455,5.0,yes
+boat detailing,Yulee FL,fringe,Salt & Suds,(360) 688-4705,5.0,no
+boat detailing,Yulee FL,fringe,Bo & Mike's Detail Shop (car),(904) 261-4642,4.5,no
+boat detailing,Yulee FL,fringe,Moran's Performance Detailing (car),(904) 717-7127,5.0,yes
+boat detailing,Yulee FL,fringe,Florida Marine Detailing,(904) 614-7560,5.0,yes
+boat detailing,Yulee FL,fringe,WE DETAIL Mobile Car Detailing (car),(904) 339-6371,4.8,yes
+boat detailing,Callahan FL,fringe,Florida Marine Detailing,(904) 614-7560,5.0,yes
+boat detailing,Callahan FL,fringe,Renewed Reflections Detailing CD,(904) 580-4344,5.0,yes
+boat detailing,Callahan FL,fringe,Moran's Performance Detailing (car),(904) 717-7127,5.0,yes
+boat detailing,Callahan FL,fringe,Nautical Shine Florida,(904) 728-2358,5.0,yes
+boat detailing,Callahan FL,fringe,Royalte Detailing,(904) 898-8851,,yes
+boat detailing,Callahan FL,fringe,Mavinate Boat Detailing & Restoration,(386) 566-6483,5.0,yes
+boat detailing,Callahan FL,fringe,Excel Professional Detailing & Fiberglass,(904) 716-2803,5.0,yes
+boat detailing,Macclenny FL,fringe,Florida Marine Detailing,(904) 614-7560,5.0,yes
+boat detailing,Macclenny FL,fringe,D's auto detailing (car),(904) 910-1458,,no
+boat detailing,Macclenny FL,fringe,Coastal Boat Detailing,(904) 451-7455,5.0,yes
+boat detailing,Macclenny FL,fringe,Jacksonville Mobile Boat Detailing,(904) 465-6312,5.0,yes
+boat detailing,Macclenny FL,fringe,Moran's Performance Detailing (car),(904) 717-7127,5.0,yes
+boat detailing,Macclenny FL,fringe,Kaleb's Mobile Detailing (car),(904) 408-2792,5.0,yes
+boat detailing,Gainesville FL,out,Spartan Mobile Detailing RVs and Boats,(352) 870-9282,4.7,yes
+boat detailing,Gainesville FL,out,Express Detailing Mobile,(352) 450-6080,4.9,yes
+boat detailing,Gainesville FL,out,Kingdom Builders Smart Repairs,(352) 871-2454,4.9,yes
+boat detailing,Gainesville FL,out,NextGen Auto Spa (car),(352) 224-9135,5.0,yes
+boat detailing,Gainesville FL,out,Gator Wash & Detail (car),(352) 562-9877,5.0,yes
+boat detailing,Gainesville FL,out,Stanley Detailing (car),(352) 284-6313,5.0,no
+boat detailing,Gainesville FL,out,Integrity Marine Detail,(352) 318-8900,5.0,yes
+boat detailing,Ocala FL,out,"Ocala Detailing: Auto, RV, Equipment",(352) 547-5206,5.0,yes
+boat detailing,Ocala FL,out,Performance Mobile Detail,(352) 829-9037,4.9,yes
+boat detailing,Ocala FL,out,Pristine Detailing Ocala,(352) 209-7371,5.0,yes
+boat detailing,Ocala FL,out,All Detailz,(352) 362-6142,5.0,no
+boat detailing,Ocala FL,out,K-BACH Detailing,(352) 673-3687,5.0,no
+boat detailing,Ocala FL,out,TLC Luxury Detailing,(352) 648-0191,5.0,yes
+boat detailing,Ocala FL,out,VIP Car Details Studio,(352) 361-8677,4.9,yes
+boat detailing,Lake City FL,out,Lake City Mobile Detailing,(386) 292-6690,4.9,yes
+boat detailing,Lake City FL,out,Mikes Auto & Marine,(386) 288-3651,4.8,no
+boat detailing,Lake City FL,out,Truck Wash Carwash and Detailing,(386) 292-4765,4.9,no
+boat detailing,Lake City FL,out,North Florida Marine,(386) 697-1637,5.0,yes
+boat detailing,Lake City FL,out,Registers Mobile Auto Detailing,(386) 466-5400,4.7,no
+boat detailing,Lake City FL,out,Sheppards Prosperity Auto Detailing,(386) 466-9305,4.3,no
+boat detailing,Lake City FL,out,Florida Boat Detailing,(386) 214-0667,4.9,yes
+boat detailing,Starke FL,out,Ray Ray's Detailing,(904) 364-7889,4.9,no
+boat detailing,Starke FL,out,Stanley Detailing,(352) 284-6313,5.0,no
+boat detailing,Starke FL,out,Danielle's Auto Salon,(904) 454-0790,4.9,yes
+boat detailing,Starke FL,out,Anchors Up Marine Detailing,(904) 200-7703,4.6,yes
+boat detailing,Starke FL,out,JC Auto Detailing,,,no
+boat detailing,Starke FL,out,Jayla's Detailing,(352) 231-6044,,no
+boat detailing,Starke FL,out,Blue Water Boat Detailing (mobile),(904) 444-3757,5.0,no
+boat detailing,Tallahassee FL,out,Tally's Panhandle Detail,(850) 228-9932,4.9,yes
+boat detailing,Tallahassee FL,out,Dan's Car Detailing,(561) 403-7414,5.0,yes
+boat detailing,Tallahassee FL,out,AUTO DETAILS by Custom Detailing,(850) 339-1269,5.0,yes
+boat detailing,Tallahassee FL,out,Excelente Mobile Detailing,(850) 321-4796,5.0,yes
+boat detailing,Tallahassee FL,out,Top Gunn Detailing,,5.0,yes
+boat detailing,Tallahassee FL,out,Ultimate Auto Detailing,(850) 559-3712,5.0,yes
+boat detailing,Tallahassee FL,out,Mob Car Detailing of Tallahassee,(240) 584-0572,5.0,yes
+boat detailing,Brunswick GA,out,Brunswick Landing Boat Yard,(912) 275-7373,4.6,yes
+boat detailing,Brunswick GA,out,Navcom Marine Services,(912) 242-2192,5.0,yes
+boat detailing,Brunswick GA,out,Elite Detailing (car),(912) 242-4070,5.0,no
+boat detailing,Brunswick GA,out,Mike's Auto Spa (car),(912) 571-7166,4.5,yes
+boat detailing,Brunswick GA,out,1st Class Mobile Automotive Detailing,(912) 328-7854,5.0,yes
+boat detailing,Brunswick GA,out,Mariner Marine Services,(912) 230-8703,4.5,yes
+boat detailing,Brunswick GA,out,Ricio's Mobile Auto Detailing,(912) 571-9218,5.0,yes
+boat detailing,Saint Marys GA,out,Over The Top Detailing,(912) 322-0467,4.9,yes
+boat detailing,Saint Marys GA,out,Waxing Moon Detailing,(912) 676-7648,5.0,yes
+boat detailing,Saint Marys GA,out,St Marys Boat Services,(912) 540-0640,4.6,yes
+boat detailing,Saint Marys GA,out,Captain Tommy's Marine Service,(912) 464-2661,4.0,no
+boat detailing,Saint Marys GA,out,ChonkoAutoWorks,(912) 464-9031,5.0,yes
+boat detailing,Saint Marys GA,out,Insetta Boatworks,(912) 882-5420,4.4,yes
+boat detailing,Saint Marys GA,out,Premier Mobile Services,(956) 755-9747,4.9,no
+boat detailing,Waycross GA,out,Satilla Marine,(912) 285-8115,4.6,yes
+boat detailing,Waycross GA,out,Manders Mobile Detailing,(912) 614-4292,5.0,no
+boat detailing,Waycross GA,out,Wallis Mobile Marine Detailing,(404) 561-9106,5.0,yes
+boat detailing,Waycross GA,out,T-N-T Mobile Car Wash,(912) 387-1589,4.7,no
+boat detailing,Waycross GA,out,MT. Rich Mobile Detailing,(912) 387-6806,4.8,no
+boat detailing,Waycross GA,out,Method Auto Detailing,(912) 452-0667,5.0,yes
+boat detailing,Douglas GA,out,Southeastern Marine and Repair,(912) 384-7244,3.9,yes
+boat detailing,Douglas GA,out,Lott Marine,(912) 384-2299,4.5,yes
+boat detailing,Douglas GA,out,Simply Clean AutoSpa (car),(912) 388-9126,5.0,yes
+boat detailing,Douglas GA,out,Marine Concepts Detailing (GA),(678) 283-4349,4.7,yes
+boat detailing,Douglas GA,out,Marine Klean & Auto Klean (GA),(770) 925-5326,4.9,yes
+boat detailing,Douglas GA,out,Brown's Boat Detailing (GA),(678) 296-2957,4.2,yes
+boat detailing,Valdosta GA,out,Preferred Auto Detailing Valdosta,(229) 454-0534,4.7,yes
+boat detailing,Valdosta GA,out,Green Diamond Mobile Detailing,(229) 632-6038,4.8,yes
+boat detailing,Valdosta GA,out,Las Banderas Car Wash & Detail,(229) 600-4570,4.3,yes
+boat detailing,Valdosta GA,out,Cason's Mobile Detailing,(229) 531-8212,4.8,no
+boat detailing,Valdosta GA,out,Otto Detailing,(229) 403-4548,5.0,yes
+boat detailing,Valdosta GA,out,Mcconnehead Car Wash & Detail,(229) 444-9500,4.7,yes
+boat detailing,Valdosta GA,out,First Line Mobile Detailing,(229) 531-3843,5.0,yes
+boat detailing,Morehead City NC,out,Marine Detail Supply Company,(252) 723-9523,5.0,yes
+boat detailing,Morehead City NC,out,All In One Yacht Maintenance,(252) 725-4952,4.5,yes
+boat detailing,Morehead City NC,out,Fish On Mobile Marine Service & Detailing,(252) 648-2591,5.0,yes
+boat detailing,Morehead City NC,out,At The Dock Detailing,(252) 732-0725,5.0,no
+boat detailing,Morehead City NC,out,Will's Marine Detailing,(252) 515-0203,5.0,yes
+boat detailing,Morehead City NC,out,Bow 2 Bumper Detailing,(252) 999-0203,5.0,yes
+boat detailing,Morehead City NC,out,Marine Detail Professionals,(919) 761-4381,5.0,yes
+boat detailing,Wilmington NC,out,Attention2details boat detailing,(910) 520-2919,5.0,yes
+boat detailing,Wilmington NC,out,J&J Boat Services,(910) 679-9844,5.0,yes
+boat detailing,Wilmington NC,out,First Choice Boat Detailing,(910) 617-2152,5.0,yes
+boat detailing,Wilmington NC,out,Seagate Marine Detailing,(910) 859-1129,5.0,no
+boat detailing,Wilmington NC,out,Cape Fear Marine Detailing,(910) 541-3329,5.0,yes
+boat detailing,Wilmington NC,out,Carolina Coastal Detail,(910) 809-2628,5.0,yes
+boat detailing,Wilmington NC,out,Carolina Coastal Marine,(910) 809-2628,5.0,yes
+boat detailing,Jacksonville NC,out,Chandler's Detailing,(540) 451-1998,5.0,yes
+boat detailing,Jacksonville NC,out,James International Services Detailing,(919) 903-1450,4.9,yes
+boat detailing,Jacksonville NC,out,Heather's Boat Detailing,(252) 342-1958,4.8,yes
+boat detailing,Myrtle Beach SC,out,Attention to Detail Myrtle Beach,(843) 591-8420,4.7,yes
+boat detailing,Myrtle Beach SC,out,Attention To Detail Auto & Marine,(843) 427-0069,5.0,yes
+boat detailing,Myrtle Beach SC,out,Pristine Shine Auto Spa,(843) 504-6913,5.0,yes
+boat detailing,Myrtle Beach SC,out,Boats & Hoses Detailing,(843) 780-1141,4.9,no
+boat detailing,Myrtle Beach SC,out,Dun-Rite Detailing,(843) 318-9843,5.0,yes
+boat detailing,Myrtle Beach SC,out,Rapid Shine Detailing,(843) 450-2902,4.9,no
+boat detailing,Myrtle Beach SC,out,Ceramic Pro of Myrtle Beach,(843) 267-0953,4.9,yes
